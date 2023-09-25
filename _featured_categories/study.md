@@ -6,4 +6,5 @@ description: >
   공부하며 생긴일
 sitemap: false
 #no_groups: true
+order: 2
 ---

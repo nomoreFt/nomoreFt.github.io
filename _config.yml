@@ -53,6 +53,8 @@ menu:
     url:               /devlog/
   - title:             Study
     url:               /study/
+  - title:             Blog
+    url:               /blog/
   - title:             Documentation
     url:               /docs/
   - title:             About
