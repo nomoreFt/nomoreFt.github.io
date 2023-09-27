@@ -114,7 +114,7 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2023-09-28T00:23:55+09:00',
+    INDEX_KEY: 'index--2023-09-28T01:04:56+09:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -144,6 +144,9 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
 
 <!--<![endif]-->
 
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="/assets/js/sidebar-folder.js"></script>
 
 
 
@@ -373,67 +376,141 @@ More on [user, organization, and project pages](https://help.github.com/articles
     <span class="sr-only">Navigation:</span>
 <ul>
   
-    
+  
+  
+  
+  <li>
+    <div class="menu-wrapper">
       
-      <li>
-        <a
-          id="_drawer--opened"
-          href="/devlog/"
-          class="sidebar-nav-item "
-          
-        >
-          DevLog
-        </a>
-      </li>
-    
+      <button class="spread-btn" onclick="javascript:spread(10)">
+        <span id="spread-icon-10" class="material-icons">arrow_right</span>
+      </button>
       
-      <li>
-        <a
-          
-          href="/study/"
-          class="sidebar-nav-item "
-          
-        >
-          Study
-        </a>
-      </li>
+      <a
+              id="_drawer--opened"
+              href="/devlog/"
+              class="sidebar-nav-item "
+              
+      >
+        DevLog
+      </a>
+    </div>
     
+    <div class="menu-wrapper">
+      <input type="checkbox" id="folder-checkbox-10">
+      <ul>
+        
+        <li>
+          <a
+                  class="sidebar-nav-item "
+                  href="/blog/"
+          >
+            Blog Dev
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+  
+  
+  
+  <li>
+    <div class="menu-wrapper">
       
-      <li>
-        <a
-          
-          href="/blog/"
-          class="sidebar-nav-item "
-          
-        >
-          Blog
-        </a>
-      </li>
-    
+      <button class="spread-btn" onclick="javascript:spread(11)">
+        <span id="spread-icon-11" class="material-icons">arrow_right</span>
+      </button>
       
-      <li>
-        <a
-          
-          href="/docs/"
-          class="sidebar-nav-item "
-          
-        >
-          Documentation
-        </a>
-      </li>
+      <a
+              
+              href="/study/"
+              class="sidebar-nav-item "
+              
+      >
+        Study
+      </a>
+    </div>
     
+    <div class="menu-wrapper">
+      <input type="checkbox" id="folder-checkbox-11">
+      <ul>
+        
+        <li>
+          <a
+                  class="sidebar-nav-item "
+                  href="/clean-architecture/"
+          >
+            CLEAN-ARCHITECTURE
+          </a>
+        </li>
+        
+        <li>
+          <a
+                  class="sidebar-nav-item "
+                  href="/algorithm/"
+          >
+            ALGORITHM
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+  
+  
+  
+  <li>
+    <div class="menu-wrapper">
       
-      <li>
-        <a
-          
-          href="/about/"
-          class="sidebar-nav-item "
-          
-        >
-          About
-        </a>
-      </li>
+      <a
+              
+              href="https://nomoreft.tistory.com/"
+              class="sidebar-nav-item "
+              
+      >
+        Archive Blog
+      </a>
+    </div>
     
+  </li>
+  
+  
+  
+  <li>
+    <div class="menu-wrapper">
+      
+      <a
+              
+              href="/docs/"
+              class="sidebar-nav-item "
+              
+      >
+        Documentation
+      </a>
+    </div>
+    
+  </li>
+  
+  
+  
+  <li>
+    <div class="menu-wrapper">
+      
+      <a
+              
+              href="/about/"
+              class="sidebar-nav-item "
+              
+      >
+        About
+      </a>
+    </div>
+    
+  </li>
+  
   
 </ul>
 

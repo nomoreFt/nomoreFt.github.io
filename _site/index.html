@@ -41,7 +41,6 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="Starter Kit" />
 <meta property="og:type" content="website" />
-<link rel="next" href="http://localhost:4000/2/" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Blog" />
 <script type="application/ld+json">
@@ -113,7 +112,7 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2023-09-28T00:23:55+09:00',
+    INDEX_KEY: 'index--2023-09-28T01:04:56+09:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -143,6 +142,9 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
 
 <!--<![endif]-->
 
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="/assets/js/sidebar-folder.js"></script>
 
 
 
@@ -199,67 +201,141 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
     <span class="sr-only">Navigation:</span>
 <ul>
   
-    
+  
+  
+  
+  <li>
+    <div class="menu-wrapper">
       
-      <li>
-        <a
-          id="_drawer--opened"
-          href="/devlog/"
-          class="sidebar-nav-item "
-          
-        >
-          DevLog
-        </a>
-      </li>
-    
+      <button class="spread-btn" onclick="javascript:spread(10)">
+        <span id="spread-icon-10" class="material-icons">arrow_right</span>
+      </button>
       
-      <li>
-        <a
-          
-          href="/study/"
-          class="sidebar-nav-item "
-          
-        >
-          Study
-        </a>
-      </li>
+      <a
+              id="_drawer--opened"
+              href="/devlog/"
+              class="sidebar-nav-item "
+              
+      >
+        DevLog
+      </a>
+    </div>
     
+    <div class="menu-wrapper">
+      <input type="checkbox" id="folder-checkbox-10">
+      <ul>
+        
+        <li>
+          <a
+                  class="sidebar-nav-item "
+                  href="/blog/"
+          >
+            Blog Dev
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+  
+  
+  
+  <li>
+    <div class="menu-wrapper">
       
-      <li>
-        <a
-          
-          href="/blog/"
-          class="sidebar-nav-item "
-          
-        >
-          Blog
-        </a>
-      </li>
-    
+      <button class="spread-btn" onclick="javascript:spread(11)">
+        <span id="spread-icon-11" class="material-icons">arrow_right</span>
+      </button>
       
-      <li>
-        <a
-          
-          href="/docs/"
-          class="sidebar-nav-item "
-          
-        >
-          Documentation
-        </a>
-      </li>
+      <a
+              
+              href="/study/"
+              class="sidebar-nav-item "
+              
+      >
+        Study
+      </a>
+    </div>
     
+    <div class="menu-wrapper">
+      <input type="checkbox" id="folder-checkbox-11">
+      <ul>
+        
+        <li>
+          <a
+                  class="sidebar-nav-item "
+                  href="/clean-architecture/"
+          >
+            CLEAN-ARCHITECTURE
+          </a>
+        </li>
+        
+        <li>
+          <a
+                  class="sidebar-nav-item "
+                  href="/algorithm/"
+          >
+            ALGORITHM
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+  </li>
+  
+  
+  
+  <li>
+    <div class="menu-wrapper">
       
-      <li>
-        <a
-          
-          href="/about/"
-          class="sidebar-nav-item "
-          
-        >
-          About
-        </a>
-      </li>
+      <a
+              
+              href="https://nomoreft.tistory.com/"
+              class="sidebar-nav-item "
+              
+      >
+        Archive Blog
+      </a>
+    </div>
     
+  </li>
+  
+  
+  
+  <li>
+    <div class="menu-wrapper">
+      
+      <a
+              
+              href="/docs/"
+              class="sidebar-nav-item "
+              
+      >
+        Documentation
+      </a>
+    </div>
+    
+  </li>
+  
+  
+  
+  <li>
+    <div class="menu-wrapper">
+      
+      <a
+              
+              href="/about/"
+              class="sidebar-nav-item "
+              
+      >
+        About
+      </a>
+    </div>
+    
+  </li>
+  
   
 </ul>
 
@@ -362,10 +438,10 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
 
 
 
-<article id="post-blog-블로그_댓글창_추가" class="page post mb6" role="article">
+<article id="post-devlog-blog-블로그_댓글창_추가" class="page post mb6" role="article">
   <header>
     <h1 class="post-title flip-project-title">
-      <a href="/blog/2023-09-27-%EB%B8%94%EB%A1%9C%EA%B7%B8_%EB%8C%93%EA%B8%80%EC%B0%BD_%EC%B6%94%EA%B0%80/" class="flip-title">
+      <a href="/devlog/blog/2023-09-27-%EB%B8%94%EB%A1%9C%EA%B7%B8_%EB%8C%93%EA%B8%80%EC%B0%BD_%EC%B6%94%EA%B0%80/" class="flip-title">
         댓글창 추가 #2
       </a>
     </h1>
@@ -373,12 +449,20 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
     <div class="post-date">
       
       <span class="ellipsis mr1">
-        <time datetime="2023-09-27T00:00:00+09:00">27 Sep 2023</time> in <a href="/blog/" class="flip-title">Blog Log</a> on <a href="/tag-blog/" class="flip-title">Blog</a>
+        <time datetime="2023-09-27T00:00:00+09:00">27 Sep 2023</time> in <a href="/devlog/" class="flip-title">Development Log</a> / <a href="/blog/" class="flip-title">Blog Log</a> on <a href="/tag-blog/" class="flip-title">Blog</a>
       </span>
       
         
           
           
+          
+            
+            
+            <span class="ellipsis" data-tippy-content="Last modified at: 28 Sep 2023">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              <time datetime="2023-09-28T01:00:05+09:00">2023-09-28</time>
+            </span>
           
         
       
@@ -386,7 +470,7 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
 
     
     
-      <a href="/blog/2023-09-27-%EB%B8%94%EB%A1%9C%EA%B7%B8_%EB%8C%93%EA%B8%80%EC%B0%BD_%EC%B6%94%EA%B0%80/" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/devlog/blog/2023-09-27-%EB%B8%94%EB%A1%9C%EA%B7%B8_%EB%8C%93%EA%B8%80%EC%B0%BD_%EC%B6%94%EA%B0%80/" class="no-hover no-print-link flip-project" tabindex="-1">
         <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
           
 
@@ -426,7 +510,7 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
     
     <footer>
       <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/blog/2023-09-27-%EB%B8%94%EB%A1%9C%EA%B7%B8_%EB%8C%93%EA%B8%80%EC%B0%BD_%EC%B6%94%EA%B0%80/">댓글창 추가 #2</a>
+        Continue reading <a class="heading flip-title" href="/devlog/blog/2023-09-27-%EB%B8%94%EB%A1%9C%EA%B7%B8_%EB%8C%93%EA%B8%80%EC%B0%BD_%EC%B6%94%EA%B0%80/">댓글창 추가 #2</a>
 
       </p>
     </footer>
@@ -440,10 +524,10 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
 
 
 
-<article id="post-blog-블로그_틀_만들기" class="page post mb6" role="article">
+<article id="post-devlog-blog-블로그_틀_만들기" class="page post mb6" role="article">
   <header>
     <h1 class="post-title flip-project-title">
-      <a href="/blog/2023-09-25-%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0/" class="flip-title">
+      <a href="/devlog/blog/2023-09-25-%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0/" class="flip-title">
         Hydejack 테마로 blog 틀 만들기 #1
       </a>
     </h1>
@@ -451,7 +535,7 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
     <div class="post-date">
       
       <span class="ellipsis mr1">
-        <time datetime="2023-09-25T00:00:00+09:00">25 Sep 2023</time> in <a href="/blog/" class="flip-title">Blog Log</a> on <a href="/tag-blog/" class="flip-title">Blog</a>
+        <time datetime="2023-09-25T00:00:00+09:00">25 Sep 2023</time> in <a href="/devlog/" class="flip-title">Development Log</a> / <a href="/blog/" class="flip-title">Blog Log</a> on <a href="/tag-blog/" class="flip-title">Blog</a>
       </span>
       
         
@@ -460,10 +544,10 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
           
             
             
-            <span class="ellipsis" data-tippy-content="Last modified at: 27 Sep 2023">
+            <span class="ellipsis" data-tippy-content="Last modified at: 28 Sep 2023">
               <span class="sr-only">Last modified at:</span>
               <span class="icon-history"></span>
-              <time datetime="2023-09-27T23:56:20+09:00">2023-09-27</time>
+              <time datetime="2023-09-28T00:58:57+09:00">2023-09-28</time>
             </span>
           
         
@@ -472,7 +556,7 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
 
     
     
-      <a href="/blog/2023-09-25-%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0/" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/devlog/blog/2023-09-25-%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0/" class="no-hover no-print-link flip-project" tabindex="-1">
         <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
           
 
@@ -511,7 +595,7 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
     
     <footer>
       <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/blog/2023-09-25-%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0/">Hydejack 테마로 blog 틀 만들기 #1</a>
+        Continue reading <a class="heading flip-title" href="/devlog/blog/2023-09-25-%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0/">Hydejack 테마로 blog 틀 만들기 #1</a>
 
       </p>
     </footer>
@@ -525,10 +609,10 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
 
 
 
-<article id="post-study-kotlin-example-content-iii" class="page post mb6" role="article">
+<article id="post-study-example-content-iii" class="page post mb6" role="article">
   <header>
     <h1 class="post-title flip-project-title">
-      <a href="/study/kotlin/2021-06-01-example-content-iii/" class="flip-title">
+      <a href="/study/2018-06-01-example-content-iii/" class="flip-title">
         Kotlin Study 예제
       </a>
     </h1>
@@ -536,7 +620,7 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
     <div class="post-date">
       
       <span class="ellipsis mr1">
-        <time datetime="2021-06-01T00:00:00+09:00">01 Jun 2021</time> in <a href="/study/" class="flip-title">Study Log</a> / <span>Kotlin</span> 
+        <time datetime="2018-06-01T00:00:00+09:00">01 Jun 2018</time> in <a href="/study/" class="flip-title">Study Log</a> 
       </span>
       
         
@@ -545,10 +629,10 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
           
             
             
-            <span class="ellipsis" data-tippy-content="Last modified at: 25 Sep 2023">
+            <span class="ellipsis" data-tippy-content="Last modified at: 28 Sep 2023">
               <span class="sr-only">Last modified at:</span>
               <span class="icon-history"></span>
-              <time datetime="2023-09-25T17:27:43+09:00">2023-09-25</time>
+              <time datetime="2023-09-28T00:50:13+09:00">2023-09-28</time>
             </span>
           
         
@@ -557,7 +641,7 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
 
     
     
-      <a href="/study/kotlin/2021-06-01-example-content-iii/" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/study/2018-06-01-example-content-iii/" class="no-hover no-print-link flip-project" tabindex="-1">
         <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
           
 
@@ -605,7 +689,7 @@ so that your content remains compatible with other Jekyll themes.</p>
     
     <footer>
       <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/study/kotlin/2021-06-01-example-content-iii/">Kotlin Study 예제</a>
+        Continue reading <a class="heading flip-title" href="/study/2018-06-01-example-content-iii/">Kotlin Study 예제</a>
 
       </p>
     </footer>
@@ -619,10 +703,10 @@ so that your content remains compatible with other Jekyll themes.</p>
 
 
 
-<article id="post-study-kotlin-example-content-iii" class="page post mb6" role="article">
+<article id="post-study-example-content-iii" class="page post mb6" role="article">
   <header>
     <h1 class="post-title flip-project-title">
-      <a href="/study/kotlin/2021-05-01-example-content-iii/" class="flip-title">
+      <a href="/study/2018-05-01-example-content-iii/" class="flip-title">
         Kotlin Study 예제
       </a>
     </h1>
@@ -630,7 +714,7 @@ so that your content remains compatible with other Jekyll themes.</p>
     <div class="post-date">
       
       <span class="ellipsis mr1">
-        <time datetime="2021-05-01T00:00:00+09:00">01 May 2021</time> in <a href="/study/" class="flip-title">Study Log</a> / <span>Kotlin</span> 
+        <time datetime="2018-05-01T00:00:00+09:00">01 May 2018</time> in <a href="/study/" class="flip-title">Study Log</a> 
       </span>
       
         
@@ -639,10 +723,10 @@ so that your content remains compatible with other Jekyll themes.</p>
           
             
             
-            <span class="ellipsis" data-tippy-content="Last modified at: 25 Sep 2023">
+            <span class="ellipsis" data-tippy-content="Last modified at: 28 Sep 2023">
               <span class="sr-only">Last modified at:</span>
               <span class="icon-history"></span>
-              <time datetime="2023-09-25T17:27:43+09:00">2023-09-25</time>
+              <time datetime="2023-09-28T00:50:10+09:00">2023-09-28</time>
             </span>
           
         
@@ -651,7 +735,7 @@ so that your content remains compatible with other Jekyll themes.</p>
 
     
     
-      <a href="/study/kotlin/2021-05-01-example-content-iii/" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/study/2018-05-01-example-content-iii/" class="no-hover no-print-link flip-project" tabindex="-1">
         <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
           
 
@@ -699,7 +783,7 @@ so that your content remains compatible with other Jekyll themes.</p>
     
     <footer>
       <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/study/kotlin/2021-05-01-example-content-iii/">Kotlin Study 예제</a>
+        Continue reading <a class="heading flip-title" href="/study/2018-05-01-example-content-iii/">Kotlin Study 예제</a>
 
       </p>
     </footer>
@@ -713,10 +797,10 @@ so that your content remains compatible with other Jekyll themes.</p>
 
 
 
-<article id="post-study-kotlin-example-content-iii" class="page post mb6" role="article">
+<article id="post-study-example-content-iii" class="page post mb6" role="article">
   <header>
     <h1 class="post-title flip-project-title">
-      <a href="/study/kotlin/2021-04-01-example-content-iii/" class="flip-title">
+      <a href="/study/2018-04-01-example-content-iii/" class="flip-title">
         Kotlin Study 예제
       </a>
     </h1>
@@ -724,7 +808,7 @@ so that your content remains compatible with other Jekyll themes.</p>
     <div class="post-date">
       
       <span class="ellipsis mr1">
-        <time datetime="2021-04-01T00:00:00+09:00">01 Apr 2021</time> in <a href="/study/" class="flip-title">Study Log</a> / <span>Kotlin</span> 
+        <time datetime="2018-04-01T00:00:00+09:00">01 Apr 2018</time> in <a href="/study/" class="flip-title">Study Log</a> 
       </span>
       
         
@@ -733,10 +817,10 @@ so that your content remains compatible with other Jekyll themes.</p>
           
             
             
-            <span class="ellipsis" data-tippy-content="Last modified at: 25 Sep 2023">
+            <span class="ellipsis" data-tippy-content="Last modified at: 28 Sep 2023">
               <span class="sr-only">Last modified at:</span>
               <span class="icon-history"></span>
-              <time datetime="2023-09-25T17:27:43+09:00">2023-09-25</time>
+              <time datetime="2023-09-28T00:50:06+09:00">2023-09-28</time>
             </span>
           
         
@@ -745,7 +829,7 @@ so that your content remains compatible with other Jekyll themes.</p>
 
     
     
-      <a href="/study/kotlin/2021-04-01-example-content-iii/" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/study/2018-04-01-example-content-iii/" class="no-hover no-print-link flip-project" tabindex="-1">
         <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
           
 
@@ -793,7 +877,7 @@ so that your content remains compatible with other Jekyll themes.</p>
     
     <footer>
       <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/study/kotlin/2021-04-01-example-content-iii/">Kotlin Study 예제</a>
+        Continue reading <a class="heading flip-title" href="/study/2018-04-01-example-content-iii/">Kotlin Study 예제</a>
 
       </p>
     </footer>
@@ -807,18 +891,18 @@ so that your content remains compatible with other Jekyll themes.</p>
 
 
 
-<article id="post-study-kotlin-example-content-iii" class="page post mb6" role="article">
+<article id="post-study-clean-architecture-example-content-iii" class="page post mb6" role="article">
   <header>
     <h1 class="post-title flip-project-title">
-      <a href="/study/kotlin/2021-03-01-example-content-iii/" class="flip-title">
-        Kotlin Study 예제
+      <a href="/study/clean-architecture/2018-03-01-example-content-iii/" class="flip-title">
+        Clean-Architecture
       </a>
     </h1>
 
     <div class="post-date">
       
       <span class="ellipsis mr1">
-        <time datetime="2021-03-01T00:00:00+09:00">01 Mar 2021</time> in <a href="/study/" class="flip-title">Study Log</a> / <span>Kotlin</span> 
+        <time datetime="2018-03-01T00:00:00+09:00">01 Mar 2018</time> in <a href="/study/" class="flip-title">Study Log</a> / <a href="/clean-architecture/" class="flip-title">Clean-Architecture</a> 
       </span>
       
         
@@ -827,10 +911,10 @@ so that your content remains compatible with other Jekyll themes.</p>
           
             
             
-            <span class="ellipsis" data-tippy-content="Last modified at: 25 Sep 2023">
+            <span class="ellipsis" data-tippy-content="Last modified at: 28 Sep 2023">
               <span class="sr-only">Last modified at:</span>
               <span class="icon-history"></span>
-              <time datetime="2023-09-25T17:27:43+09:00">2023-09-25</time>
+              <time datetime="2023-09-28T01:02:15+09:00">2023-09-28</time>
             </span>
           
         
@@ -839,7 +923,195 @@ so that your content remains compatible with other Jekyll themes.</p>
 
     
     
-      <a href="/study/kotlin/2021-03-01-example-content-iii/" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/study/clean-architecture/2018-03-01-example-content-iii/" class="no-hover no-print-link flip-project" tabindex="-1">
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/example-content-iii.jpg"
+    srcset="/assets/img/blog/example-content-iii.jpg 1060w,/assets/img/blog/example-content-iii@0,5x.jpg 530w,/assets/img/blog/example-content-iii@0,25x.jpg 265w"
+    
+  
+  alt="Clean-Architecture"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      </a>
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      A page showing Hydejack-specific markdown content.
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>Hydejack offers a few additional features to markup your markdown.
+Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
+so that your content remains compatible with other Jekyll themes.</p>
+
+
+    
+    
+    <footer>
+      <p class="read-more">
+        Continue reading <a class="heading flip-title" href="/study/clean-architecture/2018-03-01-example-content-iii/">Clean-Architecture</a>
+
+      </p>
+    </footer>
+  
+</article>
+
+
+  
+
+
+
+
+
+<article id="post-study-algorithm-example-content-iii" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      <a href="/study/algorithm/2018-03-01-example-content-iii/" class="flip-title">
+        Algorithm
+      </a>
+    </h1>
+
+    <div class="post-date">
+      
+      <span class="ellipsis mr1">
+        <time datetime="2018-03-01T00:00:00+09:00">01 Mar 2018</time> in <a href="/study/" class="flip-title">Study Log</a> / <a href="/algorithm/" class="flip-title">Algorithm</a> 
+      </span>
+      
+        
+          
+          
+          
+            
+            
+            <span class="ellipsis" data-tippy-content="Last modified at: 28 Sep 2023">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              <time datetime="2023-09-28T01:03:08+09:00">2023-09-28</time>
+            </span>
+          
+        
+      
+    </div>
+
+    
+    
+      <a href="/study/algorithm/2018-03-01-example-content-iii/" class="no-hover no-print-link flip-project" tabindex="-1">
+        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
+          
+
+
+<img
+  
+    src="/assets/img/blog/example-content-iii.jpg"
+    srcset="/assets/img/blog/example-content-iii.jpg 1060w,/assets/img/blog/example-content-iii@0,5x.jpg 530w,/assets/img/blog/example-content-iii@0,25x.jpg 265w"
+    
+  
+  alt="Algorithm"
+  
+  
+  width="864"
+  height="486"
+  loading="lazy"
+/>
+
+        </div>
+      </a>
+      
+    
+
+    
+
+
+
+  
+    <p class="note-sm" >
+      A page showing Hydejack-specific markdown content.
+
+    </p>
+  
+
+
+  </header>
+
+  
+    <p>Hydejack offers a few additional features to markup your markdown.
+Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
+so that your content remains compatible with other Jekyll themes.</p>
+
+
+    
+    
+    <footer>
+      <p class="read-more">
+        Continue reading <a class="heading flip-title" href="/study/algorithm/2018-03-01-example-content-iii/">Algorithm</a>
+
+      </p>
+    </footer>
+  
+</article>
+
+
+  
+
+
+
+
+
+<article id="post-study-example-content-iii" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      <a href="/study/2018-03-01-example-content-iii/" class="flip-title">
+        Kotlin Study 예제
+      </a>
+    </h1>
+
+    <div class="post-date">
+      
+      <span class="ellipsis mr1">
+        <time datetime="2018-03-01T00:00:00+09:00">01 Mar 2018</time> in <a href="/study/" class="flip-title">Study Log</a> 
+      </span>
+      
+        
+          
+          
+          
+            
+            
+            <span class="ellipsis" data-tippy-content="Last modified at: 28 Sep 2023">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              <time datetime="2023-09-28T00:50:02+09:00">2023-09-28</time>
+            </span>
+          
+        
+      
+    </div>
+
+    
+    
+      <a href="/study/2018-03-01-example-content-iii/" class="no-hover no-print-link flip-project" tabindex="-1">
         <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
           
 
@@ -887,7 +1159,7 @@ so that your content remains compatible with other Jekyll themes.</p>
     
     <footer>
       <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/study/kotlin/2021-03-01-example-content-iii/">Kotlin Study 예제</a>
+        Continue reading <a class="heading flip-title" href="/study/2018-03-01-example-content-iii/">Kotlin Study 예제</a>
 
       </p>
     </footer>
@@ -901,18 +1173,18 @@ so that your content remains compatible with other Jekyll themes.</p>
 
 
 
-<article id="post-study-kotlin-example-content-iii" class="page post mb6" role="article">
+<article id="post-devlog-개발하며_생긴일2" class="page post mb6" role="article">
   <header>
     <h1 class="post-title flip-project-title">
-      <a href="/study/kotlin/2020-03-01-example-content-iii/" class="flip-title">
-        Kotlin Study 예제
+      <a href="/devlog/2017-11-23-%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC2/" class="flip-title">
+        DevLog 예제 개발하며 생긴일2
       </a>
     </h1>
 
     <div class="post-date">
       
       <span class="ellipsis mr1">
-        <time datetime="2020-03-01T00:00:00+09:00">01 Mar 2020</time> in <a href="/study/" class="flip-title">Study Log</a> / <span>Kotlin</span> 
+        <time datetime="2017-11-23T00:00:00+09:00">23 Nov 2017</time> in <a href="/devlog/" class="flip-title">Development Log</a> 
       </span>
       
         
@@ -921,10 +1193,10 @@ so that your content remains compatible with other Jekyll themes.</p>
           
             
             
-            <span class="ellipsis" data-tippy-content="Last modified at: 25 Sep 2023">
+            <span class="ellipsis" data-tippy-content="Last modified at: 28 Sep 2023">
               <span class="sr-only">Last modified at:</span>
               <span class="icon-history"></span>
-              <time datetime="2023-09-25T17:27:43+09:00">2023-09-25</time>
+              <time datetime="2023-09-28T00:49:19+09:00">2023-09-28</time>
             </span>
           
         
@@ -933,18 +1205,16 @@ so that your content remains compatible with other Jekyll themes.</p>
 
     
     
-      <a href="/study/kotlin/2020-03-01-example-content-iii/" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/devlog/2017-11-23-%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC2/" class="no-hover no-print-link flip-project" tabindex="-1">
         <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
           
 
 
 <img
   
-    src="/assets/img/blog/example-content-iii.jpg"
-    srcset="/assets/img/blog/example-content-iii.jpg 1060w,/assets/img/blog/example-content-iii@0,5x.jpg 530w,/assets/img/blog/example-content-iii@0,25x.jpg 265w"
-    
+    src="/assets/img/blog/example-content-ii.jpg"
   
-  alt="Kotlin Study 예제"
+  alt="DevLog 예제 개발하며 생긴일2"
   
   
   width="864"
@@ -963,7 +1233,7 @@ so that your content remains compatible with other Jekyll themes.</p>
 
   
     <p class="note-sm" >
-      A page showing Hydejack-specific markdown content.
+      A page showing how regular markdown content is styled in Hydejack.
 
     </p>
   
@@ -972,16 +1242,14 @@ so that your content remains compatible with other Jekyll themes.</p>
   </header>
 
   
-    <p>Hydejack offers a few additional features to markup your markdown.
-Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
-so that your content remains compatible with other Jekyll themes.</p>
+    <p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
 
 
     
     
     <footer>
       <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/study/kotlin/2020-03-01-example-content-iii/">Kotlin Study 예제</a>
+        Continue reading <a class="heading flip-title" href="/devlog/2017-11-23-%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC2/">DevLog 예제 개발하며 생긴일2</a>
 
       </p>
     </footer>
@@ -995,18 +1263,18 @@ so that your content remains compatible with other Jekyll themes.</p>
 
 
 
-<article id="post-study-kotlin-example-content-iii" class="page post mb6" role="article">
+<article id="post-devlog-개발하며_생긴일" class="page post mb6" role="article">
   <header>
     <h1 class="post-title flip-project-title">
-      <a href="/study/kotlin/2019-03-01-example-content-iii/" class="flip-title">
-        Kotlin Study 예제
+      <a href="/devlog/2017-11-23-%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC/" class="flip-title">
+        DevLog 예제 개발하며 생긴일
       </a>
     </h1>
 
     <div class="post-date">
       
       <span class="ellipsis mr1">
-        <time datetime="2019-03-01T00:00:00+09:00">01 Mar 2019</time> in <a href="/study/" class="flip-title">Study Log</a> / <span>Kotlin</span> 
+        <time datetime="2017-11-23T00:00:00+09:00">23 Nov 2017</time> in <a href="/devlog/" class="flip-title">Development Log</a> on <a href="/tag-java/" class="flip-title">Java</a>
       </span>
       
         
@@ -1015,10 +1283,10 @@ so that your content remains compatible with other Jekyll themes.</p>
           
             
             
-            <span class="ellipsis" data-tippy-content="Last modified at: 25 Sep 2023">
+            <span class="ellipsis" data-tippy-content="Last modified at: 28 Sep 2023">
               <span class="sr-only">Last modified at:</span>
               <span class="icon-history"></span>
-              <time datetime="2023-09-25T17:27:43+09:00">2023-09-25</time>
+              <time datetime="2023-09-28T00:49:19+09:00">2023-09-28</time>
             </span>
           
         
@@ -1027,18 +1295,16 @@ so that your content remains compatible with other Jekyll themes.</p>
 
     
     
-      <a href="/study/kotlin/2019-03-01-example-content-iii/" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/devlog/2017-11-23-%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC/" class="no-hover no-print-link flip-project" tabindex="-1">
         <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
           
 
 
 <img
   
-    src="/assets/img/blog/example-content-iii.jpg"
-    srcset="/assets/img/blog/example-content-iii.jpg 1060w,/assets/img/blog/example-content-iii@0,5x.jpg 530w,/assets/img/blog/example-content-iii@0,25x.jpg 265w"
-    
+    src="/assets/img/blog/example-content-ii.jpg"
   
-  alt="Kotlin Study 예제"
+  alt="DevLog 예제 개발하며 생긴일"
   
   
   width="864"
@@ -1057,7 +1323,7 @@ so that your content remains compatible with other Jekyll themes.</p>
 
   
     <p class="note-sm" >
-      A page showing Hydejack-specific markdown content.
+      A page showing how regular markdown content is styled in Hydejack.
 
     </p>
   
@@ -1066,204 +1332,14 @@ so that your content remains compatible with other Jekyll themes.</p>
   </header>
 
   
-    <p>Hydejack offers a few additional features to markup your markdown.
-Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
-so that your content remains compatible with other Jekyll themes.</p>
+    <p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
 
 
     
     
     <footer>
       <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/study/kotlin/2019-03-01-example-content-iii/">Kotlin Study 예제</a>
-
-      </p>
-    </footer>
-  
-</article>
-
-
-  
-
-
-
-
-
-<article id="post-study-kotlin-example-content-iii" class="page post mb6" role="article">
-  <header>
-    <h1 class="post-title flip-project-title">
-      <a href="/study/kotlin/2018-12-30-example-content-iii/" class="flip-title">
-        Kotlin Study 예제
-      </a>
-    </h1>
-
-    <div class="post-date">
-      
-      <span class="ellipsis mr1">
-        <time datetime="2018-12-30T00:00:00+09:00">30 Dec 2018</time> in <a href="/study/" class="flip-title">Study Log</a> / <span>Kotlin</span> 
-      </span>
-      
-        
-          
-          
-          
-            
-            
-            <span class="ellipsis" data-tippy-content="Last modified at: 25 Sep 2023">
-              <span class="sr-only">Last modified at:</span>
-              <span class="icon-history"></span>
-              <time datetime="2023-09-25T17:27:43+09:00">2023-09-25</time>
-            </span>
-          
-        
-      
-    </div>
-
-    
-    
-      <a href="/study/kotlin/2018-12-30-example-content-iii/" class="no-hover no-print-link flip-project" tabindex="-1">
-        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
-          
-
-
-<img
-  
-    src="/assets/img/blog/example-content-iii.jpg"
-    srcset="/assets/img/blog/example-content-iii.jpg 1060w,/assets/img/blog/example-content-iii@0,5x.jpg 530w,/assets/img/blog/example-content-iii@0,25x.jpg 265w"
-    
-  
-  alt="Kotlin Study 예제"
-  
-  
-  width="864"
-  height="486"
-  loading="lazy"
-/>
-
-        </div>
-      </a>
-      
-    
-
-    
-
-
-
-  
-    <p class="note-sm" >
-      A page showing Hydejack-specific markdown content.
-
-    </p>
-  
-
-
-  </header>
-
-  
-    <p>Hydejack offers a few additional features to markup your markdown.
-Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
-so that your content remains compatible with other Jekyll themes.</p>
-
-
-    
-    
-    <footer>
-      <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/study/kotlin/2018-12-30-example-content-iii/">Kotlin Study 예제</a>
-
-      </p>
-    </footer>
-  
-</article>
-
-
-  
-
-
-
-
-
-<article id="post-study-kotlin-example-content-iii" class="page post mb6" role="article">
-  <header>
-    <h1 class="post-title flip-project-title">
-      <a href="/study/kotlin/2018-12-25-example-content-iii/" class="flip-title">
-        Kotlin Study 예제
-      </a>
-    </h1>
-
-    <div class="post-date">
-      
-      <span class="ellipsis mr1">
-        <time datetime="2018-12-25T00:00:00+09:00">25 Dec 2018</time> in <a href="/study/" class="flip-title">Study Log</a> / <span>Kotlin</span> 
-      </span>
-      
-        
-          
-          
-          
-            
-            
-            <span class="ellipsis" data-tippy-content="Last modified at: 25 Sep 2023">
-              <span class="sr-only">Last modified at:</span>
-              <span class="icon-history"></span>
-              <time datetime="2023-09-25T17:27:43+09:00">2023-09-25</time>
-            </span>
-          
-        
-      
-    </div>
-
-    
-    
-      <a href="/study/kotlin/2018-12-25-example-content-iii/" class="no-hover no-print-link flip-project" tabindex="-1">
-        <div class="img-wrapper lead aspect-ratio sixteen-nine flip-project-img">
-          
-
-
-<img
-  
-    src="/assets/img/blog/example-content-iii.jpg"
-    srcset="/assets/img/blog/example-content-iii.jpg 1060w,/assets/img/blog/example-content-iii@0,5x.jpg 530w,/assets/img/blog/example-content-iii@0,25x.jpg 265w"
-    
-  
-  alt="Kotlin Study 예제"
-  
-  
-  width="864"
-  height="486"
-  loading="lazy"
-/>
-
-        </div>
-      </a>
-      
-    
-
-    
-
-
-
-  
-    <p class="note-sm" >
-      A page showing Hydejack-specific markdown content.
-
-    </p>
-  
-
-
-  </header>
-
-  
-    <p>Hydejack offers a few additional features to markup your markdown.
-Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
-so that your content remains compatible with other Jekyll themes.</p>
-
-
-    
-    
-    <footer>
-      <p class="read-more">
-        Continue reading <a class="heading flip-title" href="/study/kotlin/2018-12-25-example-content-iii/">Kotlin Study 예제</a>
+        Continue reading <a class="heading flip-title" href="/devlog/2017-11-23-%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC/">DevLog 예제 개발하며 생긴일</a>
 
       </p>
     </footer>
@@ -1280,12 +1356,7 @@ so that your content remains compatible with other Jekyll themes.</p>
       
       
       
-  <a
-    class=" "
-    href="/2/"
-    rel="next"
-    
-  >Older</a>
+  <span class=" ">Older</span>
 
 
     </li>

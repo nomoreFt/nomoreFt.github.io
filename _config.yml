@@ -51,13 +51,21 @@ author:
 menu:
   - title:             DevLog
     url:               /devlog/
+    submenu:
+      - title: Blog Dev
+        url: /blog/
   - title:             Study
     url:               /study/
-  - title:             Blog
-    url:               /blog/
+    submenu:
+      - title: CLEAN-ARCHITECTURE
+        url: /clean-architecture/
+      - title: ALGORITHM
+        url: /algorithm/
+  - title:             Archive Blog
+    url:               https://nomoreft.tistory.com/
   - title:             Documentation
     url:               /docs/
-  - title:             About
+  - title:             About Me
     url:               /about/
 
 # Add links to the footer.

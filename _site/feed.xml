@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-09-28T00:23:55+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Starter Kit</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
-</subtitle><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><entry><title type="html">댓글창 추가 #2</title><link href="http://localhost:4000/blog/2023-09-27-%EB%B8%94%EB%A1%9C%EA%B7%B8_%EB%8C%93%EA%B8%80%EC%B0%BD_%EC%B6%94%EA%B0%80/" rel="alternate" type="text/html" title="댓글창 추가 #2" /><published>2023-09-27T00:00:00+09:00</published><updated>2023-09-27T23:56:20+09:00</updated><id>http://localhost:4000/blog/%EB%B8%94%EB%A1%9C%EA%B7%B8_%EB%8C%93%EA%B8%80%EC%B0%BD_%EC%B6%94%EA%B0%80</id><content type="html" xml:base="http://localhost:4000/blog/2023-09-27-%EB%B8%94%EB%A1%9C%EA%B7%B8_%EB%8C%93%EA%B8%80%EC%B0%BD_%EC%B6%94%EA%B0%80/"><![CDATA[<p>오늘은 게시글들에 기본적인 댓글창을 추가해보려고 합니다.<br />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-09-28T01:04:56+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Starter Kit</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+</subtitle><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><entry><title type="html">댓글창 추가 #2</title><link href="http://localhost:4000/devlog/blog/2023-09-27-%EB%B8%94%EB%A1%9C%EA%B7%B8_%EB%8C%93%EA%B8%80%EC%B0%BD_%EC%B6%94%EA%B0%80/" rel="alternate" type="text/html" title="댓글창 추가 #2" /><published>2023-09-27T00:00:00+09:00</published><updated>2023-09-28T01:00:05+09:00</updated><id>http://localhost:4000/devlog/blog/%EB%B8%94%EB%A1%9C%EA%B7%B8_%EB%8C%93%EA%B8%80%EC%B0%BD_%EC%B6%94%EA%B0%80</id><content type="html" xml:base="http://localhost:4000/devlog/blog/2023-09-27-%EB%B8%94%EB%A1%9C%EA%B7%B8_%EB%8C%93%EA%B8%80%EC%B0%BD_%EC%B6%94%EA%B0%80/"><![CDATA[<p>오늘은 게시글들에 기본적인 댓글창을 추가해보려고 합니다.<br />
 소통이 되지 않으면 고이고 부패합니다. 틀린 내용도 지적받을 수 없겠죠<br /></p>
 
 <p>hydejack에서 기본적으로 제공하는 댓글창은 <a href="https://disqus.com/">Disqus</a>입니다.<br />
@@ -89,7 +89,7 @@
 
 <p><img src="..%2Fpic%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-09-27%20%EC%98%A4%ED%9B%84%2011.54.41.png" alt="스크린샷 2023-09-27 오후 11.54.41.png" /></p>
 
-<p>실제 깃허브 Discussions에 생성되는 모습입니다. 재밌네요. <br /></p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="blog" /><category term="blog" /><summary type="html"><![CDATA[오늘은 게시글들에 기본적인 댓글창을 추가해보려고 합니다. 소통이 되지 않으면 고이고 부패합니다. 틀린 내용도 지적받을 수 없겠죠]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Hydejack 테마로 blog 틀 만들기 #1</title><link href="http://localhost:4000/blog/2023-09-25-%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0/" rel="alternate" type="text/html" title="Hydejack 테마로 blog 틀 만들기 #1" /><published>2023-09-25T00:00:00+09:00</published><updated>2023-09-27T23:56:20+09:00</updated><id>http://localhost:4000/blog/%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/blog/2023-09-25-%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0/"><![CDATA[<h2 id="왜-hydejack을-고르셨나요">왜 Hydejack을 고르셨나요?</h2>
+<p>실제 깃허브 Discussions에 생성되는 모습입니다. 재밌네요. <br /></p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="devlog" /><category term="blog" /><category term="blog" /><summary type="html"><![CDATA[오늘은 게시글들에 기본적인 댓글창을 추가해보려고 합니다. 소통이 되지 않으면 고이고 부패합니다. 틀린 내용도 지적받을 수 없겠죠]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Hydejack 테마로 blog 틀 만들기 #1</title><link href="http://localhost:4000/devlog/blog/2023-09-25-%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0/" rel="alternate" type="text/html" title="Hydejack 테마로 blog 틀 만들기 #1" /><published>2023-09-25T00:00:00+09:00</published><updated>2023-09-28T00:58:57+09:00</updated><id>http://localhost:4000/devlog/blog/%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/devlog/blog/2023-09-25-%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0/"><![CDATA[<h2 id="왜-hydejack을-고르셨나요">왜 Hydejack을 고르셨나요?</h2>
 
 <p>일단 표지가 있는 스타일이 좋았고, 화면 전환시에 부드러워 좋았다.<br />
 나는 ruby, jekyll에 대한 기초지식도 없는 상황이라 최대한 커스터마이징 하지 않아도 아름다운 테마를 고르고 싶었다.<br />
@@ -283,7 +283,7 @@ sidebar를 종류별로 만들거라 보시고 참고하셔서 응용하면 될 
 
 <p>깃허브 소스코드는 아래 Repository에서 확인할 수 있다.<br /></p>
 
-<p><a href="https://github.com/nomoreFt/plainHydejackSetting">sourceCode</a> on GitHub</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="blog" /><category term="blog" /><summary type="html"><![CDATA[왜 Hydejack을 고르셨나요?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/kotlin/2021-06-01-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2021-06-01T00:00:00+09:00</published><updated>2023-09-25T17:27:43+09:00</updated><id>http://localhost:4000/study/kotlin/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/kotlin/2021-06-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
+<p><a href="https://github.com/nomoreFt/plainHydejackSetting">sourceCode</a> on GitHub</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="devlog" /><category term="blog" /><category term="blog" /><summary type="html"><![CDATA[왜 Hydejack을 고르셨나요?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/2018-06-01-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2018-06-01T00:00:00+09:00</published><updated>2023-09-28T00:50:13+09:00</updated><id>http://localhost:4000/study/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/2018-06-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
 Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
 so that your content remains compatible with other Jekyll themes.</p>
 
@@ -473,7 +473,7 @@ A caption to an image.</p>
 </blockquote>
 
 <h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><category term="kotlin" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/kotlin/2021-05-01-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2021-05-01T00:00:00+09:00</published><updated>2023-09-25T17:27:43+09:00</updated><id>http://localhost:4000/study/kotlin/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/kotlin/2021-05-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
+<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/2018-05-01-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2018-05-01T00:00:00+09:00</published><updated>2023-09-28T00:50:10+09:00</updated><id>http://localhost:4000/study/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/2018-05-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
 Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
 so that your content remains compatible with other Jekyll themes.</p>
 
@@ -663,7 +663,7 @@ A caption to an image.</p>
 </blockquote>
 
 <h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><category term="kotlin" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/kotlin/2021-04-01-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2021-04-01T00:00:00+09:00</published><updated>2023-09-25T17:27:43+09:00</updated><id>http://localhost:4000/study/kotlin/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/kotlin/2021-04-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
+<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/2018-04-01-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2018-04-01T00:00:00+09:00</published><updated>2023-09-28T00:50:06+09:00</updated><id>http://localhost:4000/study/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/2018-04-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
 Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
 so that your content remains compatible with other Jekyll themes.</p>
 
@@ -853,7 +853,7 @@ A caption to an image.</p>
 </blockquote>
 
 <h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><category term="kotlin" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/kotlin/2021-03-01-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2021-03-01T00:00:00+09:00</published><updated>2023-09-25T17:27:43+09:00</updated><id>http://localhost:4000/study/kotlin/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/kotlin/2021-03-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
+<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/2018-03-01-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2018-03-01T00:00:00+09:00</published><updated>2023-09-28T00:50:02+09:00</updated><id>http://localhost:4000/study/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/2018-03-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
 Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
 so that your content remains compatible with other Jekyll themes.</p>
 
@@ -1043,7 +1043,7 @@ A caption to an image.</p>
 </blockquote>
 
 <h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><category term="kotlin" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/kotlin/2020-03-01-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2020-03-01T00:00:00+09:00</published><updated>2023-09-25T17:27:43+09:00</updated><id>http://localhost:4000/study/kotlin/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/kotlin/2020-03-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
+<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Algorithm</title><link href="http://localhost:4000/study/algorithm/2018-03-01-example-content-iii/" rel="alternate" type="text/html" title="Algorithm" /><published>2018-03-01T00:00:00+09:00</published><updated>2023-09-28T01:03:08+09:00</updated><id>http://localhost:4000/study/algorithm/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/algorithm/2018-03-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
 Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
 so that your content remains compatible with other Jekyll themes.</p>
 
@@ -1233,7 +1233,7 @@ A caption to an image.</p>
 </blockquote>
 
 <h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><category term="kotlin" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/kotlin/2019-03-01-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2019-03-01T00:00:00+09:00</published><updated>2023-09-25T17:27:43+09:00</updated><id>http://localhost:4000/study/kotlin/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/kotlin/2019-03-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
+<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><category term="algorithm" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Clean-Architecture</title><link href="http://localhost:4000/study/clean-architecture/2018-03-01-example-content-iii/" rel="alternate" type="text/html" title="Clean-Architecture" /><published>2018-03-01T00:00:00+09:00</published><updated>2023-09-28T01:02:15+09:00</updated><id>http://localhost:4000/study/clean-architecture/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/clean-architecture/2018-03-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
 Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
 so that your content remains compatible with other Jekyll themes.</p>
 
@@ -1423,384 +1423,370 @@ A caption to an image.</p>
 </blockquote>
 
 <h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><category term="kotlin" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/kotlin/2018-12-30-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2018-12-30T00:00:00+09:00</published><updated>2023-09-25T17:27:43+09:00</updated><id>http://localhost:4000/study/kotlin/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/kotlin/2018-12-30-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
-Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
-so that your content remains compatible with other Jekyll themes.</p>
+<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><category term="clean-architecture" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">DevLog 예제 개발하며 생긴일</title><link href="http://localhost:4000/devlog/2017-11-23-%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC/" rel="alternate" type="text/html" title="DevLog 예제 개발하며 생긴일" /><published>2017-11-23T00:00:00+09:00</published><updated>2023-09-28T00:49:19+09:00</updated><id>http://localhost:4000/devlog/%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC</id><content type="html" xml:base="http://localhost:4000/devlog/2017-11-23-%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC/"><![CDATA[<p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
 
-<h2 id="large-tables">Large Tables</h2>
+<p>There should be whitespace between paragraphs.</p>
 
-<table class="scroll-table">
+<p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.</p>
+
+<p><a href="another-page">Link to another page</a>.</p>
+
+<ul class="large-only" id="markdown-toc">
+  <li><a href="#header-2" id="markdown-toc-header-2">Header 2</a>    <ul>
+      <li><a href="#header-3" id="markdown-toc-header-3">Header 3</a>        <ul>
+          <li><a href="#header-4" id="markdown-toc-header-4">Header 4</a>            <ul>
+              <li><a href="#header-5" id="markdown-toc-header-5">Header 5</a>                <ul>
+                  <li><a href="#header-6" id="markdown-toc-header-6">Header 6</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#theres-a-horizontal-rule-below-this" id="markdown-toc-theres-a-horizontal-rule-below-this">There’s a horizontal rule below this.</a></li>
+      <li><a href="#here-is-an-unordered-list" id="markdown-toc-here-is-an-unordered-list">Here is an unordered list:</a></li>
+      <li><a href="#and-an-ordered-list" id="markdown-toc-and-an-ordered-list">And an ordered list:</a></li>
+      <li><a href="#and-a-nested-list" id="markdown-toc-and-a-nested-list">And a nested list:</a></li>
+      <li><a href="#small-image" id="markdown-toc-small-image">Small image</a></li>
+      <li><a href="#large-image" id="markdown-toc-large-image">Large image</a></li>
+      <li><a href="#definition-lists" id="markdown-toc-definition-lists">Definition lists</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="header-2">Header 2</h2>
+
+<p>This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
+
+<h3 id="header-3">Header 3</h3>
+
+<blockquote>
+  <p>This is a blockquote following a header.</p>
+
+  <p>When something is important enough, you do it even if the odds are not in your favor.</p>
+</blockquote>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Javascript code with syntax highlighting.</span>
+<span class="kd">var</span> <span class="nx">fun</span> <span class="o">=</span> <span class="kd">function</span> <span class="nf">lang</span><span class="p">(</span><span class="nx">l</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">dateformat</span><span class="p">.</span><span class="nx">i18n</span> <span class="o">=</span> <span class="nf">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">./lang/</span><span class="dl">'</span> <span class="o">+</span> <span class="nx">l</span><span class="p">)</span>
+  <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Ruby code with syntax highlighting</span>
+<span class="no">GitHubPages</span><span class="o">::</span><span class="no">Dependencies</span><span class="p">.</span><span class="nf">gems</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">gem</span><span class="p">,</span> <span class="n">version</span><span class="o">|</span>
+  <span class="n">s</span><span class="p">.</span><span class="nf">add_dependency</span><span class="p">(</span><span class="n">gem</span><span class="p">,</span> <span class="s2">"= </span><span class="si">#{</span><span class="n">version</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<h4 id="header-4">Header 4</h4>
+
+<ul>
+  <li>This is an unordered list following a header.</li>
+  <li>This is an unordered list following a header.</li>
+  <li>This is an unordered list following a header.</li>
+</ul>
+
+<h5 id="header-5">Header 5</h5>
+
+<ol>
+  <li>This is an ordered list following a header.</li>
+  <li>This is an ordered list following a header.</li>
+  <li>This is an ordered list following a header.</li>
+</ol>
+
+<h6 id="header-6">Header 6</h6>
+
+<table>
   <thead>
     <tr>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
+      <th style="text-align: left">head1</th>
+      <th style="text-align: left">head two</th>
+      <th style="text-align: left">three</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
+      <td style="text-align: left">ok</td>
+      <td style="text-align: left">good swedish fish</td>
+      <td style="text-align: left">nice</td>
     </tr>
     <tr>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
+      <td style="text-align: left">out of stock</td>
+      <td style="text-align: left">good and plenty</td>
+      <td style="text-align: left">nice</td>
     </tr>
     <tr>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
+      <td style="text-align: left">ok</td>
+      <td style="text-align: left">good <code class="language-plaintext highlighter-rouge">oreos</code></td>
+      <td style="text-align: left">hmm</td>
     </tr>
     <tr>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
+      <td style="text-align: left">ok</td>
+      <td style="text-align: left">good <code class="language-plaintext highlighter-rouge">zoute</code> drop</td>
+      <td style="text-align: left">yumm</td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="code-blocks">Code blocks</h2>
+<h3 id="theres-a-horizontal-rule-below-this">There’s a horizontal rule below this.</h3>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Example can be run directly in your JavaScript console</span>
+<hr />
 
-<span class="c1">// Create a function that takes two arguments and returns the sum of those</span>
-<span class="c1">// arguments</span>
-<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Function</span><span class="p">(</span><span class="dl">"</span><span class="s2">a</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">b</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">return a + b</span><span class="dl">"</span><span class="p">);</span>
+<h3 id="here-is-an-unordered-list">Here is an unordered list:</h3>
 
-<span class="c1">// Call the function</span>
-<span class="nf">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
-<span class="c1">// &gt; 8</span>
+<ul>
+  <li>Item foo</li>
+  <li>Item bar</li>
+  <li>Item baz</li>
+  <li>Item zip</li>
+</ul>
+
+<h3 id="and-an-ordered-list">And an ordered list:</h3>
+
+<ol>
+  <li>Item one</li>
+  <li>Item two</li>
+  <li>Item three</li>
+  <li>Item four</li>
+</ol>
+
+<h3 id="and-a-nested-list">And a nested list:</h3>
+
+<ul>
+  <li>level 1 item
+    <ul>
+      <li>level 2 item</li>
+      <li>level 2 item
+        <ul>
+          <li>level 3 item</li>
+          <li>level 3 item</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>level 1 item
+    <ul>
+      <li>level 2 item</li>
+      <li>level 2 item</li>
+      <li>level 2 item</li>
+    </ul>
+  </li>
+  <li>level 1 item
+    <ul>
+      <li>level 2 item</li>
+      <li>level 2 item</li>
+    </ul>
+  </li>
+  <li>level 1 item</li>
+</ul>
+
+<h3 id="small-image">Small image</h3>
+
+<p><img src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" alt="" /></p>
+
+<h3 id="large-image">Large image</h3>
+
+<p><img src="https://guides.github.com/activities/hello-world/branching.png" alt="" /></p>
+
+<h3 id="definition-lists">Definition lists</h3>
+
+<dl>
+  <dt>Name</dt>
+  <dd>Godzilla</dd>
+  <dt>Born</dt>
+  <dd>1952</dd>
+  <dt>Birthplace</dt>
+  <dd>Japan</dd>
+  <dt>Color</dt>
+  <dd>Green</dd>
+</dl>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this. Or is it?
 </code></pre></div></div>
 
-<h2 id="math">Math</h2>
-<p>Lorem ipsum \(f(x) = x^2\).</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The final element.
+</code></pre></div></div>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="devlog" /><category term="java" /><summary type="html"><![CDATA[A page showing how regular markdown content is styled in Hydejack.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">DevLog 예제 개발하며 생긴일2</title><link href="http://localhost:4000/devlog/2017-11-23-%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC2/" rel="alternate" type="text/html" title="DevLog 예제 개발하며 생긴일2" /><published>2017-11-23T00:00:00+09:00</published><updated>2023-09-28T00:49:19+09:00</updated><id>http://localhost:4000/devlog/%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC2</id><content type="html" xml:base="http://localhost:4000/devlog/2017-11-23-%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC2/"><![CDATA[<p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
 
-\[\begin{aligned}
-  \phi(x,y) &amp;= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
-            &amp;= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
-            &amp;= (x_1, \ldots, x_n)
-               \left(\begin{array}{ccc}
-                 \phi(e_1, e_1)  &amp; \cdots &amp; \phi(e_1, e_n) \\
-                 \vdots          &amp; \ddots &amp; \vdots         \\
-                 \phi(e_n, e_1)  &amp; \cdots &amp; \phi(e_n, e_n)
-               \end{array}\right)
-               \left(\begin{array}{c}
-                 y_1    \\
-                 \vdots \\
-                 y_n
-               \end{array}\right)
-\end{aligned}\]
+<p>There should be whitespace between paragraphs.</p>
 
-<h2 id="message-boxes">Message boxes</h2>
-<p class="message"><strong>NOTE</strong>: You can add a message box.</p>
+<p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.</p>
 
-<h2 id="large-text">Large text</h2>
-<p class="lead">You can add large text.</p>
+<p><a href="another-page">Link to another page</a>.</p>
 
-<h2 id="large-images">Large images</h2>
-<p><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" /></p>
+<ul class="large-only" id="markdown-toc">
+  <li><a href="#header-2" id="markdown-toc-header-2">Header 2</a>    <ul>
+      <li><a href="#header-3" id="markdown-toc-header-3">Header 3</a>        <ul>
+          <li><a href="#header-4" id="markdown-toc-header-4">Header 4</a>            <ul>
+              <li><a href="#header-5" id="markdown-toc-header-5">Header 5</a>                <ul>
+                  <li><a href="#header-6" id="markdown-toc-header-6">Header 6</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#theres-a-horizontal-rule-below-this" id="markdown-toc-theres-a-horizontal-rule-below-this">There’s a horizontal rule below this.</a></li>
+      <li><a href="#here-is-an-unordered-list" id="markdown-toc-here-is-an-unordered-list">Here is an unordered list:</a></li>
+      <li><a href="#and-an-ordered-list" id="markdown-toc-and-an-ordered-list">And an ordered list:</a></li>
+      <li><a href="#and-a-nested-list" id="markdown-toc-and-a-nested-list">And a nested list:</a></li>
+      <li><a href="#small-image" id="markdown-toc-small-image">Small image</a></li>
+      <li><a href="#large-image" id="markdown-toc-large-image">Large image</a></li>
+      <li><a href="#definition-lists" id="markdown-toc-definition-lists">Definition lists</a></li>
+    </ul>
+  </li>
+</ul>
 
-<h2 id="captions-to-images">Captions to images</h2>
-<p class="figure"><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" />
-A caption to an image.</p>
+<h2 id="header-2">Header 2</h2>
 
-<h2 id="large-quotes">Large quotes</h2>
-<blockquote class="lead">
-  <p>You can make a quote “pop out”.</p>
+<p>This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
+
+<h3 id="header-3">Header 3</h3>
+
+<blockquote>
+  <p>This is a blockquote following a header.</p>
+
+  <p>When something is important enough, you do it even if the odds are not in your favor.</p>
 </blockquote>
 
-<h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><category term="kotlin" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/kotlin/2018-12-25-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2018-12-25T00:00:00+09:00</published><updated>2023-09-25T17:27:43+09:00</updated><id>http://localhost:4000/study/kotlin/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/kotlin/2018-12-25-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
-Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
-so that your content remains compatible with other Jekyll themes.</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Javascript code with syntax highlighting.</span>
+<span class="kd">var</span> <span class="nx">fun</span> <span class="o">=</span> <span class="kd">function</span> <span class="nf">lang</span><span class="p">(</span><span class="nx">l</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">dateformat</span><span class="p">.</span><span class="nx">i18n</span> <span class="o">=</span> <span class="nf">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">./lang/</span><span class="dl">'</span> <span class="o">+</span> <span class="nx">l</span><span class="p">)</span>
+  <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
-<h2 id="large-tables">Large Tables</h2>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Ruby code with syntax highlighting</span>
+<span class="no">GitHubPages</span><span class="o">::</span><span class="no">Dependencies</span><span class="p">.</span><span class="nf">gems</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">gem</span><span class="p">,</span> <span class="n">version</span><span class="o">|</span>
+  <span class="n">s</span><span class="p">.</span><span class="nf">add_dependency</span><span class="p">(</span><span class="n">gem</span><span class="p">,</span> <span class="s2">"= </span><span class="si">#{</span><span class="n">version</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="k">end</span>
+</code></pre></div></div>
 
-<table class="scroll-table">
+<h4 id="header-4">Header 4</h4>
+
+<ul>
+  <li>This is an unordered list following a header.</li>
+  <li>This is an unordered list following a header.</li>
+  <li>This is an unordered list following a header.</li>
+</ul>
+
+<h5 id="header-5">Header 5</h5>
+
+<ol>
+  <li>This is an ordered list following a header.</li>
+  <li>This is an ordered list following a header.</li>
+  <li>This is an ordered list following a header.</li>
+</ol>
+
+<h6 id="header-6">Header 6</h6>
+
+<table>
   <thead>
     <tr>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
+      <th style="text-align: left">head1</th>
+      <th style="text-align: left">head two</th>
+      <th style="text-align: left">three</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
+      <td style="text-align: left">ok</td>
+      <td style="text-align: left">good swedish fish</td>
+      <td style="text-align: left">nice</td>
     </tr>
     <tr>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
+      <td style="text-align: left">out of stock</td>
+      <td style="text-align: left">good and plenty</td>
+      <td style="text-align: left">nice</td>
     </tr>
     <tr>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
+      <td style="text-align: left">ok</td>
+      <td style="text-align: left">good <code class="language-plaintext highlighter-rouge">oreos</code></td>
+      <td style="text-align: left">hmm</td>
     </tr>
     <tr>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
+      <td style="text-align: left">ok</td>
+      <td style="text-align: left">good <code class="language-plaintext highlighter-rouge">zoute</code> drop</td>
+      <td style="text-align: left">yumm</td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="code-blocks">Code blocks</h2>
+<h3 id="theres-a-horizontal-rule-below-this">There’s a horizontal rule below this.</h3>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Example can be run directly in your JavaScript console</span>
+<hr />
 
-<span class="c1">// Create a function that takes two arguments and returns the sum of those</span>
-<span class="c1">// arguments</span>
-<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Function</span><span class="p">(</span><span class="dl">"</span><span class="s2">a</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">b</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">return a + b</span><span class="dl">"</span><span class="p">);</span>
+<h3 id="here-is-an-unordered-list">Here is an unordered list:</h3>
 
-<span class="c1">// Call the function</span>
-<span class="nf">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
-<span class="c1">// &gt; 8</span>
+<ul>
+  <li>Item foo</li>
+  <li>Item bar</li>
+  <li>Item baz</li>
+  <li>Item zip</li>
+</ul>
+
+<h3 id="and-an-ordered-list">And an ordered list:</h3>
+
+<ol>
+  <li>Item one</li>
+  <li>Item two</li>
+  <li>Item three</li>
+  <li>Item four</li>
+</ol>
+
+<h3 id="and-a-nested-list">And a nested list:</h3>
+
+<ul>
+  <li>level 1 item
+    <ul>
+      <li>level 2 item</li>
+      <li>level 2 item
+        <ul>
+          <li>level 3 item</li>
+          <li>level 3 item</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>level 1 item
+    <ul>
+      <li>level 2 item</li>
+      <li>level 2 item</li>
+      <li>level 2 item</li>
+    </ul>
+  </li>
+  <li>level 1 item
+    <ul>
+      <li>level 2 item</li>
+      <li>level 2 item</li>
+    </ul>
+  </li>
+  <li>level 1 item</li>
+</ul>
+
+<h3 id="small-image">Small image</h3>
+
+<p><img src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" alt="" /></p>
+
+<h3 id="large-image">Large image</h3>
+
+<p><img src="https://guides.github.com/activities/hello-world/branching.png" alt="" /></p>
+
+<h3 id="definition-lists">Definition lists</h3>
+
+<dl>
+  <dt>Name</dt>
+  <dd>Godzilla</dd>
+  <dt>Born</dt>
+  <dd>1952</dd>
+  <dt>Birthplace</dt>
+  <dd>Japan</dd>
+  <dt>Color</dt>
+  <dd>Green</dd>
+</dl>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this. Or is it?
 </code></pre></div></div>
 
-<h2 id="math">Math</h2>
-<p>Lorem ipsum \(f(x) = x^2\).</p>
-
-\[\begin{aligned}
-  \phi(x,y) &amp;= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
-            &amp;= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
-            &amp;= (x_1, \ldots, x_n)
-               \left(\begin{array}{ccc}
-                 \phi(e_1, e_1)  &amp; \cdots &amp; \phi(e_1, e_n) \\
-                 \vdots          &amp; \ddots &amp; \vdots         \\
-                 \phi(e_n, e_1)  &amp; \cdots &amp; \phi(e_n, e_n)
-               \end{array}\right)
-               \left(\begin{array}{c}
-                 y_1    \\
-                 \vdots \\
-                 y_n
-               \end{array}\right)
-\end{aligned}\]
-
-<h2 id="message-boxes">Message boxes</h2>
-<p class="message"><strong>NOTE</strong>: You can add a message box.</p>
-
-<h2 id="large-text">Large text</h2>
-<p class="lead">You can add large text.</p>
-
-<h2 id="large-images">Large images</h2>
-<p><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" /></p>
-
-<h2 id="captions-to-images">Captions to images</h2>
-<p class="figure"><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" />
-A caption to an image.</p>
-
-<h2 id="large-quotes">Large quotes</h2>
-<blockquote class="lead">
-  <p>You can make a quote “pop out”.</p>
-</blockquote>
-
-<h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><category term="kotlin" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The final element.
+</code></pre></div></div>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="devlog" /><summary type="html"><![CDATA[A page showing how regular markdown content is styled in Hydejack.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
