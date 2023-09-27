@@ -1,5 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-09-27T22:59:17+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Starter Kit</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
-</subtitle><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><entry><title type="html">Hydejack 테마로 blog 틀 만들기 #1</title><link href="http://localhost:4000/blog/2023-09-25-%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0/" rel="alternate" type="text/html" title="Hydejack 테마로 blog 틀 만들기 #1" /><published>2023-09-25T00:00:00+09:00</published><updated>2023-09-25T19:50:49+09:00</updated><id>http://localhost:4000/blog/%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/blog/2023-09-25-%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0/"><![CDATA[<p>일단 표지가 있는 스타일이 좋았고, 화면 전환시에 부드러워 좋았다.<br />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-09-27T23:56:05+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Starter Kit</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+</subtitle><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><entry><title type="html">댓글창 추가 #2</title><link href="http://localhost:4000/blog/2023-09-27-%EB%B8%94%EB%A1%9C%EA%B7%B8_%EB%8C%93%EA%B8%80%EC%B0%BD_%EC%B6%94%EA%B0%80/" rel="alternate" type="text/html" title="댓글창 추가 #2" /><published>2023-09-27T00:00:00+09:00</published><updated>2023-09-27T23:56:05+09:00</updated><id>http://localhost:4000/blog/%EB%B8%94%EB%A1%9C%EA%B7%B8_%EB%8C%93%EA%B8%80%EC%B0%BD_%EC%B6%94%EA%B0%80</id><content type="html" xml:base="http://localhost:4000/blog/2023-09-27-%EB%B8%94%EB%A1%9C%EA%B7%B8_%EB%8C%93%EA%B8%80%EC%B0%BD_%EC%B6%94%EA%B0%80/"><![CDATA[<p>오늘은 게시글들에 기본적인 댓글창을 추가해보려고 합니다.<br />
+소통이 되지 않으면 고이고 부패합니다. 틀린 내용도 지적받을 수 없겠죠<br /></p>
+
+<p>hydejack에서 기본적으로 제공하는 댓글창은 <a href="https://disqus.com/">Disqus</a>입니다.<br />
+하지만 저는 <a href="https://giscus.vercel.app/ko">Giscus</a>를 사용하려고 합니다.<br />
+왜냐하면 저는 github를 사용하고 있고, Giscus는 github 계정으로 로그인이 가능하기 때문입니다.<br />
+또한, Giscus는 무료이고, 광고가 없습니다.<br />
+깃허브의 Discussion을 사용하여 글별 댓글창이 구성되는 점도 마음에 들었습니다. 그럼 시작해볼까요?<br /></p>
+
+<ul>
+  <li>_config.yml 파일 수정</li>
+</ul>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+
+  <span class="pi">-</span> <span class="na">scope</span><span class="pi">:</span>
+      <span class="na">type</span><span class="pi">:</span>            <span class="s">posts</span>
+    <span class="na">values</span><span class="pi">:</span>
+      <span class="na">comments</span><span class="pi">:</span>        <span class="kc">true</span>
+</code></pre></div></div>
+
+<p>가볍게 주석으로 되어있는 부분을 풀어주면 됩니다.(9.1.6버전)<br /> 
+주석이 해금되면 전체 Post에 Comments 영역이 활성화됩니다.<br /></p>
+
+<hr />
+
+<ul>
+  <li>comment html 수정</li>
+</ul>
+
+<p>이제 댓글창이 구현되는 부분을 수정해봐야겠죠?<br /></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- file: `_includes/my-comments.html` --&gt;</span>
+
+
+</code></pre></div></div>
+
+<p>잘은 모르지만 if disqus가 있는 걸로 봐서 <code class="language-plaintext highlighter-rouge">_config.yml</code> 의 disqus관련 설정이 활성화되면 동작할 것 같습니다.(추측입니다)<br />
+코멘트 그려주는 부분이 맞는지 아무렇게나 글자를 써봅니다.<br /></p>
+
+<p><img src="..%2Fpic%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-09-27%20%EC%98%A4%ED%9B%84%2011.33.56.png" alt="스크린샷 2023-09-27 오후 11.33.56.png" /></p>
+
+<p>빙고였습니다. 오늘은 운이 좋네요.<br />
+그려주는 html 파일을 찾았으니 이제 Giscus에서 만들어주는 코드를 붙여넣어주면 됩니다.<br />
+[Giscus code] (https://giscus.vercel.app/ko) 에서 관련된 내용 작성해주면 <code class="language-plaintext highlighter-rouge">&lt;script&gt;</code> 를 줍니다.<br /></p>
+
+<p><img src="..%2Fpic%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-09-27%20%EC%98%A4%ED%9B%84%2011.39.47.png" alt="스크린샷 2023-09-27 오후 11.39.47.png" /></p>
+
+<p>먼저 public repository를 선택합니다. 당연히 publish할 github.io repository를 선택합니다.<br /></p>
+
+<p><a href="https://github.com/apps/giscus">Giscus App</a> 에서 giscus 앱을 설치합니다.<br />
+저는 Repository 단위로 github.io 레포지토리에만 설치했습니다.<br /></p>
+
+<p>마지막으로 Repository에 <a href="https://www.lesstif.com/gitbook/github-discussion-129007907.html">Discussion 기능 활성화</a> 활성화 해주면 됩니다.<br /></p>
+
+<p><code class="language-plaintext highlighter-rouge">해당 Repository의 Settings -&gt; Genenral -&gt; Features -&gt; Discussions -&gt; Enable Discussions 체크</code><br /></p>
+
+<p>이후 스크롤을 내리면서 원하는 기능을 체크하다보면 사용 script를 완성시킨 소스코드를 줍니다.<br /></p>
+
+<p>바로 요것을 <code class="language-plaintext highlighter-rouge">my-comments.html</code> 처음에 붙여넣어주시면 됩니다.<br />
+저는 기존 내용은 모두 주석처리하고 giscus script를 붙여넣었습니다.<br /></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="c">&lt;!-- file: `_includes/my-comments.html` --&gt;</span>
+
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://giscus.app/client.js"</span>
+        <span class="na">data-repo=</span><span class="s">"nomoreFt/nomoreFt.github.io"</span>
+        <span class="na">data-repo-id=</span><span class="s">"샬라샬라"</span>
+        <span class="na">data-category=</span><span class="s">"Announcements"</span>
+        <span class="na">data-category-id=</span><span class="s">"샬라샬라"</span>
+        <span class="na">data-mapping=</span><span class="s">"title"</span>
+        <span class="na">data-strict=</span><span class="s">"0"</span>
+        <span class="na">data-reactions-enabled=</span><span class="s">"1"</span>
+        <span class="na">data-emit-metadata=</span><span class="s">"0"</span>
+        <span class="na">data-input-position=</span><span class="s">"top"</span>
+        <span class="na">data-theme=</span><span class="s">"light"</span>
+        <span class="na">data-lang=</span><span class="s">"ko"</span>
+        <span class="na">crossorigin=</span><span class="s">"anonymous"</span>
+        <span class="na">async</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<p>이제 댓글창이 잘 나오는지 확인해보겠습니다.<br /></p>
+
+<p><img src="..%2Fpic%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-09-27%20%EC%98%A4%ED%9B%84%2011.53.49.png" alt="스크린샷 2023-09-27 오후 11.53.49.png" /></p>
+
+<p>감정표현도 있고 예쁘게 잘 달리네요. 댓글창이 맨 아래가 아닌 위에 나오는건 제가 [Giscus code] (https://giscus.vercel.app/ko) 여기서 체크박스 해줬기 때문입니다.<br /></p>
+
+<p><img src="..%2Fpic%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-09-27%20%EC%98%A4%ED%9B%84%2011.54.41.png" alt="스크린샷 2023-09-27 오후 11.54.41.png" /></p>
+
+<p>실제 깃허브 Discussions에 생성되는 모습입니다. 재밌네요. <br /></p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="blog" /><category term="blog" /><summary type="html"><![CDATA[오늘은 게시글들에 기본적인 댓글창을 추가해보려고 합니다. 소통이 되지 않으면 고이고 부패합니다. 틀린 내용도 지적받을 수 없겠죠]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Hydejack 테마로 blog 틀 만들기 #1</title><link href="http://localhost:4000/blog/2023-09-25-%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0/" rel="alternate" type="text/html" title="Hydejack 테마로 blog 틀 만들기 #1" /><published>2023-09-25T00:00:00+09:00</published><updated>2023-09-25T19:50:49+09:00</updated><id>http://localhost:4000/blog/%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/blog/2023-09-25-%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0/"><![CDATA[<h2 id="왜-hydejack을-고르셨나요">왜 Hydejack을 고르셨나요?</h2>
+
+<p>일단 표지가 있는 스타일이 좋았고, 화면 전환시에 부드러워 좋았다.<br />
 나는 ruby, jekyll에 대한 기초지식도 없는 상황이라 최대한 커스터마이징 하지 않아도 아름다운 테마를 고르고 싶었다.<br />
 기존에 쓰시던 무료버전 한국 유저분들도 많아서 좋았다.<br />
 그런데 역시 하다보니 하나씩 욕심이 나는건 어쩔 수 없었다.<br />
@@ -191,7 +283,7 @@ sidebar를 종류별로 만들거라 보시고 참고하셔서 응용하면 될 
 
 <p>깃허브 소스코드는 아래 Repository에서 확인할 수 있다.<br /></p>
 
-<p><a href="https://github.com/nomoreFt/plainHydejackSetting">sourceCode</a> on GitHub</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="blog" /><category term="blog" /><summary type="html"><![CDATA[일단 표지가 있는 스타일이 좋았고, 화면 전환시에 부드러워 좋았다. 나는 ruby, jekyll에 대한 기초지식도 없는 상황이라 최대한 커스터마이징 하지 않아도 아름다운 테마를 고르고 싶었다. 기존에 쓰시던 무료버전 한국 유저분들도 많아서 좋았다. 그런데 역시 하다보니 하나씩 욕심이 나는건 어쩔 수 없었다. 그래서 여기저기 정보를 동냥하며 무료버전 커스터마이징의 여정을 떠나게 되는데..]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/kotlin/2021-06-01-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2021-06-01T00:00:00+09:00</published><updated>2023-09-25T17:27:43+09:00</updated><id>http://localhost:4000/study/kotlin/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/kotlin/2021-06-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
+<p><a href="https://github.com/nomoreFt/plainHydejackSetting">sourceCode</a> on GitHub</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="blog" /><category term="blog" /><summary type="html"><![CDATA[왜 Hydejack을 고르셨나요?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/kotlin/2021-06-01-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2021-06-01T00:00:00+09:00</published><updated>2023-09-25T17:27:43+09:00</updated><id>http://localhost:4000/study/kotlin/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/kotlin/2021-06-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
 Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
 so that your content remains compatible with other Jekyll themes.</p>
 
@@ -1522,196 +1614,6 @@ A caption to an image.</p>
 
 <h2 id="faded-text">Faded text</h2>
 <p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><category term="kotlin" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/kotlin/2018-12-25-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2018-12-25T00:00:00+09:00</published><updated>2023-09-25T17:27:43+09:00</updated><id>http://localhost:4000/study/kotlin/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/kotlin/2018-12-25-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
-Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
-so that your content remains compatible with other Jekyll themes.</p>
-
-<h2 id="large-tables">Large Tables</h2>
-
-<table class="scroll-table">
-  <thead>
-    <tr>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-    </tr>
-    <tr>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-    </tr>
-    <tr>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-    </tr>
-    <tr>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="code-blocks">Code blocks</h2>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Example can be run directly in your JavaScript console</span>
-
-<span class="c1">// Create a function that takes two arguments and returns the sum of those</span>
-<span class="c1">// arguments</span>
-<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Function</span><span class="p">(</span><span class="dl">"</span><span class="s2">a</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">b</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">return a + b</span><span class="dl">"</span><span class="p">);</span>
-
-<span class="c1">// Call the function</span>
-<span class="nf">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
-<span class="c1">// &gt; 8</span>
-</code></pre></div></div>
-
-<h2 id="math">Math</h2>
-<p>Lorem ipsum \(f(x) = x^2\).</p>
-
-\[\begin{aligned}
-  \phi(x,y) &amp;= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
-            &amp;= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
-            &amp;= (x_1, \ldots, x_n)
-               \left(\begin{array}{ccc}
-                 \phi(e_1, e_1)  &amp; \cdots &amp; \phi(e_1, e_n) \\
-                 \vdots          &amp; \ddots &amp; \vdots         \\
-                 \phi(e_n, e_1)  &amp; \cdots &amp; \phi(e_n, e_n)
-               \end{array}\right)
-               \left(\begin{array}{c}
-                 y_1    \\
-                 \vdots \\
-                 y_n
-               \end{array}\right)
-\end{aligned}\]
-
-<h2 id="message-boxes">Message boxes</h2>
-<p class="message"><strong>NOTE</strong>: You can add a message box.</p>
-
-<h2 id="large-text">Large text</h2>
-<p class="lead">You can add large text.</p>
-
-<h2 id="large-images">Large images</h2>
-<p><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" /></p>
-
-<h2 id="captions-to-images">Captions to images</h2>
-<p class="figure"><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" />
-A caption to an image.</p>
-
-<h2 id="large-quotes">Large quotes</h2>
-<blockquote class="lead">
-  <p>You can make a quote “pop out”.</p>
-</blockquote>
-
-<h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><category term="kotlin" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/kotlin/2018-12-01-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2018-12-01T00:00:00+09:00</published><updated>2023-09-25T17:27:43+09:00</updated><id>http://localhost:4000/study/kotlin/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/kotlin/2018-12-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
 Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
 so that your content remains compatible with other Jekyll themes.</p>
 
