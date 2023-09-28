@@ -2,17 +2,20 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Hyunwoo Kim
+  email:             hyunwoo.kim1108@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Hello, I'm Hyunwoo Kim, a Web Backend Developer specialized in Java and Kotlin.
     
-    Open `_data/authors.yml` to edit this text.
+    My ultimate goal in coding is to implement the correct architecture to make software highly maintainable.<br>
+    
+    
+    - 🛠 Tech Stack: Java, Kotlin, Spring Boot, Gradle
+    - 📚 Currently Learning: Clean architectural patterns, DDD, TDD
+  
 
   # This photo will be used in the about section
   picture:
@@ -26,9 +29,8 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         <username>
-    github:          <username>
-    # email:           <mail@domain.tld>
+    github:          nomoreFt
+    email:           hyunwoo.kim1108@gmail.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
