@@ -36,4 +36,8 @@
 <loc>http://localhost:4000/posts/</loc>
 <lastmod>2023-09-25T17:27:43+09:00</lastmod>
 </url>
+<url>
+<loc>http://localhost:4000/2/</loc>
+<lastmod>2023-09-25T17:27:43+09:00</lastmod>
+</url>
 </urlset>
