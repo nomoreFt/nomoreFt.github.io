@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-09-28T01:04:56+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Starter Kit</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
-</subtitle><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><entry><title type="html">댓글창 추가 #2</title><link href="http://localhost:4000/devlog/blog/2023-09-27-%EB%B8%94%EB%A1%9C%EA%B7%B8_%EB%8C%93%EA%B8%80%EC%B0%BD_%EC%B6%94%EA%B0%80/" rel="alternate" type="text/html" title="댓글창 추가 #2" /><published>2023-09-27T00:00:00+09:00</published><updated>2023-09-28T01:00:05+09:00</updated><id>http://localhost:4000/devlog/blog/%EB%B8%94%EB%A1%9C%EA%B7%B8_%EB%8C%93%EA%B8%80%EC%B0%BD_%EC%B6%94%EA%B0%80</id><content type="html" xml:base="http://localhost:4000/devlog/blog/2023-09-27-%EB%B8%94%EB%A1%9C%EA%B7%B8_%EB%8C%93%EA%B8%80%EC%B0%BD_%EC%B6%94%EA%B0%80/"><![CDATA[<p>오늘은 게시글들에 기본적인 댓글창을 추가해보려고 합니다.<br />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-09-28T17:50:32+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Starter Kit</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+</subtitle><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><entry><title type="html">댓글창 추가 #2</title><link href="http://localhost:4000/devlog/blog/2023-09-27-%EB%B8%94%EB%A1%9C%EA%B7%B8_%EB%8C%93%EA%B8%80%EC%B0%BD_%EC%B6%94%EA%B0%80/" rel="alternate" type="text/html" title="댓글창 추가 #2" /><published>2023-09-27T00:00:00+09:00</published><updated>2023-09-28T01:05:41+09:00</updated><id>http://localhost:4000/devlog/blog/%EB%B8%94%EB%A1%9C%EA%B7%B8_%EB%8C%93%EA%B8%80%EC%B0%BD_%EC%B6%94%EA%B0%80</id><content type="html" xml:base="http://localhost:4000/devlog/blog/2023-09-27-%EB%B8%94%EB%A1%9C%EA%B7%B8_%EB%8C%93%EA%B8%80%EC%B0%BD_%EC%B6%94%EA%B0%80/"><![CDATA[<p>오늘은 게시글들에 기본적인 댓글창을 추가해보려고 합니다.<br />
 소통이 되지 않으면 고이고 부패합니다. 틀린 내용도 지적받을 수 없겠죠<br /></p>
 
 <p>hydejack에서 기본적으로 제공하는 댓글창은 <a href="https://disqus.com/">Disqus</a>입니다.<br />
@@ -39,13 +39,12 @@
 <p>잘은 모르지만 if disqus가 있는 걸로 봐서 <code class="language-plaintext highlighter-rouge">_config.yml</code> 의 disqus관련 설정이 활성화되면 동작할 것 같습니다.(추측입니다)<br />
 코멘트 그려주는 부분이 맞는지 아무렇게나 글자를 써봅니다.<br /></p>
 
-<p><img src="..%2Fpic%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-09-27%20%EC%98%A4%ED%9B%84%2011.33.56.png" alt="스크린샷 2023-09-27 오후 11.33.56.png" /></p>
-
-<p>빙고였습니다. 오늘은 운이 좋네요.<br />
+<p><img src="pic%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-09-27%20%EC%98%A4%ED%9B%84%2011.33.56.png" alt="스크린샷 2023-09-27 오후 11.33.56.png" />
+빙고였습니다. 오늘은 운이 좋네요.<br />
 그려주는 html 파일을 찾았으니 이제 Giscus에서 만들어주는 코드를 붙여넣어주면 됩니다.<br />
 [Giscus code] (https://giscus.vercel.app/ko) 에서 관련된 내용 작성해주면 <code class="language-plaintext highlighter-rouge">&lt;script&gt;</code> 를 줍니다.<br /></p>
 
-<p><img src="..%2Fpic%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-09-27%20%EC%98%A4%ED%9B%84%2011.39.47.png" alt="스크린샷 2023-09-27 오후 11.39.47.png" /></p>
+<p><img src="pic%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-09-27%20%EC%98%A4%ED%9B%84%2011.39.47.png" alt="스크린샷 2023-09-27 오후 11.39.47.png" /></p>
 
 <p>먼저 public repository를 선택합니다. 당연히 publish할 github.io repository를 선택합니다.<br /></p>
 
@@ -83,13 +82,13 @@
 
 <p>이제 댓글창이 잘 나오는지 확인해보겠습니다.<br /></p>
 
-<p><img src="..%2Fpic%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-09-27%20%EC%98%A4%ED%9B%84%2011.53.49.png" alt="스크린샷 2023-09-27 오후 11.53.49.png" /></p>
+<p><img src="pic%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-09-27%20%EC%98%A4%ED%9B%84%2011.53.49.png" alt="스크린샷 2023-09-27 오후 11.53.49.png" /></p>
 
 <p>감정표현도 있고 예쁘게 잘 달리네요. 댓글창이 맨 아래가 아닌 위에 나오는건 제가 [Giscus code] (https://giscus.vercel.app/ko) 여기서 체크박스 해줬기 때문입니다.<br /></p>
 
-<p><img src="..%2Fpic%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-09-27%20%EC%98%A4%ED%9B%84%2011.54.41.png" alt="스크린샷 2023-09-27 오후 11.54.41.png" /></p>
+<p><img src="pic%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-09-27%20%EC%98%A4%ED%9B%84%2011.54.41.png" alt="스크린샷 2023-09-27 오후 11.54.41.png" /></p>
 
-<p>실제 깃허브 Discussions에 생성되는 모습입니다. 재밌네요. <br /></p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="devlog" /><category term="blog" /><category term="blog" /><summary type="html"><![CDATA[오늘은 게시글들에 기본적인 댓글창을 추가해보려고 합니다. 소통이 되지 않으면 고이고 부패합니다. 틀린 내용도 지적받을 수 없겠죠]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Hydejack 테마로 blog 틀 만들기 #1</title><link href="http://localhost:4000/devlog/blog/2023-09-25-%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0/" rel="alternate" type="text/html" title="Hydejack 테마로 blog 틀 만들기 #1" /><published>2023-09-25T00:00:00+09:00</published><updated>2023-09-28T00:58:57+09:00</updated><id>http://localhost:4000/devlog/blog/%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/devlog/blog/2023-09-25-%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0/"><![CDATA[<h2 id="왜-hydejack을-고르셨나요">왜 Hydejack을 고르셨나요?</h2>
+<p>실제 깃허브 Discussions에 생성되는 모습입니다. 재밌네요. <br /></p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="devlog" /><category term="blog" /><category term="blog" /><summary type="html"><![CDATA[오늘은 게시글들에 기본적인 댓글창을 추가해보려고 합니다. 소통이 되지 않으면 고이고 부패합니다. 틀린 내용도 지적받을 수 없겠죠]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Hydejack 테마로 blog 틀 만들기 #1</title><link href="http://localhost:4000/devlog/blog/2023-09-25-%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0/" rel="alternate" type="text/html" title="Hydejack 테마로 blog 틀 만들기 #1" /><published>2023-09-25T00:00:00+09:00</published><updated>2023-09-28T01:05:41+09:00</updated><id>http://localhost:4000/devlog/blog/%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/devlog/blog/2023-09-25-%EB%B8%94%EB%A1%9C%EA%B7%B8_%ED%8B%80_%EB%A7%8C%EB%93%A4%EA%B8%B0/"><![CDATA[<h2 id="왜-hydejack을-고르셨나요">왜 Hydejack을 고르셨나요?</h2>
 
 <p>일단 표지가 있는 스타일이 좋았고, 화면 전환시에 부드러워 좋았다.<br />
 나는 ruby, jekyll에 대한 기초지식도 없는 상황이라 최대한 커스터마이징 하지 않아도 아름다운 테마를 고르고 싶었다.<br />
@@ -114,8 +113,7 @@
   <p>https://hydejack.com/download/</p>
 </blockquote>
 
-<p><img src="..%2F..%2Fassets%2Fblog%2F1_download_dir_list.png" alt="1_download_dir_list.png" /></p>
-
+<p><img src="..%2F..%2F..%2Fassets%2Fblog%2F1_download_dir_list.png" alt="1_download_dir_list.png" /></p>
 <ul>
   <li>local에서 <code class="language-plaintext highlighter-rouge">bundle install</code>을 수행한다.</li>
 </ul>
@@ -129,7 +127,7 @@
   <li>Hydejack의 공식 <code class="language-plaintext highlighter-rouge">GitHub</code> 사이트에 가서 받아 압축을 해제한다.</li>
 </ul>
 
-<p><img src="..%2F..%2Fassets%2Fblog%2F2_hydejack_dir.png" alt="2_hydejack_dir.png" /></p>
+<p><img src="..%2F..%2F..%2Fassets%2Fblog%2F2_hydejack_dir.png" alt="2_hydejack_dir.png" /></p>
 
 <p><br /></p>
 
@@ -157,7 +155,7 @@
   <li>_config.yml을 열어서  sidebar를 수정해준다.</li>
 </ul>
 
-<p><img src="..%2F..%2Fassets%2Fblog%2F3_config_sidebar_menu.png" alt="3_config_sidebar_menu.png" /></p>
+<p><img src="..%2F..%2F..%2Fassets%2Fblog%2F3_config_sidebar_menu.png" alt="3_config_sidebar_menu.png" /></p>
 
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#_config.yml파일이다.</span>
 
@@ -175,7 +173,7 @@
     <span class="na">url</span><span class="pi">:</span>               <span class="s">/about/</span>
 </code></pre></div></div>
 
-<p><img src="..%2F..%2Fassets%2Fblog%2F5_sidebar.png" alt="5_sidebar.png" /></p>
+<p><img src="..%2F..%2F..%2Fassets%2Fblog%2F5_sidebar.png" alt="5_sidebar.png" /></p>
 
 <p>여기까지 하면 나오는 결과물이다.<br />
 sidebar를 종류별로 만들거라 보시고 참고하셔서 응용하면 될 것 같다.<br /></p>
@@ -184,7 +182,7 @@ sidebar를 종류별로 만들거라 보시고 참고하셔서 응용하면 될 
   <li>_featured_categories에 md파일을 만들어준다.</li>
 </ul>
 
-<p><img src="..%2F..%2Fassets%2Fblog%2F4_devlog.png" alt="4_devlog.png" /></p>
+<p><img src="..%2F..%2F..%2Fassets%2Fblog%2F4_devlog.png" alt="4_devlog.png" /></p>
 
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
 <span class="na">layout</span><span class="pi">:</span> <span class="s">list</span>    <span class="c1"># list 고정이다. _layout 폴더의 list.html을 쓴다는 말인듯?</span>
@@ -198,7 +196,7 @@ sidebar를 종류별로 만들거라 보시고 참고하셔서 응용하면 될 
 <span class="na">sitemap</span><span class="pi">:</span> <span class="kc">false</span>
 <span class="nn">---</span>
 </code></pre></div></div>
-<p><img src="..%2F..%2Fassets%2Fblog%2F6_sidebar%2Cpage%EC%97%B0%EB%8F%99.png" alt="6_sidebar,page연동.png" />
+<p><img src="..%2F..%2F..%2Fassets%2Fblog%2F6_sidebar%2Cpage%EC%97%B0%EB%8F%99.png" alt="6_sidebar,page연동.png" />
 내가 원하는건 그저 SideBar를 누를 때 해당 게시판에 원하는 글들이 나오는 기능이다.<br />
 이게 게시판에 나오는 글 List와 게시판 헤더 설명부분은 별개인가보다.<br />
 이제 게시판에 나오는 글 List가 내가 원하는 글들이 나오게끔 해야한다.<br /></p>
@@ -211,7 +209,7 @@ sidebar를 종류별로 만들거라 보시고 참고하셔서 응용하면 될 
   <li>_posts에 넣고 싶은 글을 쓴다.</li>
 </ul>
 
-<p><img src="..%2F..%2Fassets%2Fblog%2F7_boardEx.png" alt="7_boardEx.png" /></p>
+<p><img src="..%2F..%2F..%2Fassets%2Fblog%2F7_boardEx.png" alt="7_boardEx.png" /></p>
 
 <p>md의 글 제목은 <code class="language-plaintext highlighter-rouge">yyyy-mm-dd-제목.md</code>로 해준다.<br />
 제목은 상관없는데 연도는 잘 맞춰주면 좋다. (글쓴 날짜와 연동된다.)<br /></p>
@@ -219,14 +217,14 @@ sidebar를 종류별로 만들거라 보시고 참고하셔서 응용하면 될 
 <h4 id="q-다른-폴더에-만들어도-되나요">Q: 다른 폴더에 만들어도 되나요?</h4>
 <p>-&gt; 그냥 맞추는게 좋다. 게시판과 글의 url이 연동이 된다.</p>
 
-<p><img src="..%2F..%2Fassets%2Fblog%2F7_boardDepth.png" alt="7_boardDepth.png" /></p>
+<p><img src="..%2F..%2F..%2Fassets%2Fblog%2F7_boardDepth.png" alt="7_boardDepth.png" /></p>
 
 <p>ex) devlog2로 폴더명만 바꾸면 이런식으로 바뀐다.<br />
 문제는 devlog2경로가 홈페이지상에 없어서 devlog2를 누르면 이상한곳으로 간다.<br />
 보여지는 Path도 _featured_categories에 맞춘 slug에 연동된 title로 자동전환해준다.<br /></p>
 
-<p><img src="..%2F..%2Fassets%2Fblog%2F8_testPath.png" alt="8_testPath.png" />
-<img src="..%2F..%2Fassets%2Fblog%2F8_2.png" alt="8_2.png" /></p>
+<p><img src="..%2F..%2F..%2Fassets%2Fblog%2F8_testPath.png" alt="8_testPath.png" />
+<img src="..%2F..%2F..%2Fassets%2Fblog%2F8_2.png" alt="8_2.png" /></p>
 
 <p>Path가 계속해서 / 경로로 추가된다.</p>
 
@@ -238,7 +236,7 @@ sidebar를 종류별로 만들거라 보시고 참고하셔서 응용하면 될 
   <li>_featured_tags에 md파일을 만들어준다.</li>
 </ul>
 
-<p><img src="..%2F..%2Fassets%2Fblog%2F9.png" alt="9.png" /></p>
+<p><img src="..%2F..%2F..%2Fassets%2Fblog%2F9.png" alt="9.png" /></p>
 
 <p>post에 설정해줄 tag 설정값과 slug 가 연동되는듯 하다.</p>
 
@@ -264,9 +262,9 @@ sidebar를 종류별로 만들거라 보시고 참고하셔서 응용하면 될 
 <span class="c1"># 이부분을 추가해주면 된다. 앞서 _featured_tags에 만든 java tag를 붙여줬다.</span>
 <span class="nn">---</span>
 </code></pre></div></div>
-<p><img src="..%2F..%2Fassets%2Fblog%2F10.png" alt="10.png" /></p>
+<p><img src="..%2F..%2F..%2Fassets%2Fblog%2F10.png" alt="10.png" /></p>
 
-<p><img src="..%2F..%2Fassets%2Fblog%2F11.png" alt="11.png" /></p>
+<p><img src="..%2F..%2F..%2Fassets%2Fblog%2F11.png" alt="11.png" /></p>
 
 <p>카테고리는 /로 Post의 Depth를 표기해주고 Tag는 on 으로 뒤에 붙는다는걸 확인할 수 있다.<br />
 필요하다면 Java를 누르면 자동으로 Java Tag을 달고 있는 문서만 모아서 보여주는 기능도 제공된다.<br /></p>
@@ -283,7 +281,7 @@ sidebar를 종류별로 만들거라 보시고 참고하셔서 응용하면 될 
 
 <p>깃허브 소스코드는 아래 Repository에서 확인할 수 있다.<br /></p>
 
-<p><a href="https://github.com/nomoreFt/plainHydejackSetting">sourceCode</a> on GitHub</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="devlog" /><category term="blog" /><category term="blog" /><summary type="html"><![CDATA[왜 Hydejack을 고르셨나요?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/2018-06-01-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2018-06-01T00:00:00+09:00</published><updated>2023-09-28T00:50:13+09:00</updated><id>http://localhost:4000/study/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/2018-06-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
+<p><a href="https://github.com/nomoreFt/plainHydejackSetting">sourceCode</a> on GitHub</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="devlog" /><category term="blog" /><category term="blog" /><summary type="html"><![CDATA[왜 Hydejack을 고르셨나요?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/2018-06-01-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2018-06-01T00:00:00+09:00</published><updated>2023-09-28T01:05:41+09:00</updated><id>http://localhost:4000/study/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/2018-06-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
 Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
 so that your content remains compatible with other Jekyll themes.</p>
 
@@ -473,7 +471,7 @@ A caption to an image.</p>
 </blockquote>
 
 <h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/2018-05-01-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2018-05-01T00:00:00+09:00</published><updated>2023-09-28T00:50:10+09:00</updated><id>http://localhost:4000/study/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/2018-05-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
+<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/2018-05-01-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2018-05-01T00:00:00+09:00</published><updated>2023-09-28T01:05:41+09:00</updated><id>http://localhost:4000/study/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/2018-05-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
 Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
 so that your content remains compatible with other Jekyll themes.</p>
 
@@ -663,7 +661,7 @@ A caption to an image.</p>
 </blockquote>
 
 <h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/2018-04-01-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2018-04-01T00:00:00+09:00</published><updated>2023-09-28T00:50:06+09:00</updated><id>http://localhost:4000/study/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/2018-04-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
+<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/2018-04-01-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2018-04-01T00:00:00+09:00</published><updated>2023-09-28T01:05:41+09:00</updated><id>http://localhost:4000/study/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/2018-04-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
 Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
 so that your content remains compatible with other Jekyll themes.</p>
 
@@ -853,7 +851,7 @@ A caption to an image.</p>
 </blockquote>
 
 <h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/2018-03-01-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2018-03-01T00:00:00+09:00</published><updated>2023-09-28T00:50:02+09:00</updated><id>http://localhost:4000/study/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/2018-03-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
+<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/2018-03-01-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2018-03-01T00:00:00+09:00</published><updated>2023-09-28T01:05:41+09:00</updated><id>http://localhost:4000/study/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/2018-03-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
 Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
 so that your content remains compatible with other Jekyll themes.</p>
 
@@ -1043,7 +1041,7 @@ A caption to an image.</p>
 </blockquote>
 
 <h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Algorithm</title><link href="http://localhost:4000/study/algorithm/2018-03-01-example-content-iii/" rel="alternate" type="text/html" title="Algorithm" /><published>2018-03-01T00:00:00+09:00</published><updated>2023-09-28T01:03:08+09:00</updated><id>http://localhost:4000/study/algorithm/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/algorithm/2018-03-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
+<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Algorithm</title><link href="http://localhost:4000/study/algorithm/2018-03-01-example-content-iii/" rel="alternate" type="text/html" title="Algorithm" /><published>2018-03-01T00:00:00+09:00</published><updated>2023-09-28T01:05:41+09:00</updated><id>http://localhost:4000/study/algorithm/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/algorithm/2018-03-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
 Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
 so that your content remains compatible with other Jekyll themes.</p>
 
@@ -1233,7 +1231,7 @@ A caption to an image.</p>
 </blockquote>
 
 <h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><category term="algorithm" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Clean-Architecture</title><link href="http://localhost:4000/study/clean-architecture/2018-03-01-example-content-iii/" rel="alternate" type="text/html" title="Clean-Architecture" /><published>2018-03-01T00:00:00+09:00</published><updated>2023-09-28T01:02:15+09:00</updated><id>http://localhost:4000/study/clean-architecture/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/clean-architecture/2018-03-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
+<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><category term="algorithm" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Clean-Architecture</title><link href="http://localhost:4000/study/clean-architecture/2018-03-01-example-content-iii/" rel="alternate" type="text/html" title="Clean-Architecture" /><published>2018-03-01T00:00:00+09:00</published><updated>2023-09-28T01:05:41+09:00</updated><id>http://localhost:4000/study/clean-architecture/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/clean-architecture/2018-03-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
 Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
 so that your content remains compatible with other Jekyll themes.</p>
 
@@ -1423,7 +1421,7 @@ A caption to an image.</p>
 </blockquote>
 
 <h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><category term="clean-architecture" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">DevLog 예제 개발하며 생긴일</title><link href="http://localhost:4000/devlog/2017-11-23-%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC/" rel="alternate" type="text/html" title="DevLog 예제 개발하며 생긴일" /><published>2017-11-23T00:00:00+09:00</published><updated>2023-09-28T00:49:19+09:00</updated><id>http://localhost:4000/devlog/%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC</id><content type="html" xml:base="http://localhost:4000/devlog/2017-11-23-%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC/"><![CDATA[<p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
+<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="study" /><category term="clean-architecture" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">DevLog 예제 개발하며 생긴일</title><link href="http://localhost:4000/devlog/2017-11-23-%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC/" rel="alternate" type="text/html" title="DevLog 예제 개발하며 생긴일" /><published>2017-11-23T00:00:00+09:00</published><updated>2023-09-28T01:05:41+09:00</updated><id>http://localhost:4000/devlog/%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC</id><content type="html" xml:base="http://localhost:4000/devlog/2017-11-23-%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC/"><![CDATA[<p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
 
 <p>There should be whitespace between paragraphs.</p>
 
@@ -1606,7 +1604,7 @@ A caption to an image.</p>
 </code></pre></div></div>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The final element.
-</code></pre></div></div>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="devlog" /><category term="java" /><summary type="html"><![CDATA[A page showing how regular markdown content is styled in Hydejack.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">DevLog 예제 개발하며 생긴일2</title><link href="http://localhost:4000/devlog/2017-11-23-%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC2/" rel="alternate" type="text/html" title="DevLog 예제 개발하며 생긴일2" /><published>2017-11-23T00:00:00+09:00</published><updated>2023-09-28T00:49:19+09:00</updated><id>http://localhost:4000/devlog/%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC2</id><content type="html" xml:base="http://localhost:4000/devlog/2017-11-23-%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC2/"><![CDATA[<p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
+</code></pre></div></div>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="devlog" /><category term="java" /><summary type="html"><![CDATA[A page showing how regular markdown content is styled in Hydejack.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">DevLog 예제 개발하며 생긴일2</title><link href="http://localhost:4000/devlog/2017-11-23-%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC2/" rel="alternate" type="text/html" title="DevLog 예제 개발하며 생긴일2" /><published>2017-11-23T00:00:00+09:00</published><updated>2023-09-28T01:05:41+09:00</updated><id>http://localhost:4000/devlog/%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC2</id><content type="html" xml:base="http://localhost:4000/devlog/2017-11-23-%EA%B0%9C%EB%B0%9C%ED%95%98%EB%A9%B0_%EC%83%9D%EA%B8%B4%EC%9D%BC2/"><![CDATA[<p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
 
 <p>There should be whitespace between paragraphs.</p>
 
