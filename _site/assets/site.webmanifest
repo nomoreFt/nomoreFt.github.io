@@ -1,8 +1,8 @@
 {
   "lang": "ko-KR, en-US",
-  "name": "nomoreFt2",
-  "short_name": "nomoreFt2",
-  "description": "nomoreFt’s Dev Blog2",
+  "name": "nomoreFt",
+  "short_name": "nomoreFt",
+  "description": "nomoreFt’s Dev Blog",
   "start_url": "/?utm_source=homescreen",
   "theme_color": "rgb(25,55,71)",
   "background_color": "#fff",
