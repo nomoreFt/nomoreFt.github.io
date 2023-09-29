@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko-KR, en-US"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="ko-KR, en-US" /><updated>2023-09-29T19:32:02+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">nomoreFt</title><subtitle>nomoreFt&apos;s Dev Blog
-</subtitle><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><entry><title type="html">Github Blog 만들기 #4 - SideBar 꾸미기 + 내 블로그처럼 보이게 하기</title><link href="http://localhost:4000/devlog/blog/2023-09-28-sidebar_%EA%BE%B8%EB%AF%B8%EA%B8%B0/" rel="alternate" type="text/html" title="Github Blog 만들기 #4 - SideBar 꾸미기 + 내 블로그처럼 보이게 하기" /><published>2023-09-28T00:00:00+09:00</published><updated>2023-09-29T19:14:11+09:00</updated><id>http://localhost:4000/devlog/blog/sidebar_%EA%BE%B8%EB%AF%B8%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/devlog/blog/2023-09-28-sidebar_%EA%BE%B8%EB%AF%B8%EA%B8%B0/"><![CDATA[<ul id="markdown-toc">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko-KR, en-US"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="ko-KR, en-US" /><updated>2023-09-29T20:10:59+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">nomoreFt2</title><subtitle>nomoreFt&apos;s Dev Blog2
+</subtitle><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><entry><title type="html">Github Blog 만들기 #5 - sitemap 등록으로 검색 잘되게 만들기</title><link href="http://localhost:4000/devlog/blog/2023-09-28-sitemap/" rel="alternate" type="text/html" title="Github Blog 만들기 #5 - sitemap 등록으로 검색 잘되게 만들기" /><published>2023-09-28T00:00:00+09:00</published><updated>2023-09-29T20:03:38+09:00</updated><id>http://localhost:4000/devlog/blog/sitemap</id><content type="html" xml:base="http://localhost:4000/devlog/blog/2023-09-28-sitemap/"><![CDATA[]]></content><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><category term="devlog" /><category term="blog" /><category term="blog" /><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/blogDevLogMainPic.png" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/blogDevLogMainPic.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Github Blog 만들기 #4 - SideBar 꾸미기 + 내 블로그처럼 보이게 하기</title><link href="http://localhost:4000/devlog/blog/2023-09-28-sidebar_%EA%BE%B8%EB%AF%B8%EA%B8%B0/" rel="alternate" type="text/html" title="Github Blog 만들기 #4 - SideBar 꾸미기 + 내 블로그처럼 보이게 하기" /><published>2023-09-28T00:00:00+09:00</published><updated>2023-09-29T19:32:19+09:00</updated><id>http://localhost:4000/devlog/blog/sidebar_%EA%BE%B8%EB%AF%B8%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/devlog/blog/2023-09-28-sidebar_%EA%BE%B8%EB%AF%B8%EA%B8%B0/"><![CDATA[<ul id="markdown-toc">
   <li><a href="#banner-수정" id="markdown-toc-banner-수정">banner 수정</a>    <ul>
       <li><a href="#원하는-배너-이미지-searching" id="markdown-toc-원하는-배너-이미지-searching">원하는 배너 이미지 Searching</a></li>
       <li><a href="#_configyml-설정-수정" id="markdown-toc-_configyml-설정-수정">_config.yml 설정 수정</a>        <ul>
@@ -15,9 +15,12 @@
     </ul>
   </li>
   <li><a href="#내-블로그처럼-커스텀하기" id="markdown-toc-내-블로그처럼-커스텀하기">내 블로그처럼 커스텀하기</a>    <ul>
-      <li><a href="#블로그-탭-이름" id="markdown-toc-블로그-탭-이름">블로그 탭 이름,</a></li>
+      <li><a href="#기본적인-설정" id="markdown-toc-기본적인-설정">기본적인 설정</a></li>
+      <li><a href="#post-하단-소개글-about-수정하기" id="markdown-toc-post-하단-소개글-about-수정하기">post 하단 소개글 about 수정하기</a></li>
+      <li><a href="#favicon-변경하기" id="markdown-toc-favicon-변경하기">favicon 변경하기</a></li>
     </ul>
   </li>
+  <li><a href="#마치며" id="markdown-toc-마치며">마치며</a></li>
 </ul>
 
 <p>지금까지 따라오시면 Hydejack의 사진테마 그대로 이실텐데요, 오늘은 사이드바를 꾸미는 작업을 해보려고 합니다.<br />
@@ -147,13 +150,108 @@ accent_image에 살짝 다른 설정들을 추가해줘야합니다.<br /></p>
 
 <p>_config에서 수정 가능합니다. 하나씩 보시죠</p>
 
-<h2 id="블로그-탭-이름">블로그 탭 이름,</h2>
+<h2 id="기본적인-설정">기본적인 설정</h2>
 
+<p>기본적으로 사이드바에 표출되는 부분입니다.</p>
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
 
 <span class="c1"># The title of your blog. Used in the sidebar and the browser tab.</span>
 <span class="na">title</span><span class="pi">:</span>                 <span class="s">nomoreFt</span>
-</code></pre></div></div>]]></content><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><category term="devlog" /><category term="blog" /><category term="blog" /><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/blogDevLogMainPic.png" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/blogDevLogMainPic.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Github Blog 만들기 #4 - Hydejack 글쓰기 문법 예시</title><link href="http://localhost:4000/devlog/blog/2023-09-28-%EA%B8%80%EC%93%B0%EA%B8%B0-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%9A%A9/" rel="alternate" type="text/html" title="Github Blog 만들기 #4 - Hydejack 글쓰기 문법 예시" /><published>2023-09-28T00:00:00+09:00</published><updated>2023-09-28T21:35:50+09:00</updated><id>http://localhost:4000/devlog/blog/%EA%B8%80%EC%93%B0%EA%B8%B0%20%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%9A%A9</id><content type="html" xml:base="http://localhost:4000/devlog/blog/2023-09-28-%EA%B8%80%EC%93%B0%EA%B8%B0-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%9A%A9/"><![CDATA[<ul id="markdown-toc">
+
+<span class="na">tagline</span><span class="pi">:</span>               <span class="s">nomoreFt's Dev Blog</span>
+
+
+</code></pre></div></div>
+
+<p class="figcaption"><img src="..%2F..%2F..%2Fassets%2Fblog%2F17.png" alt="17.png" />
+이렇게 바뀝니다요~</p>
+
+<h2 id="post-하단-소개글-about-수정하기">post 하단 소개글 about 수정하기</h2>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">author</span><span class="pi">:</span>
+  <span class="c1"># Used by `jekyll-feed`:</span>
+  <span class="na">name</span><span class="pi">:</span>                <span class="s">Hyunwoo Kim</span>
+  <span class="na">email</span><span class="pi">:</span>               <span class="s">hyunwoo.kim1108@gmail.com</span>
+  <span class="c1"># # Used by `jekyll-seo-tag`:</span>
+  <span class="c1"># twitter:             &lt;username&gt;</span>
+
+
+
+<span class="na">copyright</span><span class="pi">:</span>             <span class="s">© 2023. All rights reserved.</span>
+</code></pre></div></div>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_data/authors.yml`</span>
+
+<span class="na">author1</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span>              <span class="s">Hyunwoo Kim</span>
+  <span class="na">email</span><span class="pi">:</span>             <span class="s">hyunwoo.kim1108@gmail.com</span>
+
+  <span class="c1"># Used at the bottom of each page and at the top of the `about` layout</span>
+  <span class="c1"># Markdown enabled, can use multiple paragraphs (enabled by `|`)</span>
+  <span class="na">about</span><span class="pi">:</span>             <span class="pi">|</span>
+    <span class="s">Hello, I'm Hyunwoo Kim, a Web Backend Developer specialized in Java and Kotlin.</span>
+
+    <span class="s">My ultimate goal in coding is to implement the correct architecture to make software highly maintainable.&lt;br&gt;</span>
+
+
+    <span class="s">- 🛠 Tech Stack: Java, Kotlin, Spring Boot, Gradle</span>
+    <span class="s">- 📚 Currently Learning: Clean architectural patterns, DDD, TDD</span>
+
+  <span class="c1"># This photo will be used in the about section</span>
+  <span class="na">picture</span><span class="pi">:</span>
+    <span class="na">path</span><span class="pi">:</span>            <span class="s">/assets/img/about128.png</span>
+    <span class="c1"># srcset is optional, but can be used to provide higher res versions for retina displays</span>
+    <span class="na">srcset</span><span class="pi">:</span>
+      <span class="na">1x</span><span class="pi">:</span>            <span class="s">/assets/img/about128.png</span>
+      <span class="na">2x</span><span class="pi">:</span>            <span class="s">/assets/img/about256.png</span>
+
+
+
+<span class="na">social</span><span class="pi">:</span>
+  <span class="na">github</span><span class="pi">:</span>          <span class="s">nomoreFt</span>
+  <span class="na">email</span><span class="pi">:</span>           <span class="s">hyunwoo.kim1108@gmail.com</span>
+</code></pre></div></div>
+
+<ul>
+  <li>author1 : about에 표기되는 사항입니다. _config와 동일한 내용을 입력하시면 됩니다.</li>
+  <li>picture : about에 표기되는 사진입니다. 128x128,256x256 사이즈로 준비하시면 됩니다.</li>
+  <li>social : sidebar,about에 표기되는 github,email 등의 경로 설정입니다.</li>
+  <li>copyright : 하단의 footer 카피라이트 문구가 변경됩니다.</li>
+</ul>
+
+<p class="figcaption"><img src="..%2F..%2F..%2Fassets%2Fblog%2F18.png" alt="18.png" />
+글 밑에 이렇게 달리거나 About 카테고리를 클릭시 나오는 페이지에 적용됩니다~!</p>
+
+<h2 id="favicon-변경하기">favicon 변경하기</h2>
+
+<p>마지막으로 파비콘을 수정해보겠습니다~.<br />
+<code class="language-plaintext highlighter-rouge">파비콘</code>이란 웹 탭에 표시되는 아이콘입니다.<br />
+추가적으로 <code class="language-plaintext highlighter-rouge">apple_touch_icon</code>도 변경할 수 있는데 이건 apple에서 내 웹을 저장할 때 생기는 아이콘입니다.<br /></p>
+
+<p><img src="..%2F..%2F..%2Fassets%2Fblog%2F19.png" alt="19.png" /></p>
+
+<p><a href="https://www.favicon-generator.org/">파비콘 제네레이터</a> 에서 196사이즈 정도의 png를 넣어주면 다앙햔 사이즈, ico 파비콘 파일을 자동으로 만들어줍니다.<br />
+이후 <code class="language-plaintext highlighter-rouge">assets/icons</code>에 있는 파일들을 전부 변경해주시면 됩니다.<br />
+하이드잭이 화면 해상도마다 다른아이콘을 쓰나봅니다. 사이즈별로 전부 교체해줬습니다.<br /></p>
+
+<p class="figcaption"><img src="..%2F..%2F..%2Fassets%2Fblog%2F20.png" alt="20.png" />
+요 파일들을 전부 변경해줬습니다.</p>
+
+<p>이후 _config.yml에 내 웹 경로를 앱처럼 바로가기를 만들 때 수정될 경로를 추가해줍니다.<br /></p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+
+<span class="na">apple_touch_icon</span><span class="pi">:</span> <span class="s">/assets/img/logo4.png</span>
+</code></pre></div></div>
+
+<hr />
+
+<h1 id="마치며">마치며</h1>
+
+<p>이정도면 Hydejack을 거의 다 커스텀한 것 같아요.<br />
+추가적으로 남은건 구글,네이버에서 내 블로그를 잘 찾을 수 있게 sitemap을 등록해주는 것 정도 남았겠네요.<br />
+다음 글에서 sitemap을 등록해보겠습니다.<br /></p>]]></content><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><category term="devlog" /><category term="blog" /><category term="blog" /><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/blogDevLogMainPic.png" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/blogDevLogMainPic.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Github Blog 만들기 #4 - Hydejack 글쓰기 문법 예시</title><link href="http://localhost:4000/devlog/blog/2023-09-28-%EA%B8%80%EC%93%B0%EA%B8%B0-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%9A%A9/" rel="alternate" type="text/html" title="Github Blog 만들기 #4 - Hydejack 글쓰기 문법 예시" /><published>2023-09-28T00:00:00+09:00</published><updated>2023-09-28T21:35:50+09:00</updated><id>http://localhost:4000/devlog/blog/%EA%B8%80%EC%93%B0%EA%B8%B0%20%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%9A%A9</id><content type="html" xml:base="http://localhost:4000/devlog/blog/2023-09-28-%EA%B8%80%EC%93%B0%EA%B8%B0-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%9A%A9/"><![CDATA[<ul id="markdown-toc">
   <li><a href="#목차추가" id="markdown-toc-목차추가">목차추가</a></li>
   <li><a href="#note-추가" id="markdown-toc-note-추가">Note 추가</a></li>
   <li><a href="#큰-텍스트" id="markdown-toc-큰-텍스트">큰 텍스트</a></li>
@@ -2054,194 +2152,4 @@ A caption to an image.</p>
 </blockquote>
 
 <h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><category term="study" /><category term="clean-architecture" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Algorithm</title><link href="http://localhost:4000/study/algorithm/2018-03-01-example-content-iii/" rel="alternate" type="text/html" title="Algorithm" /><published>2018-03-01T00:00:00+09:00</published><updated>2023-09-28T01:05:41+09:00</updated><id>http://localhost:4000/study/algorithm/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/algorithm/2018-03-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
-Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
-so that your content remains compatible with other Jekyll themes.</p>
-
-<h2 id="large-tables">Large Tables</h2>
-
-<table class="scroll-table">
-  <thead>
-    <tr>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-    </tr>
-    <tr>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-    </tr>
-    <tr>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-    </tr>
-    <tr>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="code-blocks">Code blocks</h2>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Example can be run directly in your JavaScript console</span>
-
-<span class="c1">// Create a function that takes two arguments and returns the sum of those</span>
-<span class="c1">// arguments</span>
-<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Function</span><span class="p">(</span><span class="dl">"</span><span class="s2">a</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">b</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">return a + b</span><span class="dl">"</span><span class="p">);</span>
-
-<span class="c1">// Call the function</span>
-<span class="nf">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
-<span class="c1">// &gt; 8</span>
-</code></pre></div></div>
-
-<h2 id="math">Math</h2>
-<p>Lorem ipsum \(f(x) = x^2\).</p>
-
-\[\begin{aligned}
-  \phi(x,y) &amp;= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
-            &amp;= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
-            &amp;= (x_1, \ldots, x_n)
-               \left(\begin{array}{ccc}
-                 \phi(e_1, e_1)  &amp; \cdots &amp; \phi(e_1, e_n) \\
-                 \vdots          &amp; \ddots &amp; \vdots         \\
-                 \phi(e_n, e_1)  &amp; \cdots &amp; \phi(e_n, e_n)
-               \end{array}\right)
-               \left(\begin{array}{c}
-                 y_1    \\
-                 \vdots \\
-                 y_n
-               \end{array}\right)
-\end{aligned}\]
-
-<h2 id="message-boxes">Message boxes</h2>
-<p class="message"><strong>NOTE</strong>: You can add a message box.</p>
-
-<h2 id="large-text">Large text</h2>
-<p class="lead">You can add large text.</p>
-
-<h2 id="large-images">Large images</h2>
-<p><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" /></p>
-
-<h2 id="captions-to-images">Captions to images</h2>
-<p class="figure"><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" />
-A caption to an image.</p>
-
-<h2 id="large-quotes">Large quotes</h2>
-<blockquote class="lead">
-  <p>You can make a quote “pop out”.</p>
-</blockquote>
-
-<h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><category term="study" /><category term="algorithm" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><category term="study" /><category term="clean-architecture" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
