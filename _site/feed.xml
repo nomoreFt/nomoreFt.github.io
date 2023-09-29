@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko-KR, en-US"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="ko-KR, en-US" /><updated>2023-09-29T19:13:54+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">nomoreFt</title><subtitle>nomoreFt&apos;s Dev Blog
-</subtitle><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><entry><title type="html">Github Blog 만들기 #4 - SideBar 꾸미기</title><link href="http://localhost:4000/devlog/blog/2023-09-28-sidebar_%EA%BE%B8%EB%AF%B8%EA%B8%B0/" rel="alternate" type="text/html" title="Github Blog 만들기 #4 - SideBar 꾸미기" /><published>2023-09-28T00:00:00+09:00</published><updated>2023-09-29T19:05:32+09:00</updated><id>http://localhost:4000/devlog/blog/sidebar_%EA%BE%B8%EB%AF%B8%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/devlog/blog/2023-09-28-sidebar_%EA%BE%B8%EB%AF%B8%EA%B8%B0/"><![CDATA[<ul id="markdown-toc">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko-KR, en-US"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="ko-KR, en-US" /><updated>2023-09-29T19:32:02+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">nomoreFt</title><subtitle>nomoreFt&apos;s Dev Blog
+</subtitle><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><entry><title type="html">Github Blog 만들기 #4 - SideBar 꾸미기 + 내 블로그처럼 보이게 하기</title><link href="http://localhost:4000/devlog/blog/2023-09-28-sidebar_%EA%BE%B8%EB%AF%B8%EA%B8%B0/" rel="alternate" type="text/html" title="Github Blog 만들기 #4 - SideBar 꾸미기 + 내 블로그처럼 보이게 하기" /><published>2023-09-28T00:00:00+09:00</published><updated>2023-09-29T19:14:11+09:00</updated><id>http://localhost:4000/devlog/blog/sidebar_%EA%BE%B8%EB%AF%B8%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/devlog/blog/2023-09-28-sidebar_%EA%BE%B8%EB%AF%B8%EA%B8%B0/"><![CDATA[<ul id="markdown-toc">
   <li><a href="#banner-수정" id="markdown-toc-banner-수정">banner 수정</a>    <ul>
       <li><a href="#원하는-배너-이미지-searching" id="markdown-toc-원하는-배너-이미지-searching">원하는 배너 이미지 Searching</a></li>
       <li><a href="#_configyml-설정-수정" id="markdown-toc-_configyml-설정-수정">_config.yml 설정 수정</a>        <ul>
@@ -12,6 +12,10 @@
   <li><a href="#logo-수정" id="markdown-toc-logo-수정">logo 수정</a>    <ul>
       <li><a href="#logo-만들기" id="markdown-toc-logo-만들기">logo 만들기</a></li>
       <li><a href="#로고-반영을-위해-_configyml-수정" id="markdown-toc-로고-반영을-위해-_configyml-수정">로고 반영을 위해 _config.yml 수정</a></li>
+    </ul>
+  </li>
+  <li><a href="#내-블로그처럼-커스텀하기" id="markdown-toc-내-블로그처럼-커스텀하기">내 블로그처럼 커스텀하기</a>    <ul>
+      <li><a href="#블로그-탭-이름" id="markdown-toc-블로그-탭-이름">블로그 탭 이름,</a></li>
     </ul>
   </li>
 </ul>
@@ -137,7 +141,19 @@ accent_image에 살짝 다른 설정들을 추가해줘야합니다.<br /></p>
 <span class="na">logo</span><span class="pi">:</span>                  <span class="s">/assets/img/logo3.png</span>
 </code></pre></div></div>
 
-<p>저는 그냥 기본 logo.png가 있던 경로에 추가해줬습니다.<br /></p>]]></content><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><category term="devlog" /><category term="blog" /><category term="blog" /><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/blogDevLogMainPic.png" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/blogDevLogMainPic.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Github Blog 만들기 #4 - Hydejack 글쓰기 문법 예시</title><link href="http://localhost:4000/devlog/blog/2023-09-28-%EA%B8%80%EC%93%B0%EA%B8%B0-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%9A%A9/" rel="alternate" type="text/html" title="Github Blog 만들기 #4 - Hydejack 글쓰기 문법 예시" /><published>2023-09-28T00:00:00+09:00</published><updated>2023-09-28T21:35:50+09:00</updated><id>http://localhost:4000/devlog/blog/%EA%B8%80%EC%93%B0%EA%B8%B0%20%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%9A%A9</id><content type="html" xml:base="http://localhost:4000/devlog/blog/2023-09-28-%EA%B8%80%EC%93%B0%EA%B8%B0-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%9A%A9/"><![CDATA[<ul id="markdown-toc">
+<p>저는 그냥 기본 logo.png가 있던 경로에 추가해줬습니다.<br /></p>
+
+<h1 id="내-블로그처럼-커스텀하기">내 블로그처럼 커스텀하기</h1>
+
+<p>_config에서 수정 가능합니다. 하나씩 보시죠</p>
+
+<h2 id="블로그-탭-이름">블로그 탭 이름,</h2>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+
+<span class="c1"># The title of your blog. Used in the sidebar and the browser tab.</span>
+<span class="na">title</span><span class="pi">:</span>                 <span class="s">nomoreFt</span>
+</code></pre></div></div>]]></content><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><category term="devlog" /><category term="blog" /><category term="blog" /><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/blogDevLogMainPic.png" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/blogDevLogMainPic.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Github Blog 만들기 #4 - Hydejack 글쓰기 문법 예시</title><link href="http://localhost:4000/devlog/blog/2023-09-28-%EA%B8%80%EC%93%B0%EA%B8%B0-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%9A%A9/" rel="alternate" type="text/html" title="Github Blog 만들기 #4 - Hydejack 글쓰기 문법 예시" /><published>2023-09-28T00:00:00+09:00</published><updated>2023-09-28T21:35:50+09:00</updated><id>http://localhost:4000/devlog/blog/%EA%B8%80%EC%93%B0%EA%B8%B0%20%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%9A%A9</id><content type="html" xml:base="http://localhost:4000/devlog/blog/2023-09-28-%EA%B8%80%EC%93%B0%EA%B8%B0-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%9A%A9/"><![CDATA[<ul id="markdown-toc">
   <li><a href="#목차추가" id="markdown-toc-목차추가">목차추가</a></li>
   <li><a href="#note-추가" id="markdown-toc-note-추가">Note 추가</a></li>
   <li><a href="#큰-텍스트" id="markdown-toc-큰-텍스트">큰 텍스트</a></li>
@@ -570,7 +586,7 @@ y_n
 
 <h1 id="마치며">마치며</h1>
 
-<p>더 자세한 내용은 <a href="https://hydejack.com/docs/writing/#adding-a-table-of-contents">Hydejack 공식 문서</a>를 참고하세요.<br /></p>]]></content><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><category term="devlog" /><category term="blog" /><category term="blog" /><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/blogDevLogMainPic.png" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/blogDevLogMainPic.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Github Blog 만들기 #3 - SubMenu 추가</title><link href="http://localhost:4000/devlog/blog/2023-09-27-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EC%B6%94%EA%B0%80/" rel="alternate" type="text/html" title="Github Blog 만들기 #3 - SubMenu 추가" /><published>2023-09-27T00:00:00+09:00</published><updated>2023-09-28T21:35:50+09:00</updated><id>http://localhost:4000/devlog/blog/%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EC%B6%94%EA%B0%80</id><content type="html" xml:base="http://localhost:4000/devlog/blog/2023-09-27-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EC%B6%94%EA%B0%80/"><![CDATA[<ul id="markdown-toc">
+<p>더 자세한 내용은 <a href="https://hydejack.com/docs/writing/#adding-a-table-of-contents">Hydejack 공식 문서</a>를 참고하세요.<br /></p>]]></content><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><category term="devlog" /><category term="blog" /><category term="blog" /><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/blogDevLogMainPic.png" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/blogDevLogMainPic.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Github Blog 만들기 #3 - SubMenu 추가</title><link href="http://localhost:4000/devlog/blog/2023-09-27-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EC%B6%94%EA%B0%80/" rel="alternate" type="text/html" title="Github Blog 만들기 #3 - SubMenu 추가" /><published>2023-09-27T00:00:00+09:00</published><updated>2023-09-29T19:14:11+09:00</updated><id>http://localhost:4000/devlog/blog/%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EC%B6%94%EA%B0%80</id><content type="html" xml:base="http://localhost:4000/devlog/blog/2023-09-27-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EC%B6%94%EA%B0%80/"><![CDATA[<ul id="markdown-toc">
   <li><a href="#파일-설정-추가" id="markdown-toc-파일-설정-추가">파일 설정 추가</a>    <ul>
       <li><a href="#assetsjssidebar-folderjs" id="markdown-toc-assetsjssidebar-folderjs">assets/js/sidebar-folder.js</a>        <ul>
           <li><a href="#선택사항-1나는-디폴트로-메뉴가-닫혀있는-경우를-원한다" id="markdown-toc-선택사항-1나는-디폴트로-메뉴가-닫혀있는-경우를-원한다">선택사항 1.나는 디폴트로 메뉴가 닫혀있는 경우를 원한다.</a></li>
