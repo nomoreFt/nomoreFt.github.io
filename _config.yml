@@ -37,7 +37,7 @@ keywords:              [java,kotlin,spring]
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/logo4.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -299,7 +299,7 @@ hydejack:
     enabled:           false
     cache_version:     13
     precache_assets:
-      - /assets/img/swipe.svg
+      - /assets/img/swipe.png
 
 
 # Collections

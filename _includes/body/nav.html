@@ -8,7 +8,9 @@
     <div class="menu-wrapper">
       {% if node.submenu %}
       <button class="spread-btn" onclick="javascript:spread({{count}})">
-        <span id="spread-icon-{{count}}" class="material-icons">arrow_right</span>
+        <!--선택사항 : default 닫을시 arrow_right, 열린 상태이면 arrow-drop-down-->
+        <!--<span id="spread-icon-{{count}}" class="material-icons">arrow_right</span>-->
+        <span id="spread-icon-{{count}}" class="material-icons">arrow_drop_down</span>
       </button>
       {% endif %}
       <a
@@ -22,7 +24,10 @@
     </div>
     {% if node.submenu %}
     <div class="menu-wrapper">
-      <input type="checkbox" id="folder-checkbox-{{count}}">
+      <!--선택사항 : default 닫을시 일반, 열린 상태이면 checked-->
+      <!--<input type="checkbox" id="folder-checkbox-{{count}}">-->
+      <input type="checkbox" id="folder-checkbox-{{count}}" checked>
+
       <ul>
         {% for subnode in node.submenu %}
         <li>
@@ -64,3 +69,4 @@
   {% endfor %}
   {% endif %}
 </ul>
+

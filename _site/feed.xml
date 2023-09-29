@@ -1,5 +1,143 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko-KR, en-US"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="ko-KR, en-US" /><updated>2023-09-29T16:44:56+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">nomoreFt</title><subtitle>nomoreFt&apos;s Dev Blog
-</subtitle><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><entry><title type="html">Github Blog 만들기 #4 - Hydejack 글쓰기 문법 예시</title><link href="http://localhost:4000/devlog/blog/2023-09-28-%EA%B8%80%EC%93%B0%EA%B8%B0-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%9A%A9/" rel="alternate" type="text/html" title="Github Blog 만들기 #4 - Hydejack 글쓰기 문법 예시" /><published>2023-09-28T00:00:00+09:00</published><updated>2023-09-28T21:35:50+09:00</updated><id>http://localhost:4000/devlog/blog/%EA%B8%80%EC%93%B0%EA%B8%B0%20%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%9A%A9</id><content type="html" xml:base="http://localhost:4000/devlog/blog/2023-09-28-%EA%B8%80%EC%93%B0%EA%B8%B0-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%9A%A9/"><![CDATA[<ul id="markdown-toc">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko-KR, en-US"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="ko-KR, en-US" /><updated>2023-09-29T19:13:54+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">nomoreFt</title><subtitle>nomoreFt&apos;s Dev Blog
+</subtitle><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><entry><title type="html">Github Blog 만들기 #4 - SideBar 꾸미기</title><link href="http://localhost:4000/devlog/blog/2023-09-28-sidebar_%EA%BE%B8%EB%AF%B8%EA%B8%B0/" rel="alternate" type="text/html" title="Github Blog 만들기 #4 - SideBar 꾸미기" /><published>2023-09-28T00:00:00+09:00</published><updated>2023-09-29T19:05:32+09:00</updated><id>http://localhost:4000/devlog/blog/sidebar_%EA%BE%B8%EB%AF%B8%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/devlog/blog/2023-09-28-sidebar_%EA%BE%B8%EB%AF%B8%EA%B8%B0/"><![CDATA[<ul id="markdown-toc">
+  <li><a href="#banner-수정" id="markdown-toc-banner-수정">banner 수정</a>    <ul>
+      <li><a href="#원하는-배너-이미지-searching" id="markdown-toc-원하는-배너-이미지-searching">원하는 배너 이미지 Searching</a></li>
+      <li><a href="#_configyml-설정-수정" id="markdown-toc-_configyml-설정-수정">_config.yml 설정 수정</a>        <ul>
+          <li><a href="#gif로-배경화면-수정하는-방법" id="markdown-toc-gif로-배경화면-수정하는-방법">gif로 배경화면 수정하는 방법</a></li>
+          <li><a href="#저작권을-위해-footer에-표기" id="markdown-toc-저작권을-위해-footer에-표기">저작권을 위해 footer에 표기</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#logo-수정" id="markdown-toc-logo-수정">logo 수정</a>    <ul>
+      <li><a href="#logo-만들기" id="markdown-toc-logo-만들기">logo 만들기</a></li>
+      <li><a href="#로고-반영을-위해-_configyml-수정" id="markdown-toc-로고-반영을-위해-_configyml-수정">로고 반영을 위해 _config.yml 수정</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>지금까지 따라오시면 Hydejack의 사진테마 그대로 이실텐데요, 오늘은 사이드바를 꾸미는 작업을 해보려고 합니다.<br />
+정체성을 부여하는 과정이죠. 꾸미는 과정이라 아마 즐거우실겁니다.<br />
+그럼 시작해볼까요?<br /></p>
+
+<h1 id="banner-수정">banner 수정</h1>
+
+<p>먼저 Banner를 수정해보겠습니다. <br /></p>
+
+<h2 id="원하는-배너-이미지-searching">원하는 배너 이미지 Searching</h2>
+<p>먼저 원하는 그림을 Searching 합니다.<br />
+저는 <a href="https://www.pinterest.co.kr/">핀터레스트</a> 사이트에서 배너 이미지를 찾아서 사용했습니다.<br />
+블로그가 비영리 목적이지만 저작권 주의하세요!<br /></p>
+
+<h2 id="_configyml-설정-수정">_config.yml 설정 수정</h2>
+
+<p>사진을 찾으셨다면 _config.yml 파일을 수정해야합니다.<br /></p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+
+<span class="c1"># Sidebar image and theme color of the site.</span>
+<span class="na">accent_image</span><span class="pi">:</span>          <span class="s">/assets/img/sidebar-bg.jpg //여기에 jpg 경로를 수정</span>
+<span class="na">accent_color</span><span class="pi">:</span>          <span class="s">rgb(79,177,186)</span>
+
+</code></pre></div></div>
+
+<ul>
+  <li>accent_image: 우리 배너 파일의 경로입니다. 이부분을 수정해야겠습니다.</li>
+  <li>accent_color: 하이드잭에서 제공하는 밑줄 강조 색 수정입니다. 내가 원하는 배너를 수정하고 알맞게 바꿔줘야겠죠?</li>
+</ul>
+
+<p>저는 그냥 원하는 파일을 `/assets/img/sidebar-bg.jpg로 overwrite해서 수정했습니다.<br /></p>
+
+<h3 id="gif로-배경화면-수정하는-방법">gif로 배경화면 수정하는 방법</h3>
+
+<p>저는 배너를 gif로 수정했습니다.<br />
+gif로 수정하는 방법은 아래와 같습니다.<br />
+accent_image에 살짝 다른 설정들을 추가해줘야합니다.<br /></p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">accent_image</span><span class="pi">:</span>
+<span class="na">background</span><span class="pi">:</span> <span class="s">center / cover url(/assets/img/sidebar-bg.gif) //여기에 gif 경로를 수정</span>
+<span class="na">overlay</span><span class="pi">:</span> <span class="kc">false</span>
+<span class="na">accent_color</span><span class="pi">:</span>          <span class="s">rgb(79,177,186)</span>
+</code></pre></div></div>
+
+<p>저는 저작권 표기만 하면 비영리로 사용이 가능한 <a href="https://mini-moss.tumblr.com/">minimoss</a>님의 gif를 사용했습니다.<br /></p>
+
+<h3 id="저작권을-위해-footer에-표기">저작권을 위해 footer에 표기</h3>
+
+<p>배너기 때문에 어디다 특별히 기재할 곳이 없죠. footer에 출처를 표기해보겠습니다.<br /></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- file: `_includes/body/footer.html` --&gt;</span>
+
+{% if site.copyright.size &gt; 0 %}
+{% if site.copyright.size &gt; 0 or site.legal.size &gt; 0 or site.hydejack.advertise %}
+<span class="nt">&lt;footer</span> <span class="na">class=</span><span class="s">"content"</span> <span class="na">role=</span><span class="s">"contentinfo"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;hr/&gt;</span>
+    {% if site.copyright.size &gt; 0 %}
+    <span class="nt">&lt;p&gt;&lt;small</span> <span class="na">class=</span><span class="s">"copyright"</span><span class="nt">&gt;</span>{{ site.copyright | markdownify | replace:'<span class="nt">&lt;p&gt;</span>','' | replace:'<span class="nt">&lt;/p&gt;</span>','' }}<span class="nt">&lt;/small&gt;&lt;/p&gt;</span>
+    {% endif %}
+    {% if site.legal.size &gt; 0 %}
+    <span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">"legal"</span><span class="nt">&gt;&lt;small&gt;</span>
+        {% for node in site.legal %}
+        {% assign url = node.url | default: node.href %}
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"heading flip-title"</span> <span class="na">href=</span><span class="s">"{% include_cached smart-url url=url %}"</span><span class="nt">&gt;</span>{{ node.name | default:node.title }}<span class="nt">&lt;/a&gt;</span>
+        {% unless forloop.last %}{{ site.data.strings.separator | default:'|' }}{% endunless %}
+        {% endfor %}
+    <span class="nt">&lt;/small&gt;&lt;/nav&gt;</span>
+    {% endif %}
+    <span class="nt">&lt;p&gt;&lt;small&gt;</span>Banner gif by <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"external"</span> <span class="na">href=</span><span class="s">"https://mini-moss.tumblr.com/"</span><span class="nt">&gt;</span>minimoss<span class="nt">&lt;/a&gt;</span> <span class="nt">&lt;/span&gt;&lt;/small&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;&lt;small&gt;</span>Powered by <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"external"</span> <span class="na">href=</span><span class="s">"https://hydejack.com/"</span><span class="nt">&gt;</span>Hydejack<span class="nt">&lt;/a&gt;</span> v<span class="nt">&lt;span</span> <span class="na">id=</span><span class="s">"_version"</span><span class="nt">&gt;</span>9.1.6<span class="nt">&lt;/span&gt;&lt;/small&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;hr</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;/footer&gt;</span>
+{% endif %}
+</code></pre></div></div>
+
+<p class="lead">하단부분에 아래 코드를 추가해줬습니다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;&lt;small&gt;</span>Banner gif by <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"external"</span> <span class="na">href=</span><span class="s">"출처경로"</span><span class="nt">&gt;</span>출처표기명<span class="nt">&lt;/a&gt;</span> <span class="nt">&lt;/span&gt;&lt;/small&gt;&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<hr />
+
+<h1 id="logo-수정">logo 수정</h1>
+
+<p>로고를 수정해보겠습니다.</p>
+
+<h2 id="logo-만들기">logo 만들기</h2>
+
+<p>블로그의 아이덴티티를 결정짓는 로고를 직접 만드시는 경우<br /> 
+<a href="https://www.canva.com/ko_kr/">캔바</a> 혹은 <a href="https://www.miricanvas.com/ko">미리캔버스</a> 를 이용하시면 됩니다.<br />
+둘 다 30일 무료 이용권이 있지만, 캔바는 투명배경이 유료버전이고 미리캔버스는 배경 투명이 무료입니다.<br />
+그래서 저는 미리캔버스를 이용했습니다. 드래그 앤 드랍으로 손쉽게 만들 수 있습니다.<br /></p>
+
+<p class="figcaption"><img src="..%2F..%2F..%2Fassets%2Fblog%2F14.png" alt="14.png" />
+여러 시도가 있었다..</p>
+
+<p class="faded">생각보다 어울리는 로고 디자인을 만들기란 쉽지 않았습니다. 흑흑..<br /></p>
+
+<p>꿀팁은 자신이 원하는 배너 색의 팔레트를 검색해서 어울리는 색상을 찾아보는 것입니다.<br />
+아이콘을 만드신다면 색상변경이 됩니다.<br /></p>
+
+<p class="figcaption"><img src="..%2F..%2F..%2Fassets%2Fblog%2F15.png" alt="15.png" />
+<img src="..%2F..%2F..%2Fassets%2Fblog%2F16.png" alt="16.png" />
+최종 당첨작. 심플이 베스트였다.</p>
+
+<p>메뉴를 내려다보는 모습을 구현하고 싶었는데 성공한 것 같습니다.<br /></p>
+
+<p class="faded">입이 아니라 연필을 물고 있는것입니다.<br /></p>
+
+<h2 id="로고-반영을-위해-_configyml-수정">로고 반영을 위해 _config.yml 수정</h2>
+
+<p>반영은 간단합니다. _config.yml 의 로고 부분을 수정하면 됩니다.<br /></p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+
+<span class="c1"># A (square) logo for your site.</span>
+<span class="c1"># If provided, it will be shown at the top of the sidebar.</span>
+<span class="c1"># It also used by the `jekyll-seo-tag` plugin.</span>
+<span class="na">logo</span><span class="pi">:</span>                  <span class="s">/assets/img/logo3.png</span>
+</code></pre></div></div>
+
+<p>저는 그냥 기본 logo.png가 있던 경로에 추가해줬습니다.<br /></p>]]></content><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><category term="devlog" /><category term="blog" /><category term="blog" /><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/blogDevLogMainPic.png" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/blogDevLogMainPic.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Github Blog 만들기 #4 - Hydejack 글쓰기 문법 예시</title><link href="http://localhost:4000/devlog/blog/2023-09-28-%EA%B8%80%EC%93%B0%EA%B8%B0-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%9A%A9/" rel="alternate" type="text/html" title="Github Blog 만들기 #4 - Hydejack 글쓰기 문법 예시" /><published>2023-09-28T00:00:00+09:00</published><updated>2023-09-28T21:35:50+09:00</updated><id>http://localhost:4000/devlog/blog/%EA%B8%80%EC%93%B0%EA%B8%B0%20%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%9A%A9</id><content type="html" xml:base="http://localhost:4000/devlog/blog/2023-09-28-%EA%B8%80%EC%93%B0%EA%B8%B0-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%9A%A9/"><![CDATA[<ul id="markdown-toc">
   <li><a href="#목차추가" id="markdown-toc-목차추가">목차추가</a></li>
   <li><a href="#note-추가" id="markdown-toc-note-추가">Note 추가</a></li>
   <li><a href="#큰-텍스트" id="markdown-toc-큰-텍스트">큰 텍스트</a></li>
@@ -434,8 +572,16 @@ y_n
 
 <p>더 자세한 내용은 <a href="https://hydejack.com/docs/writing/#adding-a-table-of-contents">Hydejack 공식 문서</a>를 참고하세요.<br /></p>]]></content><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><category term="devlog" /><category term="blog" /><category term="blog" /><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/blogDevLogMainPic.png" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/blogDevLogMainPic.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Github Blog 만들기 #3 - SubMenu 추가</title><link href="http://localhost:4000/devlog/blog/2023-09-27-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EC%B6%94%EA%B0%80/" rel="alternate" type="text/html" title="Github Blog 만들기 #3 - SubMenu 추가" /><published>2023-09-27T00:00:00+09:00</published><updated>2023-09-28T21:35:50+09:00</updated><id>http://localhost:4000/devlog/blog/%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EC%B6%94%EA%B0%80</id><content type="html" xml:base="http://localhost:4000/devlog/blog/2023-09-27-%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EC%B6%94%EA%B0%80/"><![CDATA[<ul id="markdown-toc">
   <li><a href="#파일-설정-추가" id="markdown-toc-파일-설정-추가">파일 설정 추가</a>    <ul>
-      <li><a href="#assetsjssidebar-folderjs" id="markdown-toc-assetsjssidebar-folderjs">assets/js/sidebar-folder.js</a></li>
-      <li><a href="#_includesbodynavhtml" id="markdown-toc-_includesbodynavhtml">_includes/body/nav.html</a></li>
+      <li><a href="#assetsjssidebar-folderjs" id="markdown-toc-assetsjssidebar-folderjs">assets/js/sidebar-folder.js</a>        <ul>
+          <li><a href="#선택사항-1나는-디폴트로-메뉴가-닫혀있는-경우를-원한다" id="markdown-toc-선택사항-1나는-디폴트로-메뉴가-닫혀있는-경우를-원한다">선택사항 1.나는 디폴트로 메뉴가 닫혀있는 경우를 원한다.</a></li>
+          <li><a href="#선택사항-2나는-디폴트로-메뉴가-열려있는-경우를-원한다" id="markdown-toc-선택사항-2나는-디폴트로-메뉴가-열려있는-경우를-원한다">선택사항 2.나는 디폴트로 메뉴가 열려있는 경우를 원한다.</a></li>
+        </ul>
+      </li>
+      <li><a href="#_includesbodynavhtml" id="markdown-toc-_includesbodynavhtml">_includes/body/nav.html</a>        <ul>
+          <li><a href="#선택사항-1나는-디폴트로-메뉴가-닫혀있는-경우를-원한다-1" id="markdown-toc-선택사항-1나는-디폴트로-메뉴가-닫혀있는-경우를-원한다-1">선택사항 1.나는 디폴트로 메뉴가 닫혀있는 경우를 원한다.</a></li>
+          <li><a href="#선택사항-2나는-디폴트로-메뉴가-열려있는-경우를-원한다-1" id="markdown-toc-선택사항-2나는-디폴트로-메뉴가-열려있는-경우를-원한다-1">선택사항 2.나는 디폴트로 메뉴가 열려있는 경우를 원한다.</a></li>
+        </ul>
+      </li>
       <li><a href="#_sassmy-stylescss" id="markdown-toc-_sassmy-stylescss">_sass/my-style.scss</a></li>
       <li><a href="#_includesmy-headhtml" id="markdown-toc-_includesmy-headhtml">_includes/my-head.html</a></li>
     </ul>
@@ -463,7 +609,21 @@ y_n
 
 <p class="note">제작시에 헷갈림 없게 파일의 전체 코드를 올려놓을 것이라서 1번부터 따라오신 분들은 그냥 전체 파일내용과 동일하니 전체복붙 하시면 됩니다.</p>
 
+<p>서브메뉴는 선택사항이 발생하는데요, 초기에 서브메뉴가 열려있는가 닫혀있는가 선택하시면 됩니다.<br />
+저는 누군가가 봐주길 바라는 마음으로 글을 쓰고 블로그를 운영하고 있기 때문에,<br />
+서브메뉴를 클릭하는 사용자 경험을 최대한 축소하고 싶었습니다.<br /> 그래서 초기 메뉴는 열려있습니다.<br /></p>
+
+<p class="figcaption"><img src="..%2F..%2F..%2Fassets%2Fblog%2F13.png" alt="13.png" />
+선택사항 1.나는 디폴트로 메뉴가 닫혀있는 경우를 원한다. 예시</p>
+
+<p class="figcaption"><img src="..%2F..%2F..%2Fassets%2Fblog%2F12.png" alt="12.png" />
+선택사항 2.나는 디폴트로 메뉴가 열려있는 경우를 원한다. 예시</p>
+
+<p class="lead">💡 각 파일에 선택사항은 한 번호로만 사용하셔야 합니다. sidebar-folder.js는 1번, nav.html은 2번 고르시면 안됩니다.</p>
+
 <h2 id="assetsjssidebar-folderjs">assets/js/sidebar-folder.js</h2>
+
+<h3 id="선택사항-1나는-디폴트로-메뉴가-닫혀있는-경우를-원한다">선택사항 1.나는 디폴트로 메뉴가 닫혀있는 경우를 원한다.</h3>
 
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// file: `assets/js/sidebar-folder.js`</span>
 
@@ -478,7 +638,26 @@ y_n
 
 </code></pre></div></div>
 
+<h3 id="선택사항-2나는-디폴트로-메뉴가-열려있는-경우를-원한다">선택사항 2.나는 디폴트로 메뉴가 열려있는 경우를 원한다.</h3>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// file: `assets/js/sidebar-folder.js`</span>
+
+<span class="kd">function</span> <span class="nf">spread</span><span class="p">(</span><span class="nx">count</span><span class="p">){</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">folder-checkbox-</span><span class="dl">'</span> <span class="o">+</span> <span class="nx">count</span><span class="p">).</span><span class="nx">checked</span> <span class="o">=</span>
+        <span class="o">!</span><span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">folder-checkbox-</span><span class="dl">'</span> <span class="o">+</span> <span class="nx">count</span><span class="p">).</span><span class="nx">checked</span><span class="p">;</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">spread-icon-</span><span class="dl">'</span> <span class="o">+</span> <span class="nx">count</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span>
+        <span class="nb">document</span><span class="p">.</span><span class="nf">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">spread-icon-</span><span class="dl">'</span> <span class="o">+</span> <span class="nx">count</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">==</span> <span class="dl">'</span><span class="s1">arrow_drop_down</span><span class="dl">'</span> <span class="p">?</span>
+            <span class="dl">'</span><span class="s1">arrow_right</span><span class="dl">'</span> <span class="p">:</span> <span class="dl">'</span><span class="s1">arrow_drop_down</span><span class="dl">'</span><span class="p">;</span>
+<span class="p">}</span>
+
+
+</code></pre></div></div>
+
+<p class="note">선택사항 1, 2는 초기값 설정만 바꿔준겁니다.</p>
+
 <h2 id="_includesbodynavhtml">_includes/body/nav.html</h2>
+
+<h3 id="선택사항-1나는-디폴트로-메뉴가-닫혀있는-경우를-원한다-1">선택사항 1.나는 디폴트로 메뉴가 닫혀있는 경우를 원한다.</h3>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- file: `_includes/body/nav.html` --&gt;</span>
 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>{{ site.data.strings.navigation | default:"Navigation" }}{{ site.data.strings.colon | default:":" }}<span class="nt">&lt;/span&gt;</span>
@@ -549,6 +728,80 @@ y_n
 <span class="nt">&lt;/ul&gt;</span>
 
 </code></pre></div></div>
+
+<h3 id="선택사항-2나는-디폴트로-메뉴가-열려있는-경우를-원한다-1">선택사항 2.나는 디폴트로 메뉴가 열려있는 경우를 원한다.</h3>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- file: `_includes/body/nav.html` --&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>{{ site.data.strings.navigation | default:"Navigation" }}{{ site.data.strings.colon | default:":" }}<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;ul&gt;</span>
+    {% if site.menu %}
+    {% for node in site.menu %}
+    {% assign url = node.url | default: node.href %}
+    {% assign count = count | plus: 1 %}
+    <span class="nt">&lt;li&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"menu-wrapper"</span><span class="nt">&gt;</span>
+            {% if node.submenu %}
+            <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"spread-btn"</span> <span class="na">onclick=</span><span class="s">"javascript:spread({{count}})"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;span</span> <span class="na">id=</span><span class="s">"spread-icon-{{count}}"</span> <span class="na">class=</span><span class="s">"material-icons"</span><span class="nt">&gt;</span>arrow_drop_down<span class="nt">&lt;/span&gt;</span>
+            <span class="nt">&lt;/button&gt;</span>
+            {% endif %}
+            <span class="nt">&lt;a</span>
+                    <span class="err">{%</span> <span class="na">if</span> <span class="na">forloop.first</span> <span class="err">%}</span><span class="na">id=</span><span class="s">"_drawer--opened"</span><span class="err">{%</span> <span class="na">endif</span> <span class="err">%}</span>
+                    <span class="na">href=</span><span class="s">"{% include_cached smart-url url=url %}"</span>
+                    <span class="na">class=</span><span class="s">"sidebar-nav-item {% if node.external  %}external{% endif %}"</span>
+                    <span class="err">{%</span> <span class="na">if</span> <span class="na">node.rel</span> <span class="err">%}</span><span class="na">rel=</span><span class="s">"{{ node.rel }}"</span><span class="err">{%</span> <span class="na">endif</span> <span class="err">%}</span>
+            <span class="nt">&gt;</span>
+                {{ node.name | default:node.title }}
+            <span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        {% if node.submenu %}
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"menu-wrapper"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">id=</span><span class="s">"folder-checkbox-{{count}}"</span> <span class="na">checked</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;ul&gt;</span>
+                {% for subnode in node.submenu %}
+                <span class="nt">&lt;li&gt;</span>
+                    <span class="nt">&lt;a</span>
+                            <span class="na">class=</span><span class="s">"sidebar-nav-item {% if node.external  %}external{% endif %}"</span>
+                            <span class="na">href=</span><span class="s">"{% include_cached smart-url url=subnode.url %}"</span>
+                    <span class="nt">&gt;</span>
+                        {{ subnode.title }}
+                    <span class="nt">&lt;/a&gt;</span>
+                <span class="nt">&lt;/li&gt;</span>
+                {% endfor %}
+            <span class="nt">&lt;/ul&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        {% endif %}
+    <span class="nt">&lt;/li&gt;</span>
+    {% endfor %}
+    {% else %}
+    {% assign pages = site.pages | where: "menu", true %}
+    {% assign documents = site.documents | where: "menu", true %}
+    {% assign nodes = pages | concat: documents | sort: "order" %}
+
+    {% for node in nodes %}
+    {% unless node.redirect_to %}
+    <span class="nt">&lt;li&gt;</span>
+        <span class="nt">&lt;a</span>
+                <span class="err">{%</span> <span class="na">if</span> <span class="na">forloop.first</span> <span class="err">%}</span><span class="na">id=</span><span class="s">"_navigation"</span><span class="err">{%</span> <span class="na">endif</span> <span class="err">%}</span>
+                <span class="na">href=</span><span class="s">"{{ node.url | relative_url }}"</span>
+                <span class="na">class=</span><span class="s">"sidebar-nav-item"</span>
+                <span class="err">{%</span> <span class="na">if</span> <span class="na">node.rel</span> <span class="err">%}</span><span class="na">rel=</span><span class="s">"{{ node.rel }}"</span><span class="err">{%</span> <span class="na">endif</span> <span class="err">%}</span>
+        <span class="nt">&gt;</span>
+            {{ node.title }}
+        <span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+    {% else %}
+    <span class="nt">&lt;li&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"{{ node.redirect_to }}"</span> <span class="na">class=</span><span class="s">"sidebar-nav-item external"</span><span class="nt">&gt;</span>{{ node.title }}<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+    {% endunless %}
+    {% endfor %}
+    {% endif %}
+<span class="nt">&lt;/ul&gt;</span>
+
+</code></pre></div></div>
+
+<p class="note">선택사항 1, 2는 초기값 설정만 바꿔준겁니다.</p>
 
 <h2 id="_sassmy-stylescss">_sass/my-style.scss</h2>
 
@@ -1595,386 +1848,6 @@ A caption to an image.</p>
 </blockquote>
 
 <h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><category term="study" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Algorithm</title><link href="http://localhost:4000/study/algorithm/2018-03-01-example-content-iii/" rel="alternate" type="text/html" title="Algorithm" /><published>2018-03-01T00:00:00+09:00</published><updated>2023-09-28T01:05:41+09:00</updated><id>http://localhost:4000/study/algorithm/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/algorithm/2018-03-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
-Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
-so that your content remains compatible with other Jekyll themes.</p>
-
-<h2 id="large-tables">Large Tables</h2>
-
-<table class="scroll-table">
-  <thead>
-    <tr>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-    </tr>
-    <tr>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-    </tr>
-    <tr>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-    </tr>
-    <tr>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="code-blocks">Code blocks</h2>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Example can be run directly in your JavaScript console</span>
-
-<span class="c1">// Create a function that takes two arguments and returns the sum of those</span>
-<span class="c1">// arguments</span>
-<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Function</span><span class="p">(</span><span class="dl">"</span><span class="s2">a</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">b</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">return a + b</span><span class="dl">"</span><span class="p">);</span>
-
-<span class="c1">// Call the function</span>
-<span class="nf">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
-<span class="c1">// &gt; 8</span>
-</code></pre></div></div>
-
-<h2 id="math">Math</h2>
-<p>Lorem ipsum \(f(x) = x^2\).</p>
-
-\[\begin{aligned}
-  \phi(x,y) &amp;= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
-            &amp;= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
-            &amp;= (x_1, \ldots, x_n)
-               \left(\begin{array}{ccc}
-                 \phi(e_1, e_1)  &amp; \cdots &amp; \phi(e_1, e_n) \\
-                 \vdots          &amp; \ddots &amp; \vdots         \\
-                 \phi(e_n, e_1)  &amp; \cdots &amp; \phi(e_n, e_n)
-               \end{array}\right)
-               \left(\begin{array}{c}
-                 y_1    \\
-                 \vdots \\
-                 y_n
-               \end{array}\right)
-\end{aligned}\]
-
-<h2 id="message-boxes">Message boxes</h2>
-<p class="message"><strong>NOTE</strong>: You can add a message box.</p>
-
-<h2 id="large-text">Large text</h2>
-<p class="lead">You can add large text.</p>
-
-<h2 id="large-images">Large images</h2>
-<p><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" /></p>
-
-<h2 id="captions-to-images">Captions to images</h2>
-<p class="figure"><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" />
-A caption to an image.</p>
-
-<h2 id="large-quotes">Large quotes</h2>
-<blockquote class="lead">
-  <p>You can make a quote “pop out”.</p>
-</blockquote>
-
-<h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><category term="study" /><category term="algorithm" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Kotlin Study 예제</title><link href="http://localhost:4000/study/2018-03-01-example-content-iii/" rel="alternate" type="text/html" title="Kotlin Study 예제" /><published>2018-03-01T00:00:00+09:00</published><updated>2023-09-28T01:05:41+09:00</updated><id>http://localhost:4000/study/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/2018-03-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
-Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
-so that your content remains compatible with other Jekyll themes.</p>
-
-<h2 id="large-tables">Large Tables</h2>
-
-<table class="scroll-table">
-  <thead>
-    <tr>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-    </tr>
-    <tr>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-    </tr>
-    <tr>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-    </tr>
-    <tr>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="code-blocks">Code blocks</h2>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Example can be run directly in your JavaScript console</span>
-
-<span class="c1">// Create a function that takes two arguments and returns the sum of those</span>
-<span class="c1">// arguments</span>
-<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Function</span><span class="p">(</span><span class="dl">"</span><span class="s2">a</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">b</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">return a + b</span><span class="dl">"</span><span class="p">);</span>
-
-<span class="c1">// Call the function</span>
-<span class="nf">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
-<span class="c1">// &gt; 8</span>
-</code></pre></div></div>
-
-<h2 id="math">Math</h2>
-<p>Lorem ipsum \(f(x) = x^2\).</p>
-
-\[\begin{aligned}
-  \phi(x,y) &amp;= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
-            &amp;= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
-            &amp;= (x_1, \ldots, x_n)
-               \left(\begin{array}{ccc}
-                 \phi(e_1, e_1)  &amp; \cdots &amp; \phi(e_1, e_n) \\
-                 \vdots          &amp; \ddots &amp; \vdots         \\
-                 \phi(e_n, e_1)  &amp; \cdots &amp; \phi(e_n, e_n)
-               \end{array}\right)
-               \left(\begin{array}{c}
-                 y_1    \\
-                 \vdots \\
-                 y_n
-               \end{array}\right)
-\end{aligned}\]
-
-<h2 id="message-boxes">Message boxes</h2>
-<p class="message"><strong>NOTE</strong>: You can add a message box.</p>
-
-<h2 id="large-text">Large text</h2>
-<p class="lead">You can add large text.</p>
-
-<h2 id="large-images">Large images</h2>
-<p><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" /></p>
-
-<h2 id="captions-to-images">Captions to images</h2>
-<p class="figure"><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" />
-A caption to an image.</p>
-
-<h2 id="large-quotes">Large quotes</h2>
-<blockquote class="lead">
-  <p>You can make a quote “pop out”.</p>
-</blockquote>
-
-<h2 id="faded-text">Faded text</h2>
 <p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><category term="study" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Clean-Architecture</title><link href="http://localhost:4000/study/clean-architecture/2018-03-01-example-content-iii/" rel="alternate" type="text/html" title="Clean-Architecture" /><published>2018-03-01T00:00:00+09:00</published><updated>2023-09-28T01:05:41+09:00</updated><id>http://localhost:4000/study/clean-architecture/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/clean-architecture/2018-03-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
 Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
 so that your content remains compatible with other Jekyll themes.</p>
@@ -2165,4 +2038,194 @@ A caption to an image.</p>
 </blockquote>
 
 <h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><category term="study" /><category term="clean-architecture" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><category term="study" /><category term="clean-architecture" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Algorithm</title><link href="http://localhost:4000/study/algorithm/2018-03-01-example-content-iii/" rel="alternate" type="text/html" title="Algorithm" /><published>2018-03-01T00:00:00+09:00</published><updated>2023-09-28T01:05:41+09:00</updated><id>http://localhost:4000/study/algorithm/example-content-iii</id><content type="html" xml:base="http://localhost:4000/study/algorithm/2018-03-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
+Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
+so that your content remains compatible with other Jekyll themes.</p>
+
+<h2 id="large-tables">Large Tables</h2>
+
+<table class="scroll-table">
+  <thead>
+    <tr>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+    </tr>
+    <tr>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+    </tr>
+    <tr>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+    </tr>
+    <tr>
+      <td>Second body</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Second body</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Second body</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Second body</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+    <tr>
+      <td>2 line</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>2 line</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>2 line</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>2 line</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+    <tr>
+      <td>Footer row</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Footer row</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Footer row</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Footer row</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="code-blocks">Code blocks</h2>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Example can be run directly in your JavaScript console</span>
+
+<span class="c1">// Create a function that takes two arguments and returns the sum of those</span>
+<span class="c1">// arguments</span>
+<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Function</span><span class="p">(</span><span class="dl">"</span><span class="s2">a</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">b</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">return a + b</span><span class="dl">"</span><span class="p">);</span>
+
+<span class="c1">// Call the function</span>
+<span class="nf">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
+<span class="c1">// &gt; 8</span>
+</code></pre></div></div>
+
+<h2 id="math">Math</h2>
+<p>Lorem ipsum \(f(x) = x^2\).</p>
+
+\[\begin{aligned}
+  \phi(x,y) &amp;= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
+            &amp;= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
+            &amp;= (x_1, \ldots, x_n)
+               \left(\begin{array}{ccc}
+                 \phi(e_1, e_1)  &amp; \cdots &amp; \phi(e_1, e_n) \\
+                 \vdots          &amp; \ddots &amp; \vdots         \\
+                 \phi(e_n, e_1)  &amp; \cdots &amp; \phi(e_n, e_n)
+               \end{array}\right)
+               \left(\begin{array}{c}
+                 y_1    \\
+                 \vdots \\
+                 y_n
+               \end{array}\right)
+\end{aligned}\]
+
+<h2 id="message-boxes">Message boxes</h2>
+<p class="message"><strong>NOTE</strong>: You can add a message box.</p>
+
+<h2 id="large-text">Large text</h2>
+<p class="lead">You can add large text.</p>
+
+<h2 id="large-images">Large images</h2>
+<p><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" /></p>
+
+<h2 id="captions-to-images">Captions to images</h2>
+<p class="figure"><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" />
+A caption to an image.</p>
+
+<h2 id="large-quotes">Large quotes</h2>
+<blockquote class="lead">
+  <p>You can make a quote “pop out”.</p>
+</blockquote>
+
+<h2 id="faded-text">Faded text</h2>
+<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>Hyunwoo Kim</name><email>hyunwoo.kim1108@gmail.com</email></author><category term="study" /><category term="algorithm" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
