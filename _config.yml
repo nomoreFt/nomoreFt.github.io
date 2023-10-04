@@ -57,9 +57,11 @@ menu:
   - title:             Study
     url:               /study/
     submenu:
-      - title: CLEAN-ARCHITECTURE
+      - title: Clean-Architecture
         url: /clean-architecture/
-      - title: ALGORITHM
+      - title: Object
+        url: /object/
+      - title: Algorithm
         url: /algorithm/
   - title:             Archive Blog
     url:               https://nomoreft.tistory.com/
