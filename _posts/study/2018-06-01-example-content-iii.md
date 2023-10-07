@@ -2,10 +2,12 @@
 layout: post
 title: Kotlin Study 예제
 description: >
-  A page showing Hydejack-specific markdown content.
+  description 입니다.
 image: /assets/img/study/objectCover.jpg
 categories: [study,clean-architecture]
 ---
+* toc
+{:toc}
 
 Hydejack offers a few additional features to markup your markdown.
 Don't worry, these are merely CSS classes added with kramdown's `{:...}` syntax,
