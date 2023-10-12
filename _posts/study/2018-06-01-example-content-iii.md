@@ -4,7 +4,7 @@ title: Kotlin Study 예제
 description: >
   description 입니다.
 image: /assets/img/study/objectCover.jpg
-categories: [study,clean-architecture]
+categories: [study]
 ---
 * toc
 {:toc}
