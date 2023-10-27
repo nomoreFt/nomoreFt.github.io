@@ -9,13 +9,10 @@
         <lastBuildDate>Wed, 04 Oct 2023 00:00:00 +0900</lastBuildDate>
         
         <item>
-            <title>testWrite Object</title>
+            <title>Object #1부 - 객체의 추상적 설계와 구현법</title>
             
             
-            <description>&lt;p&gt;Hydejack offers a few additional features to markup your markdown.
-Don’t worry, these are merely CSS classes added with kramdown’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{:...}&lt;/code&gt; syntax,
-so that your content remains compatible with other Jekyll themes.&lt;/p&gt;
-</description>
+            <description></description>
             
             <pubDate>Wed, 04 Oct 2023 00:00:00 +0900</pubDate>
             <link>http://localhost:4000/study/object/2023-10-04-ca_1/</link>
