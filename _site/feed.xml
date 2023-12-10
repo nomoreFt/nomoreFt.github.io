@@ -6,7 +6,40 @@
 </description>
         <link>http://localhost:4000</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Wed, 04 Oct 2023 00:00:00 +0900</lastBuildDate>
+        <lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0900</lastBuildDate>
+        
+        <item>
+            <title>Object #4부 - 객체지향 추상화와 분해</title>
+            
+            
+            <description></description>
+            
+            <pubDate>Thu, 07 Dec 2023 00:00:00 +0900</pubDate>
+            <link>http://localhost:4000/study/object/2023-12-07-object_4/</link>
+            <guid isPermaLink="true">http://localhost:4000/study/object/2023-12-07-object_4/</guid>
+        </item>
+        
+        <item>
+            <title>Object #3부 - 객체 협력간의 책임 할당</title>
+            
+            
+            <description></description>
+            
+            <pubDate>Sat, 25 Nov 2023 00:00:00 +0900</pubDate>
+            <link>http://localhost:4000/study/object/2023-11-25-object_3/</link>
+            <guid isPermaLink="true">http://localhost:4000/study/object/2023-11-25-object_3/</guid>
+        </item>
+        
+        <item>
+            <title>Object #2부 - 객체지향의 심층 탐구: 역할, 책임, 협력의 중요성</title>
+            
+            
+            <description></description>
+            
+            <pubDate>Sun, 19 Nov 2023 00:00:00 +0900</pubDate>
+            <link>http://localhost:4000/study/object/2023-11-19-object_2/</link>
+            <guid isPermaLink="true">http://localhost:4000/study/object/2023-11-19-object_2/</guid>
+        </item>
         
         <item>
             <title>Object #1부 - 객체의 추상적 설계와 구현법</title>
@@ -15,8 +48,8 @@
             <description></description>
             
             <pubDate>Wed, 04 Oct 2023 00:00:00 +0900</pubDate>
-            <link>http://localhost:4000/study/object/2023-10-04-ca_1/</link>
-            <guid isPermaLink="true">http://localhost:4000/study/object/2023-10-04-ca_1/</guid>
+            <link>http://localhost:4000/study/object/2023-10-04-object_1/</link>
+            <guid isPermaLink="true">http://localhost:4000/study/object/2023-10-04-object_1/</guid>
         </item>
         
         <item>
@@ -86,39 +119,6 @@ so that your content remains compatible with other Jekyll themes.&lt;/p&gt;
             <pubDate>Sun, 01 Oct 2023 00:00:00 +0900</pubDate>
             <link>http://localhost:4000/study/clean-architecture/2023-10-01-ca_4/</link>
             <guid isPermaLink="true">http://localhost:4000/study/clean-architecture/2023-10-01-ca_4/</guid>
-        </item>
-        
-        <item>
-            <title>Clean-Architecutre #3부 - CLASS 구조 잘짜기 SOLID법칙</title>
-            
-            
-            <description></description>
-            
-            <pubDate>Sat, 30 Sep 2023 00:00:00 +0900</pubDate>
-            <link>http://localhost:4000/study/clean-architecture/2023-09-30-ca_3/</link>
-            <guid isPermaLink="true">http://localhost:4000/study/clean-architecture/2023-09-30-ca_3/</guid>
-        </item>
-        
-        <item>
-            <title>Clean-Architecutre #2부 - 제약으로 발전해온 코딩 패러다임</title>
-            
-            
-            <description></description>
-            
-            <pubDate>Fri, 29 Sep 2023 00:00:00 +0900</pubDate>
-            <link>http://localhost:4000/study/clean-architecture/2023-09-29-ca_2/</link>
-            <guid isPermaLink="true">http://localhost:4000/study/clean-architecture/2023-09-29-ca_2/</guid>
-        </item>
-        
-        <item>
-            <title>Clean-Architecutre #1부 - 아키텍처가 뭐야? 왜 중요한거야?</title>
-            
-            
-            <description></description>
-            
-            <pubDate>Thu, 28 Sep 2023 00:00:00 +0900</pubDate>
-            <link>http://localhost:4000/study/clean-architecture/2023-09-28-ca_1/</link>
-            <guid isPermaLink="true">http://localhost:4000/study/clean-architecture/2023-09-28-ca_1/</guid>
         </item>
         
     </channel>
