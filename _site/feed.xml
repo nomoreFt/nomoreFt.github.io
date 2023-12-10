@@ -9,6 +9,17 @@
         <lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0900</lastBuildDate>
         
         <item>
+            <title>Object #5부 - 의존성 관리하기</title>
+            
+            
+            <description></description>
+            
+            <pubDate>Thu, 07 Dec 2023 00:00:00 +0900</pubDate>
+            <link>http://localhost:4000/study/object/2023-12-07-object_5/</link>
+            <guid isPermaLink="true">http://localhost:4000/study/object/2023-12-07-object_5/</guid>
+        </item>
+        
+        <item>
             <title>Object #4부 - 객체지향 추상화와 분해</title>
             
             
@@ -108,17 +119,6 @@ so that your content remains compatible with other Jekyll themes.&lt;/p&gt;
             <pubDate>Mon, 02 Oct 2023 00:00:00 +0900</pubDate>
             <link>http://localhost:4000/study/clean-architecture/2023-10-02-ca_5/</link>
             <guid isPermaLink="true">http://localhost:4000/study/clean-architecture/2023-10-02-ca_5/</guid>
-        </item>
-        
-        <item>
-            <title>Clean-Architecutre #4부 - CLASS를 넘어 컴포넌트 구조 잘짜기</title>
-            
-            
-            <description></description>
-            
-            <pubDate>Sun, 01 Oct 2023 00:00:00 +0900</pubDate>
-            <link>http://localhost:4000/study/clean-architecture/2023-10-01-ca_4/</link>
-            <guid isPermaLink="true">http://localhost:4000/study/clean-architecture/2023-10-01-ca_4/</guid>
         </item>
         
     </channel>
