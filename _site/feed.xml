@@ -6,10 +6,21 @@
 </description>
         <link>http://localhost:4000</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0900</lastBuildDate>
+        <lastBuildDate>Sun, 17 Dec 2023 00:00:00 +0900</lastBuildDate>
         
         <item>
-            <title>Object #6부 - 의존성 원칙에 대한 구체적인 이야기</title>
+            <title>객체지향 #7부 - 상속을 통한 코드 재사용</title>
+            
+            
+            <description></description>
+            
+            <pubDate>Sun, 17 Dec 2023 00:00:00 +0900</pubDate>
+            <link>http://localhost:4000/study/object/2023-12-17-object_7/</link>
+            <guid isPermaLink="true">http://localhost:4000/study/object/2023-12-17-object_7/</guid>
+        </item>
+        
+        <item>
+            <title>객체지향 #6부 - 의존성 원칙에 대한 구체적인 이야기</title>
             
             
             <description></description>
@@ -20,7 +31,7 @@
         </item>
         
         <item>
-            <title>Object #5부 - 의존성 관리하기</title>
+            <title>객체지향 #5부 - 의존성 관리하기</title>
             
             
             <description></description>
@@ -31,7 +42,7 @@
         </item>
         
         <item>
-            <title>Object #4부 - 객체지향 추상화와 분해</title>
+            <title>객체지향 #4부 - 객체지향 추상화와 분해</title>
             
             
             <description></description>
@@ -42,7 +53,7 @@
         </item>
         
         <item>
-            <title>Object #3부 - 객체 협력간의 책임 할당</title>
+            <title>객체지향 #3부 - 객체 협력간의 책임 할당</title>
             
             
             <description></description>
@@ -53,7 +64,7 @@
         </item>
         
         <item>
-            <title>Object #2부 - 객체지향의 심층 탐구: 역할, 책임, 협력의 중요성</title>
+            <title>객체지향 #2부 - 객체지향의 심층 탐구: 역할, 책임, 협력의 중요성</title>
             
             
             <description></description>
@@ -64,7 +75,7 @@
         </item>
         
         <item>
-            <title>Object #1부 - 객체의 추상적 설계와 구현법</title>
+            <title>객체지향 #1부 - 객체의 추상적 설계와 구현법</title>
             
             
             <description></description>
@@ -108,17 +119,6 @@ so that your content remains compatible with other Jekyll themes.&lt;/p&gt;
             <pubDate>Wed, 04 Oct 2023 00:00:00 +0900</pubDate>
             <link>http://localhost:4000/study/algorithm/2023-10-04-ca_1/</link>
             <guid isPermaLink="true">http://localhost:4000/study/algorithm/2023-10-04-ca_1/</guid>
-        </item>
-        
-        <item>
-            <title>Clean-Architecutre #5-2부 - Hexagonal 관점에서 본 클린 아키텍처의 구조</title>
-            
-            
-            <description></description>
-            
-            <pubDate>Tue, 03 Oct 2023 00:00:00 +0900</pubDate>
-            <link>http://localhost:4000/study/clean-architecture/2023-10-03-ca_5-2/</link>
-            <guid isPermaLink="true">http://localhost:4000/study/clean-architecture/2023-10-03-ca_5-2/</guid>
         </item>
         
     </channel>
