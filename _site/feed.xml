@@ -6,10 +6,21 @@
 </description>
         <link>http://localhost:4000</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sun, 17 Dec 2023 00:00:00 +0900</lastBuildDate>
+        <lastBuildDate>Sat, 30 Dec 2023 00:00:00 +0900</lastBuildDate>
         
         <item>
-            <title>객체지향 #7부 - 상속을 통한 코드 재사용</title>
+            <title>객체지향 #8부 - 유연함을 위한 다형성과 타입 정의에서의 상속</title>
+            
+            
+            <description></description>
+            
+            <pubDate>Sat, 30 Dec 2023 00:00:00 +0900</pubDate>
+            <link>http://localhost:4000/study/object/2023-12-30-object_8/</link>
+            <guid isPermaLink="true">http://localhost:4000/study/object/2023-12-30-object_8/</guid>
+        </item>
+        
+        <item>
+            <title>객체지향 #7부 - 상속과 합성을 통한 코드 재사용</title>
             
             
             <description></description>
@@ -105,20 +116,6 @@
             <pubDate>Wed, 04 Oct 2023 00:00:00 +0900</pubDate>
             <link>http://localhost:4000/study/clean-architecture/2023-10-04-ca_5-3/</link>
             <guid isPermaLink="true">http://localhost:4000/study/clean-architecture/2023-10-04-ca_5-3/</guid>
-        </item>
-        
-        <item>
-            <title>testWrite Algorithm</title>
-            
-            
-            <description>&lt;p&gt;Hydejack offers a few additional features to markup your markdown.
-Don’t worry, these are merely CSS classes added with kramdown’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{:...}&lt;/code&gt; syntax,
-so that your content remains compatible with other Jekyll themes.&lt;/p&gt;
-</description>
-            
-            <pubDate>Wed, 04 Oct 2023 00:00:00 +0900</pubDate>
-            <link>http://localhost:4000/study/algorithm/2023-10-04-ca_1/</link>
-            <guid isPermaLink="true">http://localhost:4000/study/algorithm/2023-10-04-ca_1/</guid>
         </item>
         
     </channel>
