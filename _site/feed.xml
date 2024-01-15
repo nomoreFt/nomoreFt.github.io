@@ -6,7 +6,18 @@
 </description>
         <link>http://localhost:4000</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sat, 30 Dec 2023 00:00:00 +0900</lastBuildDate>
+        <lastBuildDate>Fri, 12 Jan 2024 00:00:00 +0900</lastBuildDate>
+        
+        <item>
+            <title>객체지향 #9부 - 확장시 일관성 있는 협력 짜기</title>
+            
+            
+            <description></description>
+            
+            <pubDate>Fri, 12 Jan 2024 00:00:00 +0900</pubDate>
+            <link>http://localhost:4000/study/object/2024-01-12-object_9/</link>
+            <guid isPermaLink="true">http://localhost:4000/study/object/2024-01-12-object_9/</guid>
+        </item>
         
         <item>
             <title>객체지향 #8부 - 유연함을 위한 다형성과 타입 정의에서의 상속</title>
@@ -105,17 +116,6 @@
             <pubDate>Wed, 04 Oct 2023 00:00:00 +0900</pubDate>
             <link>http://localhost:4000/study/clean-architecture/2023-10-04-ca_5-4/</link>
             <guid isPermaLink="true">http://localhost:4000/study/clean-architecture/2023-10-04-ca_5-4/</guid>
-        </item>
-        
-        <item>
-            <title>Clean-Architecutre #5-3부 - 아키텍트의 경계설정과 그에 따른 비용 고민에 대하여</title>
-            
-            
-            <description></description>
-            
-            <pubDate>Wed, 04 Oct 2023 00:00:00 +0900</pubDate>
-            <link>http://localhost:4000/study/clean-architecture/2023-10-04-ca_5-3/</link>
-            <guid isPermaLink="true">http://localhost:4000/study/clean-architecture/2023-10-04-ca_5-3/</guid>
         </item>
         
     </channel>
