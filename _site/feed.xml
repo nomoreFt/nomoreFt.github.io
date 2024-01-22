@@ -6,7 +6,18 @@
 </description>
         <link>http://localhost:4000</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Fri, 12 Jan 2024 00:00:00 +0900</lastBuildDate>
+        <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0900</lastBuildDate>
+        
+        <item>
+            <title>JAVA 디자인 패턴은 엄청나게 유용하다</title>
+            
+            
+            <description></description>
+            
+            <pubDate>Sat, 20 Jan 2024 00:00:00 +0900</pubDate>
+            <link>http://localhost:4000/study/object/2024-01-20-object_10/</link>
+            <guid isPermaLink="true">http://localhost:4000/study/object/2024-01-20-object_10/</guid>
+        </item>
         
         <item>
             <title>객체지향 #9부 - 확장시 일관성 있는 협력 짜기</title>
@@ -105,17 +116,6 @@
             <pubDate>Wed, 04 Oct 2023 00:00:00 +0900</pubDate>
             <link>http://localhost:4000/study/object/2023-10-04-object_1/</link>
             <guid isPermaLink="true">http://localhost:4000/study/object/2023-10-04-object_1/</guid>
-        </item>
-        
-        <item>
-            <title>Clean-Architecutre #5-4부 - 클린 아키텍처 컴포넌트에 대해</title>
-            
-            
-            <description></description>
-            
-            <pubDate>Wed, 04 Oct 2023 00:00:00 +0900</pubDate>
-            <link>http://localhost:4000/study/clean-architecture/2023-10-04-ca_5-4/</link>
-            <guid isPermaLink="true">http://localhost:4000/study/clean-architecture/2023-10-04-ca_5-4/</guid>
         </item>
         
     </channel>
