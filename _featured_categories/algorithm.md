@@ -5,5 +5,5 @@ slug: algorithm
 description: >
   이 블로그 개발기
 sitemap: false
-order: 3
+order: 1
 ---

@@ -61,6 +61,8 @@ menu:
         url: /clean-architecture/
       - title: Object
         url: /object/
+      - title: Jpa
+        url: /jpa/
       - title: Algorithm
         url: /algorithm/
   - title:             Archive Blog
