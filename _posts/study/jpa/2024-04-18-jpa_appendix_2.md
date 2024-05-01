@@ -160,7 +160,7 @@ newOrder는 existingUser의 정보를 참조하되, newOrder를 통해 existingU
 
 
 * JoinColumn의 비효율성의 원인
-  * 관계에 대한 변경이 있을 때마다 해당 컬렉션의 모든 엔티티를 업데이트해야 할 필요가 있다
+  * 관계                                      에 대한 변경이 있을 때마다 해당 컬렉션의 모든 엔티티를 업데이트해야 할 필요가 있다
 
 * OrderColumn의 비효율성의 원인
   * 컬렉션 내의 엔티티 순서가 변경되면, JPA 구현체는 관련된 모든 엔티티의 순서 인덱스를 업데이트해야 한다.
@@ -173,3 +173,8 @@ newOrder는 existingUser의 정보를 참조하되, newOrder를 통해 existingU
 * 인덱스 컬럼 관리: List와 @OrderColumn 사용 시, JPA는 컬렉션의 각 엔티티에 대해 순서를 유지하기 위한 인덱스 컬럼을 추가한다.<br>
 * 동작의 영향범위가 복잡해진다. (Member - Team의 경우, Member를 지우면 Team에서는 지워지지 않는다 같이)<br>
 
+
+---
+
+
+## ManyToMany
