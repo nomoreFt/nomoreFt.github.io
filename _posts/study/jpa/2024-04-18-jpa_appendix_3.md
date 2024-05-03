@@ -98,13 +98,13 @@ private Author author;
 
 
 **용도**<br>
-`find...`, `findBy...`, `findOne...`, `read...`, `get...` 등의 접두사를 사용한 메서드는 엔티티를 조회하는 데 사용됩니다.
+`find...`, `findBy...`, `findOne...`, `read...`, `get...` 등의 접두사를 사용한 메서드는 엔티티를 조회하는 데 사용된다.
 <br> <br>
 **예시**<br>
-`findById`: 주어진 ID로 엔티티를 찾습니다.<br>
-`findByName`: 이름으로 엔티티를 조회합니다.<br>
+`findById`: 주어진 ID로 엔티티를 찾는다.<br>
+`findByName`: 이름으로 엔티티를 조회한다.<br>
  <br>
-이 메서드들은 데이터베이스에서 주어진 조건에 맞는 엔티티를 조회하여 반환합니다.
+이 메서드들은 데이터베이스에서 주어진 조건에 맞는 엔티티를 조회하여 반환하다.
 
 
 #### [getReferenceById 메서드](##){:.heading.flip-title}
@@ -115,7 +115,7 @@ private Author author;
 이 메서드는 실제 데이터를 데이터베이스에서 즉시 로딩하지 않고, 엔티티에 처음 접근하는 시점에서 데이터를 로딩한다(Lazy Loading).
 <br><br>
 **이점**<br>
-이 방식은 메모리 사용을 최적화하고 성능을 개선할 수 있는 경우에 유용합니다.<br>
+이 방식은 메모리 사용을 최적화하고 성능을 개선할 수 있는 경우에 유용히다.<br>
 
 
 ![getReferenceById](https://github.com/nomoreFt/nomoreFt.github.io/assets/37995817/50282b94-3de6-4b52-987a-b420499b8cb4){:.centered}{: width="400"}
@@ -127,11 +127,11 @@ private Author author;
 
 #### [fetch](##){:.heading.flip-title}
 **설명**<br>
-`fetch`는 일반적으로 JPQL 또는 SQL 쿼리에서 명시적으로 사용됩니다.<br>
-이는 연관된 엔티티를 즉시 로딩하는 데 사용되며, 쿼리의 성능 최적화를 돕습니다.
+`fetch`는 일반적으로 JPQL 또는 SQL 쿼리에서 명시적으로 사용된다.<br>
+이는 연관된 엔티티를 즉시 로딩하는 데 사용되며, 쿼리의 성능 최적화를 돕는다.
 <br><br>
 **예시**<br>
-- `@Query("SELECT u FROM User u JOIN FETCH u.posts WHERE u.id = :id")`: 이 쿼리는 `JOIN FETCH`를 통해 사용자와 그의 게시글을 함께 즉시 로드합니다.
+- `@Query("SELECT u FROM User u JOIN FETCH u.posts WHERE u.id = :id")`: 이 쿼리는 `JOIN FETCH`를 통해 사용자와 그의 게시글을 함께 즉시 로드한다.
 
 
 
@@ -200,8 +200,197 @@ private Set<Author> authors = new HashSet<>();
 
 <br>
 
+---
+
 ### toMany 관계에서 Set vs List 뭐가 더 좋을까?
 
+일반적으로, List와 Set은 지연 로딩(lazy fetch)을 사용할 때 비슷하게 작동한다.
+Eager fetch를 사용할 때 발생하는 문제를 바탕으로 차이점을 파악해봐야 한다.
+
+
+#### ManyToOne - OneToMany - EAGER
+
+- **단일 조회 (Single Fetch)**
+
+| 사용유형 |                                                     설명                                                      |
+|:----:|:-----------------------------------------------------------------------------------------------------------:|
+| List | List와 Set은 모두 단일 조회시에는 한 번의 쿼리로 유저의 정보와 해당 유저의 포스트를 모두 가져온다.<br/> 하지만 결과 세트에는 포스트의 수만큼 유저의 정보가 반복되는 문제가 있다. |
+| Set  |                                                                                                             |
+{:.scroll-table-small}
+{:.smaller}
+
+~~~sql
+-- file: `List,Set 사용자와 단일 조회 발생 쿼리`
+SELECT u.id, u.email, u.username, p.id, p.author_id, p.content
+FROM simple_user u
+      LEFT JOIN post p ON u.id = p.author_id
+WHERE u.id = ?
+~~~
+<br>
+
+
+- **다수 조회 (Multiple Fetch)**
+
+| 사용유형 |              설명              |
+|:----:|:----------------------------:|
+| List | List와 Set은 모두 N + 1 문제에 처한다. |
+| Set  |                              |
+{:.scroll-table-small}
+{:.smaller}
+
+~~~sql
+-- file: `List,Set N + 1 문제 쿼리`
+-- 모든 유저 조회 (1)
+SELECT u.id, u.email, u.username
+FROM simple_user u
+
+-- 각 유저의 포스트 조회 (N)
+SELECT p.id, p.author_id, p.content
+FROM post p
+WHERE p.author_id = ?
+~~~
+
+
+
+
+#### ManyToMany - EAGER
+
+- **All 그룹 조회 (Group Fetch)**
+
+| 사용유형 |                                                                                설명                                                                                 |
+|:----:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| List |         모든 그룹을 가져올 때, Hibernate는 각 그룹의 멤버 및 각 멤버의 게시물을 가져 오기 위해 추가적인 쿼리를 실행한다.<br/> 따라서 세 가지 유형의 1+N+M 쿼리가 발생.<br/>여기서 N은 그룹의 수이고, M은 이러한 그룹의 고유한 사용자 수.          |
+| Set  | 단지 N + 1이 있지만, 더 복잡한 쿼리를 얻게 만든다.<br/> 여전히 모든 그룹을 가져오기 위한 별도의 쿼리가 있지만,<br/> Hibernate는 두 개의 JOIN을 사용하여 단일 쿼리에서 사용자 및 그들의 게시물을 가져온다.<br/>[카테시안 곱](##) 문제가 발생할 수 있다. |
+{:.scroll-table-small}
+{:.smaller}
+
+[카테시안 곱](##)
+> From절에 2개 이상의 Table이 있을때 두 Table 사이에 유효 join 조건을 적지 않았을때 해당 테이블에 대한 모든 데이터를 전부 결합하여 Table에 존재하는 행 갯수를 곱한 만큼의 결과값이 반환되는 것이다.
+{:.note}
+
+
+~~~sql
+-- file: `List ManyToMany 그룹과 멤버, 게시물 조회 쿼리`
+-- 모든 그룹 조회 (1)
+SELECT g.id, g.name
+FROM interest_group g
+
+-- 각 그룹의 멤버 조회 (N)
+SELECT gm.interest_group_id, u.id, u.email, u.username
+FROM interest_group_members gm
+      JOIN simple_user u ON u.id = gm.members_id
+WHERE gm.interest_group_id = ?
+
+-- 각 멤버의 게시물 조회 (M)
+SELECT p.author_id, p.id, p.content
+FROM post p
+WHERE p.author_id = ?
+~~~
+
+~~~sql
+-- file: `Set ManyToMany 그룹과 복잡한 join 멤버 & 게시물 조회 쿼리`
+-- 모든 그룹 조회 (1)
+SELECT g.id, g.name
+FROM interest_group g
+
+-- 그룹 멤버와 그들의 게시물을 한 번에 조회하는 쿼리 (N)
+SELECT u.id,
+       u.username,
+       u.email,
+       p.id,
+       p.author_id,
+       p.content,
+       gm.interest_group_id,
+FROM interest_group_members gm
+      JOIN simple_user u ON u.id = gm.members_id
+      LEFT JOIN post p ON u.id = p.author_id
+WHERE gm.interest_group_id = ?
+
+~~~
+
+- **제거 (Deletion)**
+
+| 사용유형 |                      설명                      |
+|:----:|:--------------------------------------------:|
+| List | Lists는 객체를 제거할 때 조인 테이블의 전체 그룹을 제거하고 다시 만든다. |
+| Set  |   Set을 사용하여 객체를 제거할 때는 해당 객체를 조인 테이블에서 제거.   |
+{:.scroll-table-small}
+{:.smaller}
+
+~~~sql
+-- file: `List ManyToMany 멤버 제거시 발생 쿼리`
+-- 그룹과 그 멤버, 게시물을 조회하는 쿼리
+SELECT u.id, u.email, u.username, g.name,
+       g.id, gm.interest_group_id,
+FROM interest_group g
+         LEFT JOIN (interest_group_members gm JOIN simple_user u ON u.id = gm.members_id)
+                   ON g.id = gm.interest_group_id
+WHERE g.id = ?
+
+SELECT p.author_id, p.id, p.content
+FROM post p
+WHERE p.author_id = ?
+
+-- 일단 한번 조인 테이블에서 관계를 전체 제거하는 쿼리
+DELETE
+FROM interest_group_members
+WHERE interest_group_id = ? 
+    
+-- 조인테이블에서 다시 새로운 관계를 추가하는 쿼리 (N번)
+INSERT
+INTO interest_group_members (interest_group_id, members_id)
+VALUES (?, ?)
+
+~~~
+
+
+
+~~~sql
+-- file: `Set ManyToMany 멤버 제거시 발생 쿼리`
+
+-- 그룹과 그 멤버, 게시물을 조회하는 쿼리 (1)
+SELECT g.id, g.name,
+       u.id, u.username, u.email,
+       p.id, p.author_id, p.content,
+       m.interest_group_id,
+FROM interest_group g
+         LEFT JOIN (interest_group_members m JOIN simple_user u ON u.id = m.members_id)
+                   ON g.id = m.interest_group_id
+         LEFT JOIN post p ON u.id = p.author_id
+
+-- 조인테이블에서 삭제된 멤버 관계를 제거하는 쿼리 (1)
+DELETE
+FROM interest_group_members
+WHERE interest_group_id = ? AND members_id = ?
+
+~~~
+
+Set은 대부분의 경우 중복을 허용하지 않는 컬렉션은 도메인 모델을 완벽하게 반영하게 된다.<br>
+그룹 내에 두 개의 동일한 사용자가 존재할 수 없으며, 사용자는 두 개의 동일한 게시물을 가질 수 없다.<br><br>
+
+
+ManyToMany에서 List를 사용하면 삭제 동작에서 오버헤드를 발생시킨다.(연관관계 모두 삭제, 모두 추가)<br>
+
+
+[참고글 baeldung-onetomany-list-vs-set](https://www.baeldung.com/spring-jpa-onetomany-list-vs-set)
+{:.read-more}
+
+<br>
+
+#### 그럼 Set이 더 좋은거니?
+
+그러나 중복을 제거하겠다고 Set OneToMany와 Fetch Lazy를 함께 사용하면 성능 저하가 발생한다.<br>
+컬력션이 아직 초기화 되지 않은 상태에서 컬렉션에 값을 넣게 되면 List와 달리 프록시가 강제로 초기화 되는 문제가 발생한다.<br>
+Set의 특성상 입력이 발생하면 중복 데이터가 있는지 비교해야 하는데, 비교를 위해 모든 데이터를 로딩해야 하기 때문이다.<br>
+List는 추가시에 이런 중복 체크가 필요없기 때문에 초기화가 발생하지 않는다.
+
+[참고글 인프런 이영한님 답변](https://www.inflearn.com/questions/321256/collection-type%EC%9C%BC%EB%A1%9C-set-%EB%8C%80%EC%8B%A0-list%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0%EA%B0%80-%EC%9E%88%EB%8A%94%EC%A7%80%EC%9A%94)
+{:.read-more}
+
+
+<br>
+
+또 본문에 나왔던 Set과 List에 대해 생각해볼 바로는 HHH-5855 문제이다. 지금은 해결되어서 신경쓰지 않아도 될듯.
 
 > HHH-5855 문제 요약
 > 
@@ -213,3 +402,24 @@ private Set<Author> authors = new HashSet<>();
 
 [참고글 HHH-5855문제](https://hibernate.atlassian.net/browse/HHH-5855)
 {:.read-more}
+
+
+#### 결론
+
+결과적으로 ManyToMany에는 삭제와 같은 상황에서 조인 테이블에 성능저하가 와서 Set을,<br>
+OneToMany에는 레이지로딩으로 원치 않을 경우 컬렉션 초기화를 방지하기 위해 양방향으로 List를 사용하는 것이 좋다.<br>
+
+
+ManyToMany에서 Set이 좋아 쓰기 때문에, 순서 유지가 필요한 경우를 고려해야 한다.<br>
+그럴 땐 @OrderBy로 Order By문을 추가해주거나, @OrderColumn을 사용해 연결테이블에 순서를 저장해야 한다. 이후 LinkedHashSet으로 초기화해주면 된다.
+
+~~~java
+//file: `ManyToMany Set 순서 유지`
+
+@ManyToMany(mappedBy = "books")
+@OrderBy("name DESC")
+private Set<Author> authors = new LinkedHashSet<>();
+~~~
+
+
+
