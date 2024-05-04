@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "[부록 1] JPA 기본 사항"
+title: "[부록 1] JPA 기본 사항[작성중]"
 description: >
     JPA의 기본 사항을 정리한다.
-image: /assets/img/study/cleanCover.jpg
+image: /assets/img/study/jpa.jpg
 categories: [study,jpa]
 related_posts:
   
