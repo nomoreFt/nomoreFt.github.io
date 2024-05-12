@@ -9,6 +9,17 @@
         <lastBuildDate>Fri, 03 May 2024 00:00:00 +0900</lastBuildDate>
         
         <item>
+            <title>부록 - 하이버네이트 Bytecode Enhancement</title>
+            
+            
+            <description></description>
+            
+            <pubDate>Fri, 03 May 2024 00:00:00 +0900</pubDate>
+            <link>http://localhost:4000/study/jpa/2024-05-03-jpa_bytecode-enhancement/</link>
+            <guid isPermaLink="true">http://localhost:4000/study/jpa/2024-05-03-jpa_bytecode-enhancement/</guid>
+        </item>
+        
+        <item>
             <title>2.효율적으로 연관관계 맺기</title>
             
             
@@ -105,17 +116,6 @@
             <pubDate>Sat, 16 Dec 2023 00:00:00 +0900</pubDate>
             <link>http://localhost:4000/study/object/2023-12-16-object_6/</link>
             <guid isPermaLink="true">http://localhost:4000/study/object/2023-12-16-object_6/</guid>
-        </item>
-        
-        <item>
-            <title>객체지향 #5부 - 의존성 관리하기</title>
-            
-            
-            <description></description>
-            
-            <pubDate>Sat, 16 Dec 2023 00:00:00 +0900</pubDate>
-            <link>http://localhost:4000/study/object/2023-12-16-object_5/</link>
-            <guid isPermaLink="true">http://localhost:4000/study/object/2023-12-16-object_5/</guid>
         </item>
         
     </channel>
