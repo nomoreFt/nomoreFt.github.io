@@ -46,7 +46,6 @@ hibernate {
 
 2. 변경 추적 (Dirty Tracking)
     - 영속성 컨텍스트에 많은 entity를 로드할 일 있으면 성능상 이점을 가져갈 수 있다.
-    - 객체의 필드가 변경되었는지 자동으로 감지하고, 변경된 필드만 데이터베이스에 업데이트 한다.
     - 활성화 하지 않으면 특수한 설정을 하지 않는 이상 Entity 단위로 update한다.
 
 3. 확장된 강화 비활성화 (Enable Extended Enhancement)

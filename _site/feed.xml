@@ -6,7 +6,40 @@
 </description>
         <link>http://localhost:4000</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Fri, 03 May 2024 00:00:00 +0900</lastBuildDate>
+        <lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0900</lastBuildDate>
+        
+        <item>
+            <title>엔티티 구성요소 - 3 DomainEvent사용</title>
+            
+            
+            <description></description>
+            
+            <pubDate>Sun, 02 Jun 2024 00:00:00 +0900</pubDate>
+            <link>http://localhost:4000/study/jpa/2024-06-02-jpa_6/</link>
+            <guid isPermaLink="true">http://localhost:4000/study/jpa/2024-06-02-jpa_6/</guid>
+        </item>
+        
+        <item>
+            <title>엔티티 구성요소 - 2 BytecodeEnhancement - Dirty Tracking 분석</title>
+            
+            
+            <description></description>
+            
+            <pubDate>Sun, 02 Jun 2024 00:00:00 +0900</pubDate>
+            <link>http://localhost:4000/study/jpa/2024-06-02-jpa_5/</link>
+            <guid isPermaLink="true">http://localhost:4000/study/jpa/2024-06-02-jpa_5/</guid>
+        </item>
+        
+        <item>
+            <title>엔티티 구성요소 - 1 Serialize 왜 붙이는걸까?</title>
+            
+            
+            <description></description>
+            
+            <pubDate>Sun, 02 Jun 2024 00:00:00 +0900</pubDate>
+            <link>http://localhost:4000/study/jpa/2024-06-02-jpa_4/</link>
+            <guid isPermaLink="true">http://localhost:4000/study/jpa/2024-06-02-jpa_4/</guid>
+        </item>
         
         <item>
             <title>부록 - 하이버네이트 Bytecode Enhancement</title>
@@ -83,39 +116,6 @@
             <pubDate>Sat, 20 Jan 2024 00:00:00 +0900</pubDate>
             <link>http://localhost:4000/study/object/2024-01-20-object_10/</link>
             <guid isPermaLink="true">http://localhost:4000/study/object/2024-01-20-object_10/</guid>
-        </item>
-        
-        <item>
-            <title>객체지향 #9부 - 확장시 일관성 있는 협력 짜기</title>
-            
-            
-            <description></description>
-            
-            <pubDate>Fri, 12 Jan 2024 00:00:00 +0900</pubDate>
-            <link>http://localhost:4000/study/object/2024-01-12-object_9/</link>
-            <guid isPermaLink="true">http://localhost:4000/study/object/2024-01-12-object_9/</guid>
-        </item>
-        
-        <item>
-            <title>객체지향 #8부 - 유연함을 위한 다형성과 타입 정의에서의 상속</title>
-            
-            
-            <description></description>
-            
-            <pubDate>Sat, 30 Dec 2023 00:00:00 +0900</pubDate>
-            <link>http://localhost:4000/study/object/2023-12-30-object_8/</link>
-            <guid isPermaLink="true">http://localhost:4000/study/object/2023-12-30-object_8/</guid>
-        </item>
-        
-        <item>
-            <title>객체지향 #7부 - 상속과 합성을 통한 코드 재사용</title>
-            
-            
-            <description></description>
-            
-            <pubDate>Sun, 17 Dec 2023 00:00:00 +0900</pubDate>
-            <link>http://localhost:4000/study/object/2023-12-17-object_7/</link>
-            <guid isPermaLink="true">http://localhost:4000/study/object/2023-12-17-object_7/</guid>
         </item>
         
     </channel>
