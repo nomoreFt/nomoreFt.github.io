@@ -6,7 +6,18 @@
 </description>
         <link>http://localhost:4000</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0900</lastBuildDate>
+        <lastBuildDate>Fri, 07 Jun 2024 00:00:00 +0900</lastBuildDate>
+        
+        <item>
+            <title>읽기 전용 DTO 조회 시 JOIN의 종류와 JPQL 구현 방법</title>
+            
+            
+            <description></description>
+            
+            <pubDate>Fri, 07 Jun 2024 00:00:00 +0900</pubDate>
+            <link>http://localhost:4000/study/jpa/2024-06-07-jpa_8/</link>
+            <guid isPermaLink="true">http://localhost:4000/study/jpa/2024-06-07-jpa_8/</guid>
+        </item>
         
         <item>
             <title>효율적인 Fetch 방법</title>
@@ -105,17 +116,6 @@
             <pubDate>Thu, 18 Apr 2024 00:00:00 +0900</pubDate>
             <link>http://localhost:4000/study/jpa/2024-04-18-jpa_appendix_2/</link>
             <guid isPermaLink="true">http://localhost:4000/study/jpa/2024-04-18-jpa_appendix_2/</guid>
-        </item>
-        
-        <item>
-            <title>[부록 1] JPA 기본 사항[작성중]</title>
-            
-            
-            <description></description>
-            
-            <pubDate>Thu, 18 Apr 2024 00:00:00 +0900</pubDate>
-            <link>http://localhost:4000/study/jpa/2024-04-18-jpa_appendix_1/</link>
-            <guid isPermaLink="true">http://localhost:4000/study/jpa/2024-04-18-jpa_appendix_1/</guid>
         </item>
         
     </channel>
