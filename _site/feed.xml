@@ -6,10 +6,43 @@
 </description>
         <link>http://localhost:4000</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0900</lastBuildDate>
+        <lastBuildDate>Thu, 18 Jul 2024 00:00:00 +0900</lastBuildDate>
         
         <item>
-            <title>읽기 전용 DTO 조회 시 JOIN의 Pagination</title>
+            <title>JPA 식별자 전략 선정과 Equals HashCode</title>
+            
+            
+            <description></description>
+            
+            <pubDate>Thu, 18 Jul 2024 00:00:00 +0900</pubDate>
+            <link>http://localhost:4000/study/jpa/2024-07-18-jpa_12/</link>
+            <guid isPermaLink="true">http://localhost:4000/study/jpa/2024-07-18-jpa_12/</guid>
+        </item>
+        
+        <item>
+            <title>DATA JPA + Transaction 성능 최적화</title>
+            
+            
+            <description></description>
+            
+            <pubDate>Mon, 01 Jul 2024 00:00:00 +0900</pubDate>
+            <link>http://localhost:4000/study/jpa/2024-07-01-jpa_11/</link>
+            <guid isPermaLink="true">http://localhost:4000/study/jpa/2024-07-01-jpa_11/</guid>
+        </item>
+        
+        <item>
+            <title>스프링 부트와 JPA와 함께하는 배치 최적화</title>
+            
+            
+            <description></description>
+            
+            <pubDate>Mon, 01 Jul 2024 00:00:00 +0900</pubDate>
+            <link>http://localhost:4000/study/jpa/2024-07-01-jpa_10/</link>
+            <guid isPermaLink="true">http://localhost:4000/study/jpa/2024-07-01-jpa_10/</guid>
+        </item>
+        
+        <item>
+            <title>읽기 전용 DTO 조회 시 JOIN의 Pagination 기법</title>
             
             
             <description></description>
@@ -83,39 +116,6 @@
             <pubDate>Fri, 03 May 2024 00:00:00 +0900</pubDate>
             <link>http://localhost:4000/study/jpa/2024-05-03-jpa_bytecode-enhancement/</link>
             <guid isPermaLink="true">http://localhost:4000/study/jpa/2024-05-03-jpa_bytecode-enhancement/</guid>
-        </item>
-        
-        <item>
-            <title>효율적으로 연관관계 맺기 - 3</title>
-            
-            
-            <description></description>
-            
-            <pubDate>Fri, 03 May 2024 00:00:00 +0900</pubDate>
-            <link>http://localhost:4000/study/jpa/2024-05-03-jpa_3/</link>
-            <guid isPermaLink="true">http://localhost:4000/study/jpa/2024-05-03-jpa_3/</guid>
-        </item>
-        
-        <item>
-            <title>효율적으로 연관관계 맺기 - 2</title>
-            
-            
-            <description></description>
-            
-            <pubDate>Fri, 03 May 2024 00:00:00 +0900</pubDate>
-            <link>http://localhost:4000/study/jpa/2024-05-03-jpa_2/</link>
-            <guid isPermaLink="true">http://localhost:4000/study/jpa/2024-05-03-jpa_2/</guid>
-        </item>
-        
-        <item>
-            <title>효율적으로 연관관계 맺기 - 1</title>
-            
-            
-            <description></description>
-            
-            <pubDate>Fri, 03 May 2024 00:00:00 +0900</pubDate>
-            <link>http://localhost:4000/study/jpa/2024-05-03-jpa_1/</link>
-            <guid isPermaLink="true">http://localhost:4000/study/jpa/2024-05-03-jpa_1/</guid>
         </item>
         
     </channel>
